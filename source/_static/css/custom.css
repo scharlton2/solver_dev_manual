@@ -1,0 +1,5 @@
+@import url('theme.css');
+
+div.figure p.caption {
+	text-align: center;
+}
