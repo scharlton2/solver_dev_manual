@@ -37,3 +37,5 @@ CGNS ファイルの入出力には、iRIClib というライブラリを使用�
 
    03_01_solver_skeleton
    03_02_solver_openclose
+   03_03_solver_add_loading
+   03_04_solver_add_outputting
