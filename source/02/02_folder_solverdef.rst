@@ -8,6 +8,8 @@ iRIC のインストールフォルダ の下にある "solvers"
 というフォルダを作成します。
 
 
+.. _how_to_create_solver_def_file:
+
 ソルバー定義ファイルの作成
 ==========================
 
@@ -33,3 +35,5 @@ XML言語の基礎については 5.5 を参照してください。
 
    02_01_solverdef_basic
    02_02_solverdef_calccond
+   02_03_solverdef_gridcond
+   02_04_solverdef_boundarycond
