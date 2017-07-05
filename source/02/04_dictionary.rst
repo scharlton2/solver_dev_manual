@@ -40,7 +40,7 @@
 辞書ファイルは、文字コードに UTF-8 を指定して保存してください。
 
 辞書ファイルの編集例を、 :numref:`translation_dict_before` 、
-:numref:`translation_dict_before` に示します。
+:numref:`translation_dict_after` に示します。
 例に示したように、translation
 要素の中に翻訳後の文字列を追記してください。
 
