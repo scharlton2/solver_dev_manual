@@ -3,3 +3,7 @@
 div.figure p.caption {
 	text-align: center;
 }
+
+div.code-block-caption {
+	text-align: center;
+}

@@ -5,3 +5,4 @@
    :maxdepth: 2
 
    02/01_abstract
+   02/02_folder_solverdef
