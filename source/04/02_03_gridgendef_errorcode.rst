@@ -24,16 +24,17 @@
      </ErrorCodes>
    </GridGeneratorDefinition>
 
-この時点では、定義ファイルの構造は :numref:`gridgen_structure_with_gridgencond`
+この時点では、定義ファイルの構造は :numref:`gridgendef_structure_with_error`
 に示すようになっています。
 なお、エラーコードの定義は必須ではありません。
 
-.. _gridgen_structure_with_gridgencond:
+.. _gridgendef_structure_with_error:
 
-.. figure:: images/gridgen_structure_with_gridgencond.png
+.. figure:: images/gridgendef_structure_with_error.png
 
    格子生成プログラム定義ファイルの構造
 
 エラーコードの定義が正しく行えているかの確認は、
 格子生成プログラムを作成するまで行えません。
-エラーコードの定義の確認については4.4.5 で行います。
+エラーコードの定義の確認については
+:ref:`gridgenerator_add_errorhandling` で行います。
