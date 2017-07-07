@@ -1,0 +1,10 @@
+種類,説明,定義方法
+文字列,文字列の値を入力。,"valueType に ""string"" を指定"
+ファイル名 (読み込み用),読み込み用のファイル名を入力。既に存在するファイルしか選択できない。,"valueType に ""filename"" を指定"
+ファイル名 (書き込み用),書き込み用のファイル名を入力。存在しないファイルの名前も指定できる。,"valueType に ""filename_all"" を指定"
+フォルダ名,フォルダ名を入力。,"valueType に ""foldername"" を指定"
+整数,任意の整数値を入力。,"valueType に ""integer"" を指定"
+整数 (選択式),あらかじめ用意した選択肢の中から整数値を選択。,"valueType に ""integer"" を指定し、Enumeration 要素で選択肢を定義"
+実数,任意の実数値を入力。,"valueType に ""real"" を指定"
+関数型,"(X, Y) の組を複数入力。","valueType に ""functional"" を指定し、Parameter 要素、 Value 要素で変数と値を定義"
+関数型 (複数の値),"(X, Y1, Y2) の組を複数入力。","valueType に ""functional"" を指定し、Parameter 要素を1つと Value 要素を2つ定義"

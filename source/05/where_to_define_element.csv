@@ -1,0 +1,3 @@
+項目,対象ファイル,定義する位置
+計算条件,ソルバー定義ファイル,CalculationCondition 要素の下
+格子生成条件,格子生成プログラム定義ファイル,GridGeneratingCondition 要素の下
