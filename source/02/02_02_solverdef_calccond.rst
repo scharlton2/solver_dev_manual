@@ -94,20 +94,20 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 
    (前略)
        </Tab>
-       <Tab name=”surfaceElevation” caption=”Water Surface Elevation”>
-         <Item name=”surfaceType” caption=”Type”>
-           <Definition valueType=”integer” default=”0”>
-             <Enumeration caption=”Constant” value=”0” />
-             <Enumeration caption=”Time Dependent” value=”1” />
+       <Tab name="surfaceElevation" caption="Water Surface Elevation">
+         <Item name="surfaceType" caption="Type">
+           <Definition valueType="integer" default="0">
+             <Enumeration caption="Constant" value="0" />
+             <Enumeration caption="Time Dependent" value="1" />
            </Definition>
          </Item>
-         <Item name=”constantSurface” caption=”Constant Value”>
-           <Definition valueType=”real” default=”1”>
+         <Item name="constantSurface" caption="Constant Value">
+           <Definition valueType="real" default="1">
              <Condition type="isEqual" target="surfaceType" value="0"/>
            </Definition>
          </Item>
-         <Item name=”variableSurface” caption=”Time Dependent Value”>
-           <Definition valueType=”functional”>
+         <Item name="variableSurface" caption="Time Dependent Value">
+           <Definition valueType="functional">
              <Parameter valueType="real" caption="Time(s)"/>
              <Value valueType="real" caption="Elevation(m) "/>
              <Condition type="isEqual" target="surfaceType" value="1"/>
