@@ -1,0 +1,5 @@
+Item,Description,Required
+Basic information,The solver name, developer name, release date, etc.,Yes
+Calculation Condition,Calculation condition for solver execution,Yes
+Grid Attributes,Attributes defined at nodes or cells of calculation grids,Yes
+Boundary Conditions,Boundary conditions defined at nodes or cells of calculation grids,

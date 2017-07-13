@@ -1,0 +1,8 @@
+Processing,Required
+Opens calculation data file,Yes
+Initializes iRIClib,Yes
+Loads calculation condition,Yes
+Loads calculation grid,Yes
+Outputs time (or iteration),Yes
+Outputs calculation result,Yes
+Closes calculation data file,Yes

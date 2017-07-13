@@ -1,0 +1,6 @@
+File name,Description
+definition.xml,Solver definition file
+solver.exe,Executable module of the solver. Developers can select any name.
+translation_ja_JP.ts etc.,Dictionary files for a solver definition file
+README,File explaining the solver
+LICENSE,License information file for the solver
