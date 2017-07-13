@@ -143,7 +143,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 
 .. figure:: images/calccond_dialog_with_watersurfaceelevation.png
 
-   ソルバー定義ファイルの構造
+   計算条件設定ダイアログ 表示例
 
 計算条件の定義についてまとめると、以下の通りです。
 

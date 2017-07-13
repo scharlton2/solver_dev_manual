@@ -18,7 +18,7 @@ gfortran, Intel Fortran Compiler
 
 計算データファイルを開く処理と閉じる処理を追記したソースコードを
 :numref:`solver_with_open_close`
-に示します。強調してで示したのが追記した部分です。
+に示します。強調して示したのが追記した部分です。
 
 .. code-block:: fortran
    :caption: 計算データファイルを開く処理、閉じる処理を追記したソースコード
