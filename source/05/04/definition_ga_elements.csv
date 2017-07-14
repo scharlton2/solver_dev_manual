@@ -1,0 +1,4 @@
+名前,必須,説明
+Dimension,,次元 (例: 時刻) を追加したい場合に指定する。
+Enumeration,,値を選択肢からのみ選べるようにしたい場合に指定する。
+Item,,"valueType=\\""complex\\"" の場合のみ指定する。ここで定義する Item要素以下の構造は、 BoundaryCondition要素の下の Item要素と同じ。"

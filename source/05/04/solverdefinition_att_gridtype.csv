@@ -1,0 +1,6 @@
+値,意味
+1d,1次元格子
+1.5d,1.5次元格子
+1.5d_withcrosssection,横断データを持つ1.5次元格子
+structured2d,2次元構造格子
+unstructured2d,2次元非構造格子

@@ -2,10 +2,10 @@ iRIC Software Developer's Manual
 ================================
 
 .. contents: 目次
-   :depth: 4
+   :depth: 3
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    01_about
    02_how_to_dev_solver

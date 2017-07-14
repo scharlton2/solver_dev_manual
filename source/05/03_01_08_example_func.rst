@@ -1,3 +1,5 @@
+.. _cc_widget_example_func:
+
 関数型
 ------
 

@@ -1,0 +1,2 @@
+名前,必須,説明
+Condition,,"and, or, not の演算子を適用する対象条件。conditionType 属性 が and, or, not のいずれかの場合のみ指定する。"

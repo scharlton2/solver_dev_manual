@@ -1,0 +1,4 @@
+名前,必須,説明
+CalculationCondition,○,計算条件
+GridRelatedCondition,,1種類の入力格子を利用する場合のみ定義する
+GridTypes,,2種類以上の入力格子を利用する場合のみ定義する

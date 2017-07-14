@@ -1,0 +1,9 @@
+値,意味
+isEqual,等しい
+isGreaterEqual,等しいか大きい
+isGreaterThan,大きい
+isLessEqual,等しいか小さい
+isLessThan,小さい
+and,and
+or,or
+not,not

@@ -1,3 +1,5 @@
+.. _calccond_int_select_example:
+
 整数 (選択式)
 --------------
 

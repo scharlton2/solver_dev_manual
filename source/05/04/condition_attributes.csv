@@ -1,0 +1,4 @@
+名前,値,必須,説明
+conditionType,下の表を参照,○,条件の種類
+target,文字列,△,"比較対象の計算条件の名前。 conditionType が and, or, not の場合に指定する。"
+value,文字列,△,"比較対象の値。 conditionType が and, or, not の場合に指定する。"

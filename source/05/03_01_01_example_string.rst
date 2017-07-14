@@ -6,7 +6,6 @@
    :name: widget_example_string_def
    :linenos:
 
-
    <Item name="sampleitem" caption="Sample Item">
      <Definition valueType="string" />
    </Item>
