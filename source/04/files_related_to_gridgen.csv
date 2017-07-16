@@ -1,0 +1,5 @@
+ファイル名,説明
+definition.xml,Grid generating program definition file.
+generator.exe (例),Executable module of the grid generating program. Developers can select any name.
+translation_ja_JP.ts など,Dictionary files for a grid generating program definition file.
+README,File that explains the grid generating program

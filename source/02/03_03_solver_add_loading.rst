@@ -1,6 +1,6 @@
 .. _solver_dev_add_loading:
 
-Adding codes to load calculation conditions, calculation girds, and boundary conditions
+Adding codes to load calculation conditions, calculation grids, and boundary conditions
 ----------------------------------------------------------------------------------------
 
 Adds codes to load calculation conditions, calculation girds, and
@@ -17,8 +17,7 @@ to load calculation condition, grid and boundary condition.
 The added lines are shown with highlight.
 
 .. code-block:: fortran
-   :caption: The source code with lines to load calculation condition, grid
-and boundary condition
+   :caption: The source code with lines to load calculation condition, grid and boundary condition
    :name: solver_with_loading
    :linenos:
    :emphasize-lines: 7-31,33-105

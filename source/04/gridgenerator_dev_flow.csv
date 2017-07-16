@@ -1,0 +1,6 @@
+Processing
+Opens grid generating data file
+Initializes iRIClib
+Loads grid generating condition
+Outputs grid
+Closes grid generating data file

@@ -1,53 +1,55 @@
 .. _how_to_setup_dictionary:
 
-ソルバー定義ファイルの辞書ファイルの作成
-----------------------------------------
+Creating a solver definition dictionary file
+--------------------------------------------
 
-ソルバー定義ファイルで用いられている文字列のうち、
-ダイアログ上などに表示される文字列を翻訳して表示するための
-辞書ファイルを作成します。
+Create a solver definition dictionary file that is used to translate the
+strings used in solver definition files, and shown on dialogs etc.
 
-まず、iRIC から、以下のメニューを起動します。
-すると、ソルバー定義ファイルの辞書更新ウィザードが表示されます。
-ダイアログの表示例を、
-:numref:`dict_wizard_intro` ～ :numref:`dict_wizard_confirm`
-に示します。
+First, launch iRIC and perform the following:
 
-**メニュー:** オプション(O) --> 辞書ファイルの作成・更新(C)
+**Menu bar:** [Option] (O) --> [Create/Update Translation Files] (C)
+
+The [Definition File Translation Update Wizard] 
+(:numref:`dict_wizard_intro` to 
+:numref:`dict_wizard_confirm`) will open. 
+Following the wizard, the dictionary files are created
+or updated.
 
 .. _dict_wizard_intro:
 
 .. figure:: images/dict_wizard_intro.png
 
-   ソルバー定義ファイルの辞書更新ウィザード 表示例 (1ページ目)
+   The [Definition File Translation Update Wizard] (Page 1)
 
 .. _dict_wizard_select_solver:
 
 .. figure:: images/dict_wizard_select_solver.png
 
-   ソルバー定義ファイルの辞書更新ウィザード 表示例 (2ページ目)
+   The [Definition File Translation Update Wizard] (Page 2)
 
 .. _dict_wizard_confirm:
 
 .. figure:: images/dict_wizard_confirm.png
 
-   ソルバー定義ファイルの辞書更新ウィザード 表示例 (3ページ目)
+   The [Definition File Translation Update Wizard] (Page 3)
 
 
-辞書ファイルは、ソルバー定義ファイルと同じフォルダに作成されます。
-作成された辞書ファイルは、翻訳前の英語のみが含まれています。
-辞書ファイルはテキストファイルですので、テキストエディタなどで開いて編集します。
-辞書ファイルは、文字コードに UTF-8 を指定して保存してください。
+The dictionary files are created in the folder that you created in
+:ref:`create_solverdef_folder`.
+The files created only include the texts before translation
+(i. e. English strings). The dictionary files are text files, so you can
+use text editors to edit it. Save the dictionary files with UTF-8
+encoding.
 
-辞書ファイルの編集例を、 :numref:`translation_dict_before` 、
-:numref:`translation_dict_after` に示します。
-例に示したように、translation
-要素の中に翻訳後の文字列を追記してください。
+:numref:`translation_dict_before` and :numref:`translation_dict_after`
+show the example of editing a dictionary file.
+As the example shows, you have to add translated texts in "translation"
+element.
 
-表 2?16 ソルバー定義ファイルの辞書ファイルの一部 (編集前)
 
 .. code-block:: xml
-   :caption: ソルバー定義ファイルの辞書ファイルの一部 (編集前)
+   :caption: The Dictionary file of solver definition file (before editing)
    :name: translation_dict_before
    :linenos:
 
@@ -57,7 +59,7 @@
    </message>
 
 .. code-block:: xml
-   :caption: ソルバー定義ファイルの辞書ファイルの一部 (編集後)
+   :caption: The Dictionary file of solver definition file (after editing)
    :name: translation_dict_after
    :linenos:
    :emphasize-lines: 3
@@ -67,36 +69,38 @@
      <translation>基本設定</translation>
    </message>
 
-なお、辞書ファイルは、Qt に付属する Qt Linguist
-を利用して編集することもできます。Qt Linguist の画面表示例を 図 2?18
-に示します。Qt Linguist は、以下の URL からダウンロードできる Qt
-に含まれています。
+You can use [Qt Linguist] for translating the dictionary file. [Qt
+Linguist] is bundled in Qt, and it provides GUI for editing the
+dictionary file.
+:numref:`qt_linguist_screenshot` shows the [Qt Linguist]. Qt can be
+downloaded from the following URL:
 
 `https://www.qt.io/download/ <https://www.qt.io/download/>`_
-
 
 .. _qt_linguist_screenshot:
 
 .. figure:: images/qt_linguist_screenshot.png
 
-   Qt Linguist 画面表示例
+   The [Qt Linguist]
 
-翻訳が完了したら、iRICを確認したい言語に切り替えてから iRIC を起動し直し、
-正しく翻訳されて表示されるか確認します。翻訳完了後のプリプロセッサ、
-計算条件設定ダイアログの表示例をそれぞれ
-:numref:`translation_example_pre_objbrowser`,
+When the translation is finished, switch the iRIC language from
+Preferences dialog, restart iRIC, and check whether the translation is
+complete.
+:numref:`translation_example_pre_objbrowser` and
 :numref:`translation_example_pre_calccond`
-に示します。
+shows examples of [Pre-processing Window] and
+[Calculation Condition] dialog after completing transtaion
+of dictionary.
 
 .. _translation_example_pre_objbrowser:
 
 .. figure:: images/translation_example_pre_objbrowser.png
 
-    翻訳完了後のプリプロセッサ 表示例
+    [Pre-processor Window] after completing translation of dictionary (Japanese mode)
 
 .. _translation_example_pre_calccond:
 
 .. figure:: images/translation_example_pre_calccond.png
 
-   翻訳完了後の計算条件設定ダイアログ 表示例
+   The [Calculation Condition] dialog after completing translation of dictionary (Japanese mode)
 

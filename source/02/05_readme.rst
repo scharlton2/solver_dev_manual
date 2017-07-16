@@ -1,32 +1,31 @@
 .. _how_to_setup_readme:
 
-説明ファイルの作成
-------------------
+Creating a README file
+-----------------------
 
-ソルバーの概要などについて説明するファイルを作成します。
+Creates a text file that explains the abstract of the solver.
 
-README というファイル名のテキストファイルを、
-:ref:`create_solverdef_folder`
-で作成したフォルダの下に作成します。文字コードは UTF-8 にします。
+Creates a text file with name "README" in the folder you created in
+:ref:`create_solverdef_folder`. Save the file with UTF-8 encoding.
 
-説明ファイルは、以下の例のようなファイル名で言語ごとに用意します。
-言語ごとの説明ファイルがない場合、 README が使用されます。
+You should create the README file with the file names like below. When
+the language-specific README file does not exists, "README" file (in
+English) will be used.
 
-- 英語: README
-- 日本語: README_ja_JP
+-  English: "README"
+-  Japanese: "README\_ja\_JP"
 
-"README\_" 以降につく文字列は、辞書ファイルの "translation\_\*\*\*\*\*.ts" の
-"\*\*\*\*\*" の部分と同じですので、日本語以外の説明ファイルを作る際のファイル名は、
-辞書ファイルのファイル名を参考にして決めて下さい。
+The postfix (ex. "ja\_JP") is the same to that for dictionary files
+created in :ref:`how_to_setup_dictionary`.
 
-説明ファイルの内容は、iRIC 上で新規プロジェクトを作成する際のソルバー選択ダイアログで、
-説明タブに表示されます。
-ファイルを作成したら、iRIC 上で正しく表示されるか確認して下さい。
-ダイアログの表示例を、 :numref:`screenshot_for_readme` に示します。
+The content of "README" will be shown in "Description" area on the
+[Select Solver] dialog. When you created "README",
+opens the [Select Solver] dialog by starting a new project,
+and check whether the content is shown on that dialog.
 
 .. _screenshot_for_readme:
 
 .. figure:: images/screenshot_for_readme.png
 
-   ソルバー選択ダイアログ 表示例
+   The [Select Solver] dialog
 

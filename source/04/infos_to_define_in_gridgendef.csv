@@ -1,0 +1,4 @@
+Item,Description,Required
+Basic Information,"The grid generator name, developer name,release date etc.",Yes
+Grid Generating Condition,Grid generating condition required for the argorithmn.,Yes
+Error Codes,Error codes and message that correspond to the code.,

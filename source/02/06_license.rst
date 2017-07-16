@@ -1,34 +1,34 @@
 .. _how_to_setup_license:
 
-ライセンス情報ファイルの作成
-----------------------------
+Creating a LICENSE file
+------------------------
 
-ソルバーの利用ライセンスについて説明するファイルを作成します。
+Creates a text file that explains the license information of the solver.
 
-LICENSE というファイル名のテキストファイルを、
-:ref:`create_solverdef_folder`
-で作成したフォルダの下に作成します。文字コードは UTF-8 にします。
+Creates a text file with name "LICENSE" in the folder you created in
+:ref:`create_solverdef_folder`. Save the file with UTF-8 encoding.
 
-ライセンス情報ファイルは、以下の例のようなファイル名で言語ごとに用意します。
-言語ごとのライセンスファイルがない場合、 LICENSE が使用されます。
+You should create the LICENSE file with the file names like below. When
+the language-specific LICENSE file does not exists, "LICENSE" file (in
+English) will be used.
 
-- 英語: LICENSE
-- 日本語: LICENSE_ja_JP
+-  English: "LICENSE"
+-  Japanese: "LICENSE\_ja\_JP"
 
-"LICENSE\_" 以降につく文字列は、辞書ファイルの
-"translation\_\*\*\*\*\*.ts" の "\*\*\*\*\*" の部分と同じですので、
-日本語以外の説明ファイルを作る際のファイル名は、
-辞書ファイルのファイル名を参考にして決めて下さい。
+The postfix (ex. "ja\_JP") is the same to that for dictionary files
+created in :ref:`how_to_setup_dictionary`.
 
-ライセンス情報ファイルの内容は、iRIC 上で新規プロジェクトを作成する際の
-ソルバー選択ダイアログで、ライセンスタブに表示されます。
-ファイルを作成したら、iRIC 上で正しく表示されるか確認して下さい。
-ダイアログの表示例を、 :numref:`screenshot_for_license` に示します。
+The content of "LICENSE" will be shown in "License" area on the [Select
+Solver] dialog. When you created "LICENSE", opens the [Select Solver]
+dialog by starting a new project, and check whether the content is shown
+on that dialog.
 
+:numref:`screenshot_for_license` shows an example of
+the [Select Solver] dialog.
 
 .. _screenshot_for_license:
 
 .. figure:: images/screenshot_for_license.png
 
-   ソルバー選択ダイアログ 表示例
+   The [Select Solver] dialog
 

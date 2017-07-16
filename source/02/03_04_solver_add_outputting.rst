@@ -1,30 +1,34 @@
 .. _solver_dev_add_outputting:
 
 
-時刻、計算結果の出力処理の記述
-------------------------------
+Adding codes to output time and calculation results
+----------------------------------------------------
 
-時刻、計算結果の出力処理を記述します。
+Adds codes to output time and calculation results.
 
-時間依存の方程式を解くソルバーの場合、タイムステップの数だけ時刻、
-計算結果の出力を繰り返します。
+When you develop a solver that is used for time-dependent flow, you have
+to repeat outputting time and calculation results for the number of time
+steps.
 
-また、時刻、計算結果の出力のたびにユーザがソルバーの実行を中止していないか確認し、
-中止していたら実行を中止します。
+Before starting outputting calculation results, the solver should check
+whether user canceled calculation. If canceled, the solver should stop.
 
-なお、ソルバーが出力する計算結果についてはソルバー定義ファイルには記述しませんので、
-ソルバー定義ファイルとの対応関係を気にせず記述できます。
+In solver definition files, no definition is written about the
+calculation results the solver output. So, you do not have to take care
+about the correspondence relation between solver definition file and the
+solver code about them.
 
-時刻、計算結果の出力処理を追記したソースコードを
-:numref:`solver_with_outputting` に示します。強調して示したのが追記した部分です。
+:numref:`solver_with_outputting` shows the source code with
+lines to output time and
+calculations. The added lines are shown with highlight.
 
 .. code-block:: fortran
-   :caption: 時刻、計算結果の出力処理を追記したソースコード
+   :caption: Source code with lines to output time and calculation results
    :name: solver_with_outputting
    :linenos:
    :emphasize-lines: 6-13,21-49
 
-     ! (略)
+     ! (abbr.)
      integer:: isize, jsize
      double precision, dimension(:,:), allocatable:: grid_x, grid_y
      double precision, dimension(:,:), allocatable:: elevation
@@ -38,9 +42,9 @@
      integer, dimension(:,:), allocatable:: wetflag
      double precision:: convergence
 
-     ! (略)
+     ! (abbr.)
 
-     ! 属性を読み込む
+     ! Loads grid attributes 
      call cg_iric_read_grid_real_node_f("Elevation", elevation, ier)
      call cg_iric_read_grid_integer_cell_f("Obstacle", obstacle, ier)
 
@@ -49,7 +53,7 @@
      time = 0
      do
        time = time + timestep
-       ! (ここで計算を実行。格子の形状も変化)
+       ! (Execute the calculation here. The grid shape changes.)
 
        call iric_check_cancel_f(canceled)
        if (canceled == 1) exit
@@ -60,9 +64,9 @@
        end do
        call iric_write_sol_start_f(condFile, ier)
        call cg_iric_write_sol_time_f(time, ier)
-       ! 格子を出力
+       ! Outputs grid
        call cg_iric_write_sol_gridcoord2d_f (grid_x, grid_y, ier)
-       ! 計算結果を出力
+       ! Outputs calculation result
        call cg_iric_write_sol_real_f ('VelocityX', velocity_x, ier)
        call cg_iric_write_sol_real_f ('VelocityY', velocity_y, ier)
        call cg_iric_write_sol_real_f ('Depth', depth, ier)
@@ -74,17 +78,16 @@
        if (iteration > maxiterations) exit
      end do
    
-     ! 計算データファイルを閉じる
+     ! Closes calculation data file
      call cg_close_f(fin, ier)
      stop
    end program SampleProgram
 
+Refer to Section 6.3.10 and 6.3.12 for the details of the subroutines to
+output time and calculation results. Refer to Section 6.3.11 for the
+details of the subroutines to output the grid coordinates in case of
+moving grid.
 
-
-時刻、計算結果の出力に使う関数の詳細については、
-6.3.10, 6.3.12を参照してください。
-計算実行中に格子形状が変化する場合、6.3.11 で説明する関数を使用してください。
-
-計算結果については、iRIC では特別な名前が定義されており、
-特定の目的で使用される結果ではその名前を使用する必要があります。
-特別な計算結果の名前については 7.3.2 を参照してください。
+For the calculation results, some special names is named in iRIC. You
+should use that name for calculation results used for a certain purpose.
+Refer to Section 7.3 for the special names.
