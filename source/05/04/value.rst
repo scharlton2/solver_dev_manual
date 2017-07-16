@@ -7,8 +7,8 @@ Value
 ----
 
 .. code-block:: xml
-   :caption: Param の定義例
-   :name: ref_param_example
+   :caption: Value の定義例
+   :name: ref_value_example
    :linenos:
 
    <value caption="Discharge" valueType="real" />

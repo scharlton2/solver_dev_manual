@@ -8,6 +8,7 @@
 GroupBox 要素に Item 要素を入れることで、グループに分けて項目を表示できます。
 
 .. code-block:: xml
+   :caption: グループボックスを利用したレイアウトの定義例
    :name: layout_example_groupbox_code
    :linenos:
 

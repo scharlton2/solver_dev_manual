@@ -7,6 +7,7 @@ Item 要素 のみを使って定義した単純なレイアウトの例を
 それぞれ示します。
 
 .. code-block:: xml
+   :caption: 単純なレイアウトの定義例
    :name: layout_example_basic_code
    :linenos:
 

@@ -14,6 +14,7 @@ GridLayout, HBoxLayout, VBoxLayout は入れ子にできます。
 また、その中で GroupBox を利用することもできます。
 
 .. code-block:: xml
+   :caption: 自由なレイアウトの定義例
    :name: layout_example_complex_code
    :linenos:
 
