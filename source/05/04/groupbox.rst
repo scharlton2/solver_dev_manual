@@ -1,13 +1,15 @@
 GroupBox
-============
+=========
 
-計算条件 (もしくは格子生成条件) の入力ダイアログに表示するグループボックスの定義情報を保持します。
+GroupBox element contains information that defines a group box to be
+displayed in the calculation condition input dialog or grid generating
+condition input dialog.
 
-例
-----
+Example
+--------
 
 .. code-block:: xml
-   :caption: GroupBox の定義例
+   :caption: Example of GroupBox definition
    :name: ref_groupbox_example
    :linenos:
 
@@ -20,18 +22,19 @@ GroupBox
      </Item>
    </GroupBox>
 
-GroupBox の定義例は ???? も参照して下さい。
+Refer to :ref:`layout_groupbox_example` for an example of
+GroupBox element definition.
 
-属性
------
+Attributes
+----------
 
-.. csv-table:: GroupBox の属性
+.. csv-table:: Attributes of GroupBox
    :file: groupbox_attributes.csv
    :header-rows: 1
 
-子要素
---------
+Child elements
+--------------
 
-.. csv-table:: GroupBox の子要素
+.. csv-table:: Attributes of GroupBox
    :file: groupbox_elements.csv
    :header-rows: 1

@@ -1,13 +1,15 @@
 Item
 ====
 
-計算条件 (もしくは格子生成条件) の入力項目、計算格子の属性、境界条件の定義情報を保持します。
+Item element contains information that defines an input item of
+calculation conditions, grid generating condtions, attributes of the
+input grid, or .boundary conditions.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: Item の定義例
+   :caption: Example of Item definition
    :name: ref_item_example
    :linenos:
 
@@ -15,18 +17,18 @@ Item
      <Definition valueType="real" default="0" />
    </Item>
 
-定義例は :ref:`calccond_def_examples` も参照して下さい。
+Refer to :ref:`calccond_def_examples` for examples of Item element definitions.
 
-属性
------
+Attributes
+----------
 
-.. csv-table:: Item の属性
+.. csv-table:: Attributes of Item
    :file: item_attributes.csv
    :header-rows: 1
 
-子要素
+Child elements
 --------
 
-.. csv-table:: Item の子要素
+.. csv-table:: Child elements of Item
    :file: item_elements.csv
    :header-rows: 1

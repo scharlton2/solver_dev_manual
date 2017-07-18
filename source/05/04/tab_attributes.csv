@@ -1,2 +1,2 @@
-名前,値,必須,説明
-caption,文字列,○,表示する文字列
+Name,Value,Required,Description
+caption,String,Yes,Name (Any characters can be used.)

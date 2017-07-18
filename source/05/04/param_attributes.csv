@@ -1,4 +1,4 @@
-名前,値,必須,説明
-caption,文字列,○,表示する文字列
-valueType,下の表を参照,○,データ型
-axislog,true or false,,横軸を対数軸にするなら true
+Name,Value,Required,Description
+caption,String,Yes,String to be displayed on dialog
+valueType,Refer to table below,Yes,Data type
+axislog,true or false,,true when you want to make the horizontal axis log

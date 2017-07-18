@@ -1,29 +1,32 @@
 Label
 =====
 
-計算条件 (もしくは格子生成条件) の入力ダイアログに表示するラベルの定義情報を保持します。
+Label element contains information that defines a label to be displayed
+in the calculation condition input dialog or grid creating condition
+input dialog.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: Label の定義例
+   :caption: Example of Label definition
    :name: ref_label_example
    :linenos:
 
    <Label caption="Start Time" />
 
-定義例は ?????? も参照して下さい。
+Refer to :numref:`free_layout_example` for Label element definition example.
 
-属性
------
 
-.. csv-table:: Label の属性
+Attributes
+----------
+
+.. csv-table:: Attributes of Label
    :file: label_attributes.csv
    :header-rows: 1
 
-子要素
---------
+Child elements
+--------------
 
-定義できる子要素はありません。
+No child elements can be defined.
 

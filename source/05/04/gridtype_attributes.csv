@@ -1,3 +1,3 @@
-名前,値,必須,説明
-gridtype,下の表を参照,○,格子の種類
-multiple,true or false,,複数の格子を生成できるなら true
+Name,Value,Required,Description
+gridtype,Refer to the table below,Yes,Grid type
+multiple,true or false,,true if two or more grids can be used

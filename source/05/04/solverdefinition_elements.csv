@@ -1,4 +1,4 @@
-名前,必須,説明
-CalculationCondition,○,計算条件
-GridRelatedCondition,,1種類の入力格子を利用する場合のみ定義する
-GridTypes,,2種類以上の入力格子を利用する場合のみ定義する
+Name,Required,Description
+CalculationCondition,Yes,Calculation condition
+GridRelatedCondition,,This should be defined only when a single type of input grid is used. 
+GridTypes,,This should be defined only when two or more types of input grids are used.

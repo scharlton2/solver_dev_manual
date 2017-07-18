@@ -1,37 +1,39 @@
 VBoxLayout
 ============
 
-計算条件 (もしくは格子生成条件) の入力ダイアログに表示する垂直に並べるレイアウトの定義情報を保持します。
+VBoxLayout element contains information that defines layout to arrange
+elements vertically in the calculation condition input dialog or grid
+generating condition input dialog.
 
-例
-----
+Example
+--------
 
 .. code-block:: xml
-   :caption: VBoxLayout の定義例
+   :caption: Example of VBoxLayout definition
    :name: ref_vboxlayout_example
    :linenos:
 
    <VBoxLayout>
      <Item name="stime" caption="Start Time">
 
-       (略)
+       (abbr.)
 
      </Item>
      <Item name="etime" caption="End Time">
 
-       (略)
+       (abbr.)
 
      </Item>
    </VBoxLayout>
 
-属性
------
+Attributes
+-----------
 
-定義できる属性はありません。
+No attributes can be defined.
 
-子要素
---------
+Child elements
+---------------
 
-.. csv-table:: VBoxLayout の子要素
+.. csv-table:: Child elements of VBoxLayout
    :file: vboxlayout_elements.csv
    :header-rows: 1

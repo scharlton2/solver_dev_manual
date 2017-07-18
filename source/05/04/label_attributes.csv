@@ -1,2 +1,2 @@
-名前,値,必須,説明
-caption,文字列,,名前 (ダイアログ上に表示される)
+Name,Value,Required,Description
+caption,String,,String to be displayed on dialog

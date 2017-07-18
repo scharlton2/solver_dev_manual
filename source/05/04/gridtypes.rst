@@ -1,23 +1,23 @@
 GridTypes
 ============
 
-入力格子の定義情報のリストを保持します。
+GridTypes element contains a list of definition information of input
+grids types.
 
-例
-----
+Example
+-------
 
-:numref:`solverdef_example_multigrid` を参照して下さい。
-
-
-属性
------
-
-定義できる属性はありません。
+Please refer to :numref:`solverdef_example_multigrid`.
 
 
-子要素
---------
+Attributes
+----------
 
-.. csv-table:: GridTypes の子要素
+No attributes can be defined.
+
+Child elements
+--------------
+
+.. csv-table:: Child elements of GridTypes
    :file: gridtypes_elements.csv
    :header-rows: 1

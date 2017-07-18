@@ -1,16 +1,15 @@
 SolverDefinition
 ================
 
-ソルバーの定義情報を保持します。
+SolverDefinition element contains definition information of the solver.
 
-例
-----
+Examples
+--------
 
 .. code-block:: xml
-   :caption: SolverDefinition の定義例
+   :caption: Example of SolverDefinition definition
    :name: ref_solverdefinition_example
    :linenos:
-
 
    <SolverDefinition
      name="samplesolver"
@@ -25,37 +24,37 @@ SolverDefinition
    >
      <CalculationCondition>
 
-       (略)
+       (abbr.)
 
      </CalculationCondition>
      <GridRelatedCondition>
 
-       (略)
+       (abbr.)
 
      </GridRelatedCondition>
    </SolverDefinition>
 
-属性
------
+Attributes
+-----------
 
-.. csv-table:: SolverDefinition の属性
+.. csv-table:: Attributes of SolverDefinition
    :file: solverdefinition_attributes.csv
    :header-rows: 1
 
-.. csv-table:: iterationtype の値
+.. csv-table:: iterationtype value
    :file: solverdefinition_att_iterationtype.csv
    :header-rows: 1
 
-.. csv-table:: gridtype の値
+.. csv-table:: gridtype value
    :file: solverdefinition_att_gridtype.csv
    :header-rows: 1
 
 ソルバーのバージョンアップを行う時は、 version 属性を変更します。
 ソルバーのバージョンアップ時の注意点については、???? を参照して下さい。
 
-子要素
---------
+Child elements
+--------------
 
-.. csv-table:: SolverDefinition の子要素
+.. csv-table:: Child elements of SolverDefinition
    :file: solverdefinition_elements.csv
    :header-rows: 1

@@ -1,13 +1,14 @@
 GridRelatedCondition
 =====================
 
-格子属性の定義情報のリストを保持します。
+GridRelatedCondition element contains information that defines the list of grid
+attributes.
 
-例
---
+Example
+--------
 
 .. code-block:: xml
-   :caption: GridRelatedCondition の定義例
+   :caption: Example of GridRelatedCondition definition
    :name: ref_gridrelatedcondition_example
    :linenos:
 
@@ -17,16 +18,14 @@ GridRelatedCondition
      </Item>
    </GridRelatedCondition>
 
-属性
-----
+Attributes
+----------
 
-定義できる属性はありません。
+No attributes can be defined.
 
+Child elements
+--------------
 
-子要素
-------
-
-
-.. csv-table:: GridRelatedCondition の子要素
+.. csv-table:: Child elements of GridRelatedCondition
    :file: gridrelatedcondition_elements.csv
    :header-rows: 1

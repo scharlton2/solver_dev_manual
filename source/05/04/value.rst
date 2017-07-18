@@ -1,38 +1,39 @@
 Value
 =====
 
-関数型の計算条件 (もしくは格子生成条件) 、格子属性、境界条件の値の定義情報を保持します。
+Value element contains information that defines a value of functional
+type calculation conditions or grid creating conditions.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: Value の定義例
+   :caption: Example of Value definition
    :name: ref_value_example
    :linenos:
 
    <value caption="Discharge" valueType="real" />
 
-定義例は :ref:`cc_widget_example_func` も参照して下さい。
+Refer to :ref:`cc_widget_example_func`, for Value element definition example.
 
-属性
------
+Attributes
+----------
 
-.. csv-table:: Value の属性
+.. csv-table:: Attributes of Value
    :file: value_attributes.csv
    :header-rows: 1
 
-.. csv-table:: valueType の値
+.. csv-table:: valueType value
    :file: value_att_valuetype.csv
    :header-rows: 1
 
-.. csv-table:: axis の値
+.. csv-table:: axis value
    :file: value_att_axis.csv
    :header-rows: 1
 
 
-子要素
---------
+Child elements
+--------------
 
-定義できる子要素はありません。
+No child elements can be defined.
 

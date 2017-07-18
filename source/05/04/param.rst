@@ -1,29 +1,30 @@
 Param
 =====
 
-計算条件 (もしくは格子生成条件) の入力ダイアログに表示するラベルの定義情報を保持します。
+Param element contains information that defines an argument of
+functional type calculation conditions or grid creating conditions.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: Param の定義例
+   :caption: Example of Param definition
    :name: ref_param_example
    :linenos:
 
    <Param caption="Time" valueType="real" />
 
-定義例は :ref:`cc_widget_example_func` も参照して下さい。
+Refer to :ref:`cc_widget_example_func` for Param element definition example.
 
-属性
------
+Attributes
+-----------
 
-.. csv-table:: Param の属性
+.. csv-table:: Attributes of Param definition
    :file: param_attributes.csv
    :header-rows: 1
 
-子要素
---------
+Child elements
+--------------
 
-定義できる子要素はありません。
+No child elements can be defined.
 

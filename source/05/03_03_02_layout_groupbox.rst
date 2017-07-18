@@ -1,3 +1,5 @@
+.. _layout_groupbox_example:
+
 Layout that uses Group boxes
 -----------------------------
 

@@ -1,2 +1,2 @@
-名前,必須,説明
-GridType,○,格子の種類
+Name,Required,Description
+GridType,Yes,Grid type

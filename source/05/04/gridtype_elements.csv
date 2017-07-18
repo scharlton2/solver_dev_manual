@@ -1,2 +1,2 @@
-名前,必須,説明
-GridRelatedCondition,○,格子属性
+Name,Required,Description
+GridRelatedCondition,Yes,Grid attribute definition list

@@ -1,2 +1,2 @@
-名前,必須,説明
-Item,○,格子属性
+Name,Required,Description
+Item,Yes,Grid attribute definition

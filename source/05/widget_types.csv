@@ -1,7 +1,7 @@
 Type,Description,Definition
 String,Input string value,"Specify \\""string\\"" for valueType"
 File name (For reading),Input file name for reading. Users can select only files that already exist.,"Specify \\""filename\\"" for valueType"
-File name (For writing),Input file name for writing. Users can select any file name, including those does not exists.,"Specify \\""filename_all\\"" for valueType"
+File name (For writing),"Input file name for writing. Users can select any file name, including those does not exists.","Specify \\""filename_all\\"" for valueType"
 Folder name,Input folder name.,"Specify \\""foldername\\"" for valueType"
 Integer,Input arbitrary integer value.,"Specify \\""integer\\"" for valueType"
 Integer (Choice),Select integer value from choices.,"Specify \\""Integer\\"" for valueType, and define choises with Enumeration elements"

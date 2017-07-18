@@ -1,38 +1,39 @@
 HBoxLayout
 ============
 
-計算条件 (もしくは格子生成条件) の入力ダイアログに表示する水平に並べるレイアウトの定義情報を保持します。
+HBoxLayout element contains information that defines layout to arrange
+elements horizontally in the calculation condition input dialog or grid
+generating condition input dialog.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: HBoxLayout の定義例
+   :caption: Example of HBoxLayout definition
    :name: ref_hboxlayout_example
    :linenos:
 
    <HBoxLayout>
      <Item name="stime" caption="Start Time">
 
-       (略)
+       (abbr.)
 
      </Item>
      <Item name="etime" caption="End Time">
 
-       (略)
+       (abbr.)
 
      </Item>
    </HBoxLayout>
 
+Attributes
+----------
 
-属性
------
+No attributes can be defined.
 
-定義できる属性はありません。
+Child elements
+--------------
 
-子要素
---------
-
-.. csv-table:: HBoxLayout の子要素
+.. csv-table:: Child elements of HBoxLayout
    :file: hboxlayout_elements.csv
    :header-rows: 1

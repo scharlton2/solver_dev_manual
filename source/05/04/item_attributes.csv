@@ -1,3 +1,3 @@
-名前,値,必須,説明
-name,文字列,○,要素名
-caption,文字列,,名前 (ダイアログ上に表示される)
+Name,Value,Required,Description
+name,String,Yes,Name of element
+caption,String,,String to be displayed on the dialog

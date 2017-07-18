@@ -1,2 +1,2 @@
-名前,必須,説明
-"Item, VBoxLayout など",,グループボックス内に表示する要素やレイアウトの定義
+Name,Required,Description
+"Item, VBoxLayout etc.",,Definitions of elements of child layouts

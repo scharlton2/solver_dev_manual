@@ -1,9 +1,9 @@
-名前,値,必須,説明
-caption,文字列,○,表示する文字列
-valueType,下の表を参照,○,データ型
-name,文字列,,識別名 (英数字のみ)。複数の値を持つ関数型条件の場合のみ指定する。
-axis,下の表を参照,,設定ダイアログでのY軸
-axislog,true or false,,縦軸を対数軸にするなら true
-axisreverse,true or false,,Y軸を上下逆転するなら true
-step,true or false,,グラフを棒グラフとして表示するなら true
-hide,true or false,,設定ダイアログのグラフに表示しない場合は true
+Name,Value,Required,Description
+caption,String,Yes,String to be displayed on dialog
+valueType,Refer to table below,Yes,Data type
+name,String,,Identification name (in alphanumeric characters only). It is required only when the condition has multiple values.
+axis,Refer to table below,,Specify on which side to show Y-axis.
+axislog,true or false,,true when you want to make the vertical axis log
+axisreverse,true or false,,true when you want to reverse the vertical axis
+step,true or false,,true when you want to show the chart as bar chart
+hide,true or false,,true when you want to hide the data from chart
