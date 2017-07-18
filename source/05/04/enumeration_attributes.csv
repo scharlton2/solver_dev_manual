@@ -1,0 +1,3 @@
+Name,Value,Required,Description
+value,String,Yes,A string representing a value that corresponds to caption
+caption,String,Yes,String to be displayed.

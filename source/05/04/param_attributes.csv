@@ -1,0 +1,4 @@
+名前,値,必須,説明
+caption,文字列,○,表示する文字列
+valueType,下の表を参照,○,データ型
+axislog,true or false,,横軸を対数軸にするなら true

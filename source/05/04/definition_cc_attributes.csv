@@ -1,0 +1,3 @@
+Name,Value,Required,Description
+valueType,Refer to the table below,Yes,Value type
+default,String,,Default value

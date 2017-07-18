@@ -1,0 +1,4 @@
+Name,Required,Description
+Dimension,,It should be specified when solver developers want to define a dimension (ex. Time).
+Enumeration,Depends,Specify this when you want to limit choice for value
+Item,,"Required only if the valueType attribute value is \\""complex\\"". The structure of Item element is the same to that of Item element under Boundary Condition element."

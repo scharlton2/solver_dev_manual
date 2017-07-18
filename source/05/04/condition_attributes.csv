@@ -1,0 +1,4 @@
+Name,Value,Required,Description
+conditionType,Refer to the table below,Yes,Type of condition
+target,String,Depends,"Name of the calculation condition to be compared with. Needs to be sconditionType Needs to be specified only if the conditionType value is none of \\""and\\"", \\""or\\"", \\""not\\""."
+value,String,Depends,"Value to be compared with. Needs to be sconditionType Needs to be specified only if the conditionType value is none of \\""and\\"", \\""or\\"", \\""not\\""."

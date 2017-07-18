@@ -1,0 +1,2 @@
+Name,Required,Description
+Condition,Depends,"The condition to which the AND, OR or NOT operator is applied. Need to be specified only if the conditionType value is one of the following:"

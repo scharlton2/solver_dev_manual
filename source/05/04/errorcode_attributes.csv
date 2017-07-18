@@ -1,0 +1,3 @@
+Name,Value,Required,Description
+value,Integer,Yes,Error code
+caption,String,Yes,String to be displayed 

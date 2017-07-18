@@ -1,0 +1,3 @@
+Name,Required,Description
+GridGeneratingCondition,Yes,Grid creating condition
+ErrorCodes,,List of error codes

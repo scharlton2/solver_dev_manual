@@ -1,0 +1,4 @@
+Name,Value,Required,Description
+name,String,Yes,Name of element
+caption,String,Yes,String to be displayed in the [Pre-processor]
+valueType,Refer to table below,Yes,Value type

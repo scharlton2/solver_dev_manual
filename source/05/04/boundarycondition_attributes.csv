@@ -1,0 +1,4 @@
+Name,Value,Required,Description
+name,String,Yes,Name of element
+caption,String,Yes,String to be displayed on dialog
+position,Refer the table below,Yes,Definition position

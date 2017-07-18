@@ -1,0 +1,9 @@
+Name,Value,Required,Description
+name,String,Yes,Identification name of the grid generator (in alphanumeric characters only)
+caption,String,Yes,Name of the grid generator (any characters can be used)
+version,String,Yes,"Version number, in a form such as \\""1.0\\"" or \\""1.3.2\\"""
+copyright,String,Yes,Name of copyright owner; basically in English
+release,String,Yes,"Date of release, in a form such as \\""2010.01.01\\"""
+homepage,String,Yes,URL of the web page that provides information on the grid generator
+executable,String,Yes,Filename of the executable program. (ex. GridGen.exe)
+gridtype,Refer to table below,Yes,Grid type

@@ -1,0 +1,9 @@
+Value,Meaning
+isEqual,is equal to
+isGreaterEqual,is greater than or equal to
+isGreaterThan,is greater than
+isLessEqual,is less than or equal to
+isLessThan,is less than
+and,and
+or,or
+not,not

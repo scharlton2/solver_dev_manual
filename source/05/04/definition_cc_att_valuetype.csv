@@ -1,0 +1,8 @@
+Value,Meaning
+integer,Integer
+real,Real number
+string,String
+filename,File name
+filename_all,filename; even a file that currently does not exist can be specified
+foldername,Folder name
+functional,Functional type
