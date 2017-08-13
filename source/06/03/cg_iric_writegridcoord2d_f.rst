@@ -7,7 +7,7 @@ cg_iric_writegridcoord2d_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_writegridcoord2d_f (nx, ny, x, y, ier)
+   call cg_iric_writegridcoord2d_f(nx, ny, x, y, ier)
 
 引数
 ----

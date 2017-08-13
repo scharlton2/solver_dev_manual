@@ -7,7 +7,7 @@ cg_iric_write_errorcode_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_errorcode_f (code, ier)
+   call cg_iric_write_errorcode_f(code, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ cg_iric_write_sol_integer_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_integer_f (label, val, ier)
+   call cg_iric_write_sol_integer_f(label, val, ier)
 
 引数
 ----

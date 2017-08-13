@@ -7,7 +7,7 @@ cg_iric_write_sol_baseiterative_real_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_baseiterative_real_f (label, val,
+   call cg_iric_write_sol_baseiterative_real_f(label, val, ier)
 
 引数
 ----

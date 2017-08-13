@@ -7,7 +7,7 @@ cg_iric_flush_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_flush_f (filename, fin, ier)
+   call cg_iric_flush_f(filename, fin, ier)
 
 引数
 ----

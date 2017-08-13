@@ -7,7 +7,7 @@ CGNSファイルから地形データのファイル名と種類を読み込み�
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_geo_filename_f(name, geoid,
+   call cg_iric_read_geo_filename_f(name, geoid, geofilename, geotype, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_altitudecount_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_riversurvey_read_altitudecount_f(rid,
+   call iric_geo_riversurvey_read_altitudecount_f(rid, pointid, count, ier)
 
 引数
 ----

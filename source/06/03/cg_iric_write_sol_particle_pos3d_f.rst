@@ -7,7 +7,7 @@ cg_iric_write_sol_particle_pos3d_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_particle_pos3d_f (count, x, y, ier)
+   call cg_iric_write_sol_particle_pos3d_f(count, x, y, ier)
 
 引数
 ----

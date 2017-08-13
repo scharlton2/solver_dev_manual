@@ -7,7 +7,7 @@ cg_iric_read_sol_count_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_sol_count_f (count, ier)
+   call cg_iric_read_sol_count_f(count, ier)
 
 引数
 ----

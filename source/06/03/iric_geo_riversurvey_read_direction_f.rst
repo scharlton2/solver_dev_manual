@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_direction_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_riversurvey_read_direction_f(rid, pointid,
+   call iric_geo_riversurvey_read_direction_f(rid, pointid, vx, vy, ier)
 
 引数
 ----

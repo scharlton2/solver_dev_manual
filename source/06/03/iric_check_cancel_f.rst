@@ -7,7 +7,7 @@ iric_check_cancel_f
 ----
 .. code-block:: fortran
 
-   call iric_check_cancel_f (canceled)
+   call iric_check_cancel_f(canceled)
 
 引数
 ----

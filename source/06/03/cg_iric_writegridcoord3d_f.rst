@@ -7,7 +7,7 @@ cg_iric_writegridcoord3d_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_writegridcoord3d_f (nx, ny, nz, x, y, z, ier)
+   call cg_iric_writegridcoord3d_f(nx, ny, nz, x, y, z, ier)
 
 引数
 ----

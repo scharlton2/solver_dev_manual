@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_leftshift_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_riversurvey_read_leftshift_f(rid, pointid,
+   call iric_geo_riversurvey_read_leftshift_f(rid, pointid, shift, ier)
 
 引数
 ----

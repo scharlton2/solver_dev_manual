@@ -7,7 +7,7 @@ cg_iric_write_sol_time_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_time_f (time, ier)
+   call cg_iric_write_sol_time_f(time, ier)
 
 引数
 ----

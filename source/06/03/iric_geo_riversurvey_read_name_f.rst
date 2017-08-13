@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_name_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_riversurvey_read_name_f(rid, pointid, name,
+   call iric_geo_riversurvey_read_name_f(rid, pointid, name, ier)
 
 引数
 ----

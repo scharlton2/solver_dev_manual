@@ -7,7 +7,7 @@ cg_iric_write_grid_integer_cell_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_grid_integer_cell_f (label, values,
+   call cg_iric_write_grid_integer_cell_f(label, values, ier)
 
 引数
 ----

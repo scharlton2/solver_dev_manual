@@ -7,7 +7,7 @@ cg_iric_read_sol_iteration_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_sol_iteration_f (step, iteration, ier)
+   call cg_iric_read_sol_iteration_f(step, iteration, ier)
 
 引数
 ----

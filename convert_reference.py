@@ -13,7 +13,7 @@ def get_description(f):
     line = f.readline().strip()
     while not line:
         line = f.readline().strip()
-    
+
     return line
 
 def get_format(f):
@@ -26,6 +26,13 @@ def get_format(f):
         line = f.readline().strip()
 
     line = line.replace('\\_', '_').replace('**', '').replace('\\ ', '')
+
+    line2 = f.readline().strip()
+    if not line2 == '':
+        line = line + ' ' + line2
+
+    line = line.replace('_f (', '_f(')
+    
     return line
 
 def _clean_frags(frags):

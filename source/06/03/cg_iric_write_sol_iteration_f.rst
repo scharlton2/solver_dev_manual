@@ -7,7 +7,7 @@ cg_iric_write_sol_iteration_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_iteration_f (iteration, ier)
+   call cg_iric_write_sol_iteration_f(iteration, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ iric_write_sol_start_f
 ----
 .. code-block:: fortran
 
-   call iric_write_sol_start_f (filename, ier)
+   call iric_write_sol_start_f(filename, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ CGNSファイルがGUIによってロックされているか確認する。
 ----
 .. code-block:: fortran
 
-   call iric_check_lock_f (filename, locked)
+   call iric_check_lock_f(filename, locked)
 
 引数
 ----

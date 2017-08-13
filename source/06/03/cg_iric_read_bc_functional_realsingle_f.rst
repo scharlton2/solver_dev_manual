@@ -7,7 +7,7 @@ cg_iric_read_bc_functional_realsingle_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_bc_functional_realsingle_f (type, num,
+   call cg_iric_read_bc_functional_realsingle_f(type, num, name, x, y, ier)
 
 引数
 ----

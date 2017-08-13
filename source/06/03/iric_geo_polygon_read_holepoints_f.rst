@@ -7,7 +7,7 @@ iric_geo_polygon_read_holepoints_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_polygon_read_holepoints_f(pid, holeid, x,
+   call iric_geo_polygon_read_holepoints_f(pid, holeid, x, y, ier)
 
 引数
 ----

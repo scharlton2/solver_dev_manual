@@ -7,7 +7,7 @@ cg_iric_read_sol_time_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_sol_time_f (step, time, ier)
+   call cg_iric_read_sol_time_f(step, time, ier)
 
 引数
 ----

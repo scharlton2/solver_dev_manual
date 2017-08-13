@@ -7,7 +7,7 @@ iric_geo_polygon_read_integervalue_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_polygon_read_integervalue_f(pid, intval,
+   call iric_geo_polygon_read_integervalue_f(pid, intval, ier)
 
 引数
 ----

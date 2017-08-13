@@ -7,7 +7,7 @@ cg_iric_read_sol_baseiterative_real_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_sol_baseiterative_real_f (step, label,
+   call cg_iric_read_sol_baseiterative_real_f(step, label, val, ier)
 
 引数
 ----

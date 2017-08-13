@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_fixedpointl_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_riversurvey_read_fixedpointl_f(rid,
+   call iric_geo_riversurvey_read_fixedpointl_f(rid, pointid, set, directionx, directiony, index, ier)
 
 引数
 ----

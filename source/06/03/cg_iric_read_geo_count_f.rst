@@ -7,7 +7,7 @@ CGNSファイルから地形データの数を読み込みます。
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_geo_count_f (name, geocount, ier)
+   call cg_iric_read_geo_count_f(name, geocount, ier)
 
 引数
 ----

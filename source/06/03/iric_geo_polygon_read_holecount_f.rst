@@ -7,7 +7,7 @@ iric_geo_polygon_read_holecount_f
 ----
 .. code-block:: fortran
 
-   call iric_geo_polygon_read_holecount_f(pid, holecount,
+   call iric_geo_polygon_read_holecount_f(pid, holecount, ier)
 
 引数
 ----

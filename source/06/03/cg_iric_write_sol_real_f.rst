@@ -7,7 +7,7 @@ cg_iric_write_sol_real_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_write_sol_real_f (label, val, ier)
+   call cg_iric_write_sol_real_f(label, val, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ cg_iric_read_sol_gridcoord2d_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_sol_gridcoord2d_f (step, x, y, ier)
+   call cg_iric_read_sol_gridcoord2d_f(step, x, y, ier)
 
 引数
 ----
