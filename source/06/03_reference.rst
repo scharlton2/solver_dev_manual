@@ -2,7 +2,7 @@
 ============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    03/functionlist
    03/cg_open_f
