@@ -7,7 +7,7 @@ cg_iric_read_grid_functionaldimension_real_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_functionaldimension_real_f (label,
+   call cg_iric_read_grid_functionaldimension_real_f(label, dimname, values, ier)
 
 引数
 ----

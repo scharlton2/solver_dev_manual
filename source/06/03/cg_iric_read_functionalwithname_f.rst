@@ -7,7 +7,7 @@ CGNSファイルから関数型の計算条件・格子生成条件の値を読�
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_functionalwithname_f (label, name, data,
+   call cg_iric_read_functionalwithname_f(label, name, data, ier)
 
 引数
 ----

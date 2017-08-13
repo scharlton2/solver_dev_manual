@@ -1,4 +1,4 @@
-.. _about_definition_file:
+.. _about_iriclib:
 
 iRIClibについて
 ================

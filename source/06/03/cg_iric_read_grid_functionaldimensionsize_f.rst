@@ -7,7 +7,7 @@ cg_iric_read_grid_functionaldimensionsize_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_functionaltime_f (label, dimname,
+   call cg_iric_read_grid_functionaltime_f(label, dimname, count, ier)
 
 引数
 ----

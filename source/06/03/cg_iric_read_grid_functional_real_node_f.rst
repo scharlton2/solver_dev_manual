@@ -7,7 +7,7 @@ cg_iric_read_grid_functional_real_node_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_functional_real_node_f (label,
+   call cg_iric_read_grid_functional_real_node_f(label, dimid, values, ier)
 
 引数
 ----

@@ -8,7 +8,7 @@
    03/cg_open_f
    03/cg_iric_init_f
    03/cg_iric_initread_f
-   03/cg_initoption _f
+   03/cg_initoption_f
    03/cg_iric_read_integer_f
    03/cg_iric_read_real_f
    03/cg_iric_read_realsingle_f

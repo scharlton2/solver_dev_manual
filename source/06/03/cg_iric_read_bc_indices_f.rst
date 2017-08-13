@@ -7,7 +7,7 @@ cg_iric_read_bc_indices_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_bc_indices_f (type, num, indices, ier)
+   call cg_iric_read_bc_indices_f(type, num, indices, ier)
 
 引数
 ----

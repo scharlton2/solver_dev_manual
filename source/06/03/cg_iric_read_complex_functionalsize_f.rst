@@ -7,7 +7,7 @@ cg_iric_read_complex_functionalsize_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_complex_functionalsize_f (type, num,
+   call cg_iric_read_complex_functionalsize_f(type, num, name, size, ier)
 
 引数
 ----

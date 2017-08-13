@@ -7,7 +7,7 @@ cg_iric_initread_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_initread_f (fid, ier)
+   call cg_iric_initread_f(fid, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ cg_iric_read_grid_functionaltimesize_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_functionaltimesize_f (label, count,
+   call cg_iric_read_grid_functionaltimesize_f(label, count, ier)
 
 引数
 ----

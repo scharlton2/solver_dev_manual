@@ -7,7 +7,7 @@ CGNSファイルから倍精度実数の関数型の計算条件・格子生成�
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_functional_f (label, x, y, ier)
+   call cg_iric_read_functional_f(label, x, y, ier)
 
 引数
 ----

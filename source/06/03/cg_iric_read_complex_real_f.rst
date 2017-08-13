@@ -7,7 +7,7 @@ cg_iric_read_complex_real_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_complex_real_f (type, num, name, value,
+   call cg_iric_read_complex_real_f(type, num, name, value, ier)
 
 引数
 ----

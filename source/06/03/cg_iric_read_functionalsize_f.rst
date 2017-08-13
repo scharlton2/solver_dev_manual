@@ -7,7 +7,7 @@ CGNSファイルから関数型の計算条件・格子生成条件のサイズ�
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_functionalsize_f (label, size, ier)
+   call cg_iric_read_functionalsize_f(label, size, ier)
 
 引数
 ----

@@ -7,7 +7,7 @@ cg_iric_getgridcoord3d_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_getgridcoord3d_f (x, y, z, ier)
+   call cg_iric_getgridcoord3d_f(x, y, z, ier)
 
 引数
 ----

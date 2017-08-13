@@ -7,7 +7,7 @@ cg_iric_read_bc_count_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_bc_count_f (type, num)
+   call cg_iric_read_bc_count_f(type, num)
 
 引数
 ----

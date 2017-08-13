@@ -7,7 +7,7 @@ cg_iric_read_grid_integer_node_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_integer_node_f (label, values, ier)
+   call cg_iric_read_grid_integer_node_f(label, values, ier)
 
 引数
 ----

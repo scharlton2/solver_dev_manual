@@ -7,7 +7,7 @@ cg_iric_read_complex_functionalwithname_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_complex_functionalwithname_f (type, num,
+   call cg_iric_read_complex_functionalwithname_f(type, num, name, paramname, data, ier)
 
 引数
 ----

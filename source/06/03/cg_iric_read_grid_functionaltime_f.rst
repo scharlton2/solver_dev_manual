@@ -1,13 +1,13 @@
 cg_iric_read_grid_functionaltime_f
 ==================================
 
-次元「時刻」(Time)の値を読み込む。
+次元「時刻」(Time) の値を読み込む。
 
 形式
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_grid_functionaltime_f (label, values,
+   call cg_iric_read_grid_functionaltime_f(label, values, ier)
 
 引数
 ----

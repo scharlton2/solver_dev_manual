@@ -7,7 +7,7 @@ cg_iric_read_complex_count_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_complex_count_f (type, num, ier)
+   call cg_iric_read_complex_count_f(type, num, ier)
 
 引数
 ----

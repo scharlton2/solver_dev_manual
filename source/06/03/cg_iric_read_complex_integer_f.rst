@@ -7,7 +7,7 @@ cg_iric_read_complex_integer_f
 ----
 .. code-block:: fortran
 
-   call cg_iric_read_complex_integer_f (type, num, name,
+   call cg_iric_read_complex_integer_f(type, num, name, value, ier)
 
 引数
 ----
