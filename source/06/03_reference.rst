@@ -48,6 +48,7 @@
    03/cg_iric_read_bc_count_f
    03/cg_iric_read_bc_indicessize_f
    03/cg_iric_read_bc_indices_f
+   03/cg_iric_read_bc_integer_f
    03/cg_iric_read_bc_real_f
    03/cg_iric_read_bc_realsingle_f
    03/cg_iric_read_bc_string_f
