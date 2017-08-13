@@ -1,0 +1,6 @@
+変数名,型,I/O,内容
+type,character(*),I,境界条件の識別名
+num,integer,I,境界条件の番号
+name,character(*),I,境界条件の属性の名前
+value,double precision,O,読み込まれた境界条件の値
+ier,integer,O,エラーコード。0なら成功

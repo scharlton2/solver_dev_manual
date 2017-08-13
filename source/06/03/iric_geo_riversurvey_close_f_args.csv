@@ -1,0 +1,3 @@
+変数名,型,I/O,内容
+rid,integer,I,河川測量データのID
+ier,integer,O,エラーコード。0なら成功

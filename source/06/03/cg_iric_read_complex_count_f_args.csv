@@ -1,0 +1,4 @@
+変数名,型,I/O,内容
+type,character(*),I,属性名
+num,integer,O,グループの数
+ier,integer,O,エラーコード。0なら成功

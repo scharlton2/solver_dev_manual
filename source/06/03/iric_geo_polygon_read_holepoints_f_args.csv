@@ -1,0 +1,6 @@
+変数名,型,I/O,内容
+pid,integer,I,ポリゴンのID
+holeid,integer,I,穴のID
+x,"double precision , dimension(:), allocatable",O,ポリゴン頂点のX座標
+y,"double precision , dimension(:), allocatable",O,ポリゴン頂点のY座標
+ier,integer,O,エラーコード。0なら成功

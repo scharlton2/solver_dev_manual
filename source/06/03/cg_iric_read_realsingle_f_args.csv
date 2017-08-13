@@ -1,0 +1,4 @@
+変数名,型,I/O,内容
+Label,character(*),I,ソルバー定義ファイルで定義した変数名
+realvalue,real,O,CGNSファイルから読み込まれた実数
+ier,integer,O,エラーコード。0なら成功

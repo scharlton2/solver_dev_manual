@@ -1,0 +1,6 @@
+変数名,型,I/O,内容
+type,character(*),I,属性名
+num,integer,I,グループの番号
+name,character(*),I,条件の名前
+x,"double precision, dimension(:), allocatable",O,Xの値の配列
+ier,integer,O,エラーコード。0なら成功

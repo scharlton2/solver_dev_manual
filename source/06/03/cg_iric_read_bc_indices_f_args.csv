@@ -1,0 +1,5 @@
+変数名,型,I/O,内容
+type,character(*),I,境界条件の識別名
+num,integer,I,境界条件の番号
+indices,"integer, dimension(2,:), allocatable",O,境界条件が設定された要素のインデックスの配列。
+ier,integer,O,エラーコード。0なら成功

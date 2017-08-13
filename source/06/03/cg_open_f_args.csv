@@ -1,0 +1,5 @@
+変数名,型,I/O,内容
+filename,character(*),I,ファイル名
+mode,integer,I,オープンモード
+fid,integer,O,ファイルID
+ier,integer,O,エラーコード。0なら成功

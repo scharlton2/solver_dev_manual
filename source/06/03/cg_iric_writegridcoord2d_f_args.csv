@@ -1,0 +1,6 @@
+変数名,型,I/O,内容
+nx,integer,I,i方向格子点数
+ny,integer,I,j方向格子点数
+x,"double precision, dimension(:,:), allocatable",I,格子点のx座標値
+y,"double precision, dimension(:,:), allocatable",I,格子点のy座標値
+ier,integer,O,エラーコード。0なら成功

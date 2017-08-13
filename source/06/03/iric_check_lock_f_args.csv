@@ -1,0 +1,3 @@
+変数名,型,I/O,内容
+filename,character(*),I,ファイル名
+locked,integer,O,ロックされていたら 1

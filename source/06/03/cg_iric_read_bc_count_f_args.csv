@@ -1,0 +1,3 @@
+変数名,型,I/O,内容
+type,character(*),I,境界条件の識別名
+num,integer,O,境界条件の数

@@ -1,0 +1,5 @@
+変数名,型,I/O,内容
+rid,integer,I,河川測量データのID
+pointid,integer,I,横断線のID
+realname,double precision,O,横断線の名前
+ier,integer,O,エラーコード。0なら成功

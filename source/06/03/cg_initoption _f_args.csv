@@ -1,0 +1,3 @@
+変数名,型,I/O,内容
+optionval,integer,I,指定するオプションの値
+ier,integer,O,エラーコード。0なら成功

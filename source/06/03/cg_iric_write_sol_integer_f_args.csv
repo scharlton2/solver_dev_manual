@@ -1,0 +1,4 @@
+変数名,型,I/O,内容
+label,character(*),I,出力する値の名前
+val,"integer, imension(:,:),allocatable",I,出力する値（3次元格子の場合、型は
+ier,integer,O,エラーコード。0なら成功

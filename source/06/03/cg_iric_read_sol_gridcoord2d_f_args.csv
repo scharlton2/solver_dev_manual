@@ -1,0 +1,5 @@
+変数名,型,I/O,内容
+step,integer,I,ステップ数
+x,"double precision, dimension(:), allocatable",O,X座標
+y,"double precision, dimension(:), allocatable",O,Y座標
+ier,integer,O,エラーコード。0なら成功

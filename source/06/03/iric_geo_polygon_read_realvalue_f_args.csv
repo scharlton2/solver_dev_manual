@@ -1,0 +1,4 @@
+変数名,型,I/O,内容
+Pid,integer,I,ポリゴンのID
+realval,double precision,O,ポリゴンの値
+Ier,integer,O,エラーコード。0なら成功

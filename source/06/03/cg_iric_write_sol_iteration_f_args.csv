@@ -1,0 +1,3 @@
+変数名,型,I/O,内容
+iteration,integer,I,ループ回数
+ier,integer,O,エラーコード。0なら成功

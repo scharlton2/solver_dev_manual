@@ -1,0 +1,4 @@
+変数名,型,I/O,内容
+step,integer,I,ステップ数
+time,double precision,O,時刻
+ier,integer,O,エラーコード。0なら成功

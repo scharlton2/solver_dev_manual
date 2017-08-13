@@ -1,0 +1,2 @@
+変数名,型,I/O,内容
+canceled,integer,O,キャンセルされていたら 1
