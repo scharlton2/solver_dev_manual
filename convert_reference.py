@@ -92,7 +92,7 @@ with open('reference.txt', 'r', encoding='utf-8') as f:
 
         print(fname)
 
-        fnames_f.write('   ' + fname + '\n')
+        fnames_f.write('   03/' + fname + '\n')
 
         with open('source/06/03/' + fname + '.rst', 'w', encoding='utf-8') as f2:
             f2.write(fname + '\n')

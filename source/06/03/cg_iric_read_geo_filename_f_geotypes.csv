@@ -1,0 +1,3 @@
+geotype の定数名,値,内容
+IRIC_GEO_POLYGON,1,ポリゴン
+IRIC_GEO_RIVERSURVEY,2,河川測量データ

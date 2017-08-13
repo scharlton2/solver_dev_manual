@@ -7,7 +7,7 @@ iric_geo_riversurvey_read_watersurfaceelevation_f
 ----
 .. code-block:: fortran
 
-   call **iric\_geo\_riversurvey\_read\_watersurfaceelevation\_f**\ (rid,
+   call iric_geo_riversurvey_read_watersurfaceelevation_f(rid, pointid, set, value, ier)
 
 引数
 ----

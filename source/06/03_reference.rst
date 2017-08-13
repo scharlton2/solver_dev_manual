@@ -52,11 +52,13 @@
    03/cg_iric_read_bc_real_f
    03/cg_iric_read_bc_realsingle_f
    03/cg_iric_read_bc_string_f
+   03/cg_iric_read_bc_functionalsize_f
    03/cg_iric_read_bc_functional_f
    03/cg_iric_read_bc_functional_realsingle_f
    03/cg_iric_read_bc_functionalwithname_f
    03/cg_iric_read_geo_count_f
    03/cg_iric_read_geo_filename_f
+   03/iric_geo_polygon_open_f
    03/iric_geo_polygon_read_integervalue_f
    03/iric_geo_polygon_read_realvalue_f
    03/iric_geo_polygon_read_pointcount_f

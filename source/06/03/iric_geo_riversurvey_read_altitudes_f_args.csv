@@ -1,7 +1,7 @@
 変数名,型,I/O,内容
 rid,integer,I,河川測量データのID
 pointid,pointid,I,横断線のID
-position,"double precision , dimension(:), allocatable",O,"標高データの位置 (0より小さい = 左岸側, 0 より大きい = 右岸側)"
-height,"double precision , dimension(:), allocatable",O,標高データの高さ
+position,"double precision, dimension(:), allocatable",O,"標高データの位置 (0より小さい = 左岸側, 0 より大きい = 右岸側)"
+height,"double precision, dimension(:), allocatable",O,標高データの高さ
 active,"integer, dimension(:), allocatable",O,"標高データの有効/無効 (1: 有効, 0: 無効)"
 ier,integer,O,エラーコード。0なら成功
