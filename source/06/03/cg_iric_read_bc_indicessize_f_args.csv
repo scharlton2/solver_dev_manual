@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+type,character(*),I,The type name of boundary condition you want to know the indices size
+num,integer,O,The boundary condition ID number
+size,integer,O,The number of elements (nodes or cells) where the boundary condition is set.
+ier,integer,O,Error code. 0 means success.

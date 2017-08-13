@@ -1,0 +1,8 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,integer,I,Crosssection ID
+set,integer,O,"If defined, the value is 1"
+directionx,double precision,O,X component of normalized direction vector
+direction,double precision,O,Y component of normalized direction vector
+index,integer,O,The ID of the altitude data where the right bank extension line starts
+ier,integer,O,Error code. 0 means success.

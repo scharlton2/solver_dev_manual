@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+label,character(*),I,Attribute name
+values,"double precision, dimension(:), allocatable",O,Attribute values
+ier,integer,O,Error code. 0 means success.

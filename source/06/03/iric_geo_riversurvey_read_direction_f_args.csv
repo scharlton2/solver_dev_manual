@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,integer,I,Crosssection ID
+vx,double precision,O,X component of the normalized direction vector
+vx,double precision,O,Y component of the normalized direction vector
+ier,integer,O,Error code. 0 means success.

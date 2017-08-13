@@ -1,0 +1,2 @@
+Variable name,Type,I/O,Description
+canceled,integer,O,If canceled 1 returned

@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+label,character(*),I,Attribute name
+dimname,character(*),I,Dimension name
+count,integer,O,The number of values of dimension “Time”
+ier,integer,O,Error code. 0 means success.

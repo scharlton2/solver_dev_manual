@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,integer,I,Crosssection ID
+set,integer,O,If defined the value is 1
+value,double precision,O,Water surface elevation
+ier,integer,O,Error code. 0 means success.

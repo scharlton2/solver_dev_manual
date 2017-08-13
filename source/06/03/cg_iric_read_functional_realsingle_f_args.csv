@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+label,character(*),I,Name of the variable defined in the solver definition file
+x,"real , dimension(:), allocatable",O,Array of x values
+y,"real, dimension(:), allocatable",O,Array of y values
+ier,integer,O,Error code. 0 means success.

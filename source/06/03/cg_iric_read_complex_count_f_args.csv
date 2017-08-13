@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+type,character(*),I,Attribute name
+num,integer,O,The number of complex type grid attribute group
+ier,integer,O,Error code. 0 means success.

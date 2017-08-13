@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+Pid,integer,I,Polygon ID
+realval,double precision,O,The value of the polygon
+Ier,integer,O,Error code. 0 means success.

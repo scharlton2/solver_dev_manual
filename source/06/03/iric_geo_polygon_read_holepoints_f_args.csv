@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+pid,integer,I,Polygon ID
+holeid,integer,I,Hole ID
+x,"double precision , dimension(:), allocatable",O,X coordinates of hole polygon vertices
+y,"double precision , dimension(:), allocatable",O,Y coordinates of hole polygon vertices
+ier,integer,O,Error code. 0 means success.

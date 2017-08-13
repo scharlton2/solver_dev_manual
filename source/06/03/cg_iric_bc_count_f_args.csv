@@ -1,0 +1,3 @@
+Variable name,Type,I/O,Description
+type,character(*),I,The type name of boundary condition you want to know the count.
+num,integer,O,The number of boundary condition

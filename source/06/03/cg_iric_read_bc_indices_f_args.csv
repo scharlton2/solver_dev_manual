@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+type,character(*),I,The type name of boundary condition you want to know the indices size
+num,integer,O,The boundary condition ID number
+ier,integer,O,Error code. 0 means success.

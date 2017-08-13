@@ -1,0 +1,3 @@
+Variable name,Type,I/O,Description
+fid,integer,I,File ID
+ier,integer,O,"Error code. 0 means success. In case of grid generating program, 1 means success."

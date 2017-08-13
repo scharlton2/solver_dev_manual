@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+type,character(*),I,Name of boundary condition
+num,integer,I,Boundary condition number
+label,character(*),I,Name of the variable defined in the solver definition file
+realvalue,real,O,Real number read from the CGSN file
+ier,integer,O,Error code. 0 means success.

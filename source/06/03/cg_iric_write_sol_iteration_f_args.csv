@@ -1,0 +1,3 @@
+Variable name,Type,I/O,Description
+iteration,integer,I,Iteration count
+ier,integer,O,Error code. 0 means success.

@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+label,character(*),I,Attribute name
+dimname,character(*),I,Dimension name
+values,"integer, dimension(:), allocatable",O,The values of dimension
+ier,integer,O,Error code. 0 means success.

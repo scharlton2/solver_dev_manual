@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+count,integer,I,The number of particles
+x,"double precision, dimension(:), allocatable",I,x coordinate.
+y,"double precision, dimension(:), allocatable",I,y coordinate.
+z,"double precision, dimension(:), allocatable",I,z coordinate.
+ier,integer,O,Error code. 0 means success.

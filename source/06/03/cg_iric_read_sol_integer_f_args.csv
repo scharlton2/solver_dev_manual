@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+step,integer,I,Result Step Number
+label,character(*),I,Name
+val,"integer, imension(:,:),allocatable",O,"Value (In case of 3D grid, integer, dimension(:,:,:), allocatable)"
+ier,integer,O,Error code. 0 means success.

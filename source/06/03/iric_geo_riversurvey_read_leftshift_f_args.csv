@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,integer,I,Crosssection ID
+shift,double precision,O,The amount of left shift
+ier,integer,O,Error code. 0 means success.

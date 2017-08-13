@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+name,character(*),I,Geographic data group name
+geoid,integer,I,Geographic data number
+geofilename,character(*),O,Filename
+geotype,integer,O,Geographic data type
+ier,integer,O,Error code. 0 means success.

@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+label,character*,I,Name of the value to be output
+val,double precision,I,Value to be output
+ier,integer,O,Error code. 0 means success.

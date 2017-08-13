@@ -1,0 +1,3 @@
+Variable name,Type,I/O,Description
+code,integer,I,The error code that the grid generating program returns.
+ier,integer,O,Error code. 0 means success.

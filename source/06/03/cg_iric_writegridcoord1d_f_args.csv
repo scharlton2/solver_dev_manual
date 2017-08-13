@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+nx,integer,I,Number of grid nodes in the i direction
+x,"double precision, dimension(:), allocatable",I,x coordinate value of a grid node
+ier,integer,O,Error code. 0 means success.

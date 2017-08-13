@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+pid,integer,I,Polygon ID
+holeid,integer,I,Hole ID
+count,integer,O,The number of vertices of the hole polygon
+ier,integer,O,Error code. 0 means success.

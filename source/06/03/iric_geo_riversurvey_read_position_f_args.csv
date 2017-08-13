@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,integer,I,Crosssection ID
+x,double precision,O,X coordinate of the center point
+y,double precision,O,Y coordinate of the center point
+ier,integer,O,Error code. 0 means success.

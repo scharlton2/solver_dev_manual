@@ -1,0 +1,7 @@
+Variable name,Type,I/O,Description
+type,character(*),I,Attribute name
+num,integer,I,Group number
+name,character(*),I,Condition name
+paramname,character(*),I,Value name
+data,"double precision, dimension(:), allocatable",O,Value array
+ier,integer,O,Error code. 0 means success.

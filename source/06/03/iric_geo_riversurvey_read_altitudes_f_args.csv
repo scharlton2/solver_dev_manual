@@ -1,0 +1,7 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+pointid,pointid,I,Crosssection ID
+position,"double precision , dimension(:), allocatable",O,"Altitude position (less than 0: left bank side, grater than 0: right bank side)"
+height,"double precision , dimension(:), allocatable",O,Altitude height (elevation)
+active,"integer, dimension(:), allocatable",O,"Altitude data active/inactive (1: active, 0: inactive)"
+ier,integer,O,Error code. 0 means success.

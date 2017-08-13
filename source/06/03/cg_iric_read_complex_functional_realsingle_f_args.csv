@@ -1,0 +1,7 @@
+Variable name,Type,I/O,Description
+type,character(*),I,Attribute name
+num,integer,I,Group number
+name,character(*),I,Condition name
+x,"real, dimension(:), allocatable",O,x value array
+y,"real, dimension(:), allocatable",O,y value array
+ier,integer,O,Error code. 0 means success.

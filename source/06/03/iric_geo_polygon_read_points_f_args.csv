@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+pid,integer,I,Polygon ID
+x,"double precision , dimension(:), allocatable",O,X coordinates of polygon vertices
+y,"double precision , dimension(:), allocatable",O,Y coordinates of polygon vertices
+ier,integer,O,Error code. 0 means success.

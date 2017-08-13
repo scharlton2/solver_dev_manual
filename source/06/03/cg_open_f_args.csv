@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+filename,character(*),I,Filename
+mode,parameter (integer),I,File Open mode
+fid,integer,O,File ID
+ier,integer,O,Error code. 0 means success.

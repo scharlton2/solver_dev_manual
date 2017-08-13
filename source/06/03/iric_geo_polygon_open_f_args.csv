@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+filename,character(*),I,File name
+pid,integer,O,Polygon ID for opened file
+ier,integer,O,Error code. 0 means success.

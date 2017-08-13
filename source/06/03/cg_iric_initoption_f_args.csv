@@ -1,0 +1,3 @@
+Variable name,Type,I/O,Description
+optionval,integer,I,The value that corresponds to an option
+ier,integer,O,Error code. 0 means success.

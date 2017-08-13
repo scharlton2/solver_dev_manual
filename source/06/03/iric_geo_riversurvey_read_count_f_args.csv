@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+rid,integer,I,River Survey Data ID
+count,integer,O,The number of crosssections
+ier,integer,O,Error code. 0 means success.

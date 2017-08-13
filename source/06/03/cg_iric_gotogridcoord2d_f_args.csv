@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+nx,integer,O,Number of grid nodes in the i direction
+ny,integer,O,Number of grid nodes in the j direction
+ier,integer,O,Error code. 0 means success.

@@ -1,0 +1,6 @@
+Variable name,Type,I/O,Description
+step,integer,I,Result Step Number
+x,"double precision, dimension(:), allocatable",O,Xcoordinates
+y,"double precision, dimension(:), allocatable",O,Y coordinates
+z,"double precision, dimension(:), allocatable",O,Z coordinates
+ier,integer,O,Error code. 0 means success.

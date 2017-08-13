@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+pid,integer,I,Polygon ID
+count,integer,O,The number of vertices of the polygon
+ier,integer,O,Error code. 0 means success.

@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+filename,character(*),I,Filename
+rid,integer,O,River Survey Data ID
+ier,integer,O,Error code. 0 means success.

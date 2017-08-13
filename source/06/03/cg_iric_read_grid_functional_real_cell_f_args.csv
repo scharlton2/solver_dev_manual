@@ -1,0 +1,5 @@
+Variable name,Type,I/O,Description
+label,character(*),I,Attribute name
+dimid,integer,I,ID of “Time” (1 to the number of Time)
+values,"double precision, dimension(:), allocatable",O,Attribute value
+ier,integer,O,Error code. 0 means success.

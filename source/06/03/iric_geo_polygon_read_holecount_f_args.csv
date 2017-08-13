@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+pid,integer,I,Polygon ID
+holecount,integer,O,The number of holes
+ier,integer,O,Error code. 0 means success.

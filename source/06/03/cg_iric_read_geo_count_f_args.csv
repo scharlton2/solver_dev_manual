@@ -1,0 +1,4 @@
+Variable name,Type,I/O,Description
+name,character(*),I,Geographic data group name
+geocount,integer,O,The number of geographic data
+ier,integer,O,Error code. 0 means success.
