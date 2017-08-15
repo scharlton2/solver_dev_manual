@@ -23,7 +23,7 @@ getarg() で引数を取得します。
    if ( icount.eq.2 ) then
      call getarg(1, condFile, istatus)
    else
-     write(*,*) “Input File not specified.”
+     write(*,*) "Input File not specified."
      stop
    endif
 

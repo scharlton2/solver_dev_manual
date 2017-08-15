@@ -41,7 +41,7 @@ https://www.hdfgroup.org/downloads/index.html
 
    HDF group ウェブページ
 
-HDF のホームページから、上記丸で囲って示した「Current Release」の
+HDF のホームページから、「Current Release」の
 リンクをクリックします。すると、様々なファイルのダウンロード画面に
 移動します。ここで、適切な (64 bit or 32 bit)
 プラットフォームのインストーラをクリックしてダウンロードしてください。

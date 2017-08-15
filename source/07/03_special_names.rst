@@ -46,11 +46,12 @@ iRIC で読み込まれます。格子生成プログラムで Elavtion を出�
 計算結果
 ---------
 
-計算結果について定義された特別な名前を 表 7 5に示します。
+計算結果について定義された特別な名前を
+:numref:`special_result_names` に示します。
 ここで示す名前は、 iRIClib の関数の引数に指定してください。
 
 これらの特別な計算結果を全て出力するソルバーの例を
-:numref:`special_result_names` に示します。
+:numref:`special_result_output_example` に示します。
 
 .. _special_result_names:
 
@@ -68,7 +69,6 @@ iRIC で読み込まれます。格子生成プログラムで Elavtion を出�
    * - IBC
      - 計算結果の有効・無効フラグ。無効な (水がない) 領域では 0、有効な (水がある) 領域では 1 を出力します。
      - 
-     
 
 .. code-block: fortran
    :name: special_result_output_example
