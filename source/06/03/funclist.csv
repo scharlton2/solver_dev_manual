@@ -1,0 +1,109 @@
+分類,名前,機能,複数版
+CGNSファイルを開く,cg_open_f,CGNS ファイルを開く,×
+内部変数の初期化,cg_iric_init_f,指定したファイルを読み込み・書き込み用にiRIClibから利用するため、内部変数を初期化し、ファイルを初期化する,×
+内部変数の初期化,cg_iric_initread_f,指定したファイルを読み込み専用でiRIClibから利用するため、内部変数を初期化する,×
+オプションの設定,cg_initoption_f,ソルバーのオプションを設定する,×
+計算条件、格子生成条件の読み込み,cg_iric_read_integer_f,整数型変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_real_f,実数(倍精度)変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_realsingle_f,実数(単精度)変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_string_f,文字列型変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_functionalsize_f,関数型変数のサイズを取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_functional_f,倍精度実数の関数型変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_functional_realsingle_f,単精度実数の関数型変数の値を取得する,○
+計算条件、格子生成条件の読み込み,cg_iric_read_functionalwithname_f,複数の値を持つ倍精度実数の関数型変数の値を取得する,○
+計算格子の読み込み,cg_iric_gotogridcoord2d_f,格子を読み込む準備をする,○
+計算格子の読み込み,cg_iric_gotogridcoord3d_f,格子を読み込む準備をする,○
+計算格子の読み込み,cg_iric_getgridcoord2d_f,"格子のX, Y 座標を読み込む",○
+計算格子の読み込み,cg_iric_getgridcoord3d_f,"格子のX, Y, Z 座標を読み込む",○
+計算格子の読み込み,cg_iric_read_grid_integer_node_f,格子点で定義された整数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_real_node_f,格子点で定義された倍精度実数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_integer_cell_f,セルで定義された整数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_real_cell_f,セルで定義された倍精度実数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_count_f,複合型の属性のグループの数を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_integer_f,複合型の属性の整数の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_real_f,複合型の属性の倍精度実数の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_realsingle_f,複合型の属性の単精度実数の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_string_f,複合型の属性の文字列の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_functionalsize_f,複合型の属性の関数型の条件のサイズを調べる,○
+計算格子の読み込み,cg_iric_read_complex_functional_f,複合型の属性の倍精度実数の関数型の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_functionalwithname_f,複合型の属性の単精度実数の関数型の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_complex_functional_realsingle_f,複合型の属性の値を複数持つ倍精度実数の関数型の条件を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_complex_node_f,格子点で定義された複合型の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_complex_cell_f,セルで定義された複合型の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functionaltimesize_f,次元「時刻」(Time) を持つ格子属性の、時刻の数を調べる,○
+計算格子の読み込み,cg_iric_read_grid_functionaltime_f,次元「時刻」(Time)の値を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functional_integer_node_f,次元「時刻」を持つ、格子点で定義された整数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functionaldimensionsize_f,次元の数を調べる,○
+計算格子の読み込み,cg_iric_read_grid_functionaldimension_integer_f,整数の次元の値を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functionaldimension_real_f,倍精度実数の次元の値を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functional_real_node_f,次元「時刻」を持つ、格子点で定義された倍精度実数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functional_integer_cell_f,次元「時刻」を持つ、セルで定義された整数の属性を読み込む,○
+計算格子の読み込み,cg_iric_read_grid_functional_real_cell_f,次元「時刻」を持つ、セルで定義された倍精度実数の属性を読み込む,○
+境界条件の読み込み,cg_iric_read_bc_count_f,境界条件の数を取得する,○
+境界条件の読み込み,cg_iric_read_bc_indicessize_f,境界条件の設定された要素 (格子点もしくはセル) の数を取得する,○
+境界条件の読み込み,cg_iric_read_bc_indices_f,境界条件の設定された要素 (格子点もしくはセル) のインデックスの配列を取得する,○
+境界条件の読み込み,cg_iric_read_bc_integer_f,整数型境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_real_f,実数(倍精度)境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_realsingle_f,実数(単精度)境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_string_f,文字列型境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_functionalsize_f,関数型境界条件のサイズを取得する,○
+境界条件の読み込み,cg_iric_read_bc_functional_f,倍精度実数の関数型境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_functional_realsingle_f,単精度実数の関数型境界条件の値を取得する,○
+境界条件の読み込み,cg_iric_read_bc_functionalwithname_f,複数の値を持つ倍精度実数の関数型境界条件の値を取得する,○
+地形データの読み込み,cg_iric_read_geo_count_f,地形データの数を返す,○
+地形データの読み込み,cg_iric_read_geo_filename_f,地形データのファイル名と種類を返す,○
+地形データの読み込み,iric_geo_polygon_open_f,ポリゴンファイルを開く,×
+地形データの読み込み,iric_geo_polygon_read_integervalue_f,ポリゴンの値を整数で返す,×
+地形データの読み込み,iric_geo_polygon_read_realvalue_f,ポリゴンの値を実数で返す,×
+地形データの読み込み,iric_geo_polygon_read_pointcount_f,ポリゴンの頂点の数を返す,×
+地形データの読み込み,iric_geo_polygon_read_points_f,ポリゴンの頂点の座標を返す,×
+地形データの読み込み,iric_geo_polygon_read_holecount_f,ポリゴンに開いた穴の数を返す,×
+地形データの読み込み,iric_geo_polygon_read_holepointcount_f,ポリゴンの穴の頂点の数を返す,×
+地形データの読み込み,iric_geo_polygon_read_holepoints_f,ポリゴンの穴の頂点の座標を返す,×
+地形データの読み込み,iric_geo_polygon_close_f,ポリゴンファイルを閉じる,×
+地形データの読み込み,iric_geo_riversurvey_open_f,河川測量データを開く,×
+地形データの読み込み,iric_geo_riversurvey_read_count_f,河川横断線の数を返す,×
+地形データの読み込み,iric_geo_riversurvey_read_position_f,横断線の中心点の座標を返す,×
+地形データの読み込み,iric_geo_riversurvey_read_direction_f,横断線の向きを返す,×
+地形データの読み込み,iric_geo_riversurvey_read_name_f,横断線の名前を文字列として返す,×
+地形データの読み込み,iric_geo_riversurvey_read_realname_f,横断線の名前を実数値として返す,×
+地形データの読み込み,iric_geo_riversurvey_read_leftshift_f,横断線の標高データのシフト量を返す,×
+地形データの読み込み,iric_geo_riversurvey_read_altitudecount_f,横断線の標高データの数を返す,×
+地形データの読み込み,iric_geo_riversurvey_read_altitudes_f,横断線の標高データを返す,×
+地形データの読み込み,iric_geo_riversurvey_read_fixedpointl_f,横断線の左岸延長線のデータを返す,×
+地形データの読み込み,iric_geo_riversurvey_read_fixedpointr_f,横断線の右岸延長線のデータを返す,×
+地形データの読み込み,iric_geo_riversurvey_read_watersurfaceelevation_f,横断線での水面標高のデータを返す,×
+地形データの読み込み,iric_geo_riversurvey_close_f,河川測量データを閉じる,×
+計算格子の出力,cg_iric_writegridcoord1d_f,1次元構造格子を出力する,○
+計算格子の出力,cg_iric_writegridcoord2d_f,2次元構造格子を出力する,○
+計算格子の出力,cg_iric_writegridcoord3d_f,3次元構造格子を出力する,○
+計算格子の出力,cg_iric_write_grid_integer_node_f,格子点で定義された整数の属性を出力する,○
+計算格子の出力,cg_iric_write_grid_real_node_f,格子点で定義された倍精度実数の属性を出力する,○
+計算格子の出力,cg_iric_write_grid_integer_cell_f,セルで定義された整数の属性を出力する,○
+計算格子の出力,cg_iric_write_grid_real_cell_f,セルで定義された倍精度実数の属性を出力する,○
+時刻 (ループ回数) の出力,cg_iric_write_sol_time_f,時刻を出力する,○
+時刻 (ループ回数) の出力,cg_iric_write_sol_iteration_f,ループ回数を出力する,○
+計算結果の出力,cg_iric_write_sol_gridcoord2d_f,2次元構造格子を出力する,○
+計算結果の出力,cg_iric_write_sol_gridcoord3d_f,3次元構造格子を出力する,○
+計算結果の出力,cg_iric_write_sol_baseiterative_integer_f,整数の計算結果を出力する,○
+計算結果の出力,cg_iric_write_sol_baseiterative_real_f,倍精度実数の計算結果を出力する,○
+計算結果の出力,cg_iric_write_sol_integer_f,整数の格子点ごとに値を持つ計算結果を出力する,○
+計算結果の出力,cg_iric_write_sol_real_f,倍精度実数の格子点ごとに値を持つ計算結果を出力する,○
+計算結果の出力 (粒子),cg_iric_write_sol_particle_pos2d_f,粒子の位置を出力する (2次元),○
+計算結果の出力 (粒子),cg_iric_write_sol_particle_pos3d_f,粒子の位置を出力する (3次元),○
+計算結果の出力の前後に利用する関数,iric_check_cancel_f,ユーザがソルバーの実行をキャンセルしたか確認する,×
+計算結果の出力の前後に利用する関数,iric_check_lock_f,CGNSファイルが GUI によってロックされているか確認する,×
+計算結果の出力の前後に利用する関数,iric_write_sol_start_f,計算結果の出力開始をGUIに通知する,×
+計算結果の出力の前後に利用する関数,iric_write_sol_end_f,計算結果の出力終了をGUIに通知する,×
+計算結果の出力の前後に利用する関数,cg_iric_flush_f,計算結果の出力をファイルに書き込む,×
+既存の計算結果の読み込み,cg_iric_read_sol_count_f,計算結果の数を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_time_f,計算結果の時刻の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_iteration_f,計算結果のループ回数の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_baseiterative_integer_f,整数の計算結果の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_baseiterative_real_f,倍精度実数の計算結果の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_gridcoord2d_f,計算結果の2次元構造格子を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_gridcoord3d_f,計算結果の3次元構造格子を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_integer_f,整数の格子点ごとに値を持つ計算結果の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_real_f,倍精度実数の格子点ごとに値を持つ計算結果の値を取得する,○
+エラーコードの出力,cg_iric_write_errorcode_f,エラーコードを出力する,○
+CGNSファイルを閉じる,cg_close_f,CGNS ファイルを閉じる,×
