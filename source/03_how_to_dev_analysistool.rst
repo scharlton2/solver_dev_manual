@@ -14,7 +14,8 @@ basically the same to that of a solver (See :ref:`how_to_develop_solver`). The d
 is that it handles multiple CGNS files.
 
 To handle multiple CGNS files at the same time, you should use different
-functions thant shoes used in :ref:`how_to_develop_solver` (See 6.4.1). 
+functions than those used in :ref:`how_to_develop_solver`
+(See :ref:`iriclib_list_of_functions`). 
 The names of functions for handling multiple CGNS files ends with
 \\"_mul_f\\", and the first argument is the file ID. You should call
 \\"cg_iric_initread_f\\" instead of \\"cg_iric_init_f\\" when

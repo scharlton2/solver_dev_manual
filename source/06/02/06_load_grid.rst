@@ -52,7 +52,7 @@ subroutines for reading structured grids only.
    * - cg_iric_read_grid_functionaltimesize_f
      - Reads the number of values of dimension \\"Time\\" for functional grid attribute
    * - cg_iric_read_grid_functionaltime_f
-     - Reads the values of dimension “Time” for functional grid attribute 
+     - Reads the values of dimension "Time" for functional grid attribute 
    * - cg_iric_read_grid_functionaldimensionsize_f
      - Reads the number of values of dimension for functional grid attribute
    * - cg_iric_read_grid_functionaldimension_integer_f

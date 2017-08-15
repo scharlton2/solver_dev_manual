@@ -62,7 +62,7 @@ README
 ------
 
 README is a text file that describes about the grid generating program.
-The content of README is shown in the “Description” area on [Select Grid
+The content of README is shown in the \\"Description\\" area on [Select Grid
 Creating Algorithm] dialog].
 
 :numref:`relations_between_gridgen_and_files` shows the relationship

@@ -40,6 +40,8 @@ def cleanup_and_check_file(filename):
 
         if not code_mode:
             line = escape_characters(line, ["\"", "'"])
+            line = line.replace('“', '"')
+            line = line.replace('”', '"')
 
         output_lines.append(line)
 

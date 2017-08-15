@@ -1,7 +1,7 @@
 cg_iric_read_grid_functionaltime_f
 ==================================
 
--  Reads the values of dimension “Time” for functional grid attribute
+-  Reads the values of dimension "Time" for functional grid attribute
 
 Format
 ------
