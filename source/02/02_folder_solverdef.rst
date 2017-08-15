@@ -24,7 +24,7 @@ iRIC のインストールフォルダ の下にある "solvers"
    :header-rows: 1
 
 ソルバー定義ファイルは、マークアップ言語の一種であるXML言語で記述します。
-XML言語の基礎については 5.5 を参照してください。
+XML言語の基礎については :ref:`xml_basics` を参照してください。
 
 この節では、ソルバー定義ファイルを、:numref:`infos_to_define_in_solverdef`
 に示した順で作成していきます。

@@ -65,5 +65,6 @@ gfortran, Intel Fortran Compiler
 :ref:`solver_dev_skeleton` と同様の手順で、iRIC からソルバーが正しく起動できるか
 確認します。エラーメッセージが表示されずに終了すれば成功です。
 
-この節で追加した関数の詳細については、6.3.2, 6.3.3, 6.3.15
+この節で追加した関数の詳細については、
+:ref:`iriclib_open_cgns`, :ref:`iriclib_init_iriclib`, :ref:`iriclib_close_cgns`
 を参照してください。

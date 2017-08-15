@@ -8,8 +8,8 @@
 sample.f90 という名前で保存します。この時点では、ソルバーは何もしていません。
 
 このソースコードをコンパイルします。コンパイル方法は、コンパイラによって異なります。
-gfortran, Intel Fortran Compiler でのコンパイル方法を7.2.1で解説していますので、
-参考にしてください。
+Intel Fortran Compiler, gfortran でのコンパイル方法を
+:ref:`how_to_link` で解説していますので、参考にしてください。
 
 .. code-block:: fortran
    :caption: サンプルソルバー ソースコード

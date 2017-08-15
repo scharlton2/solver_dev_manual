@@ -1,3 +1,5 @@
+.. _special_names:
+
 特別な格子属性、計算結果の名前について
 ========================================
 
@@ -24,7 +26,7 @@ iRIC では、特別な目的で用いる格子属性、計算結果について
 Item 要素の name 属性に指定します。caption 属性は任意に設定できます。
 定義例を :numref:`elevation_def_example` に示します。
 
-.. code-block: xml
+.. code-block:: xml
    :name: elevation_def_example
    :caption: Elevation 要素の定義例
    
@@ -36,12 +38,13 @@ Item 要素の name 属性に指定します。caption 属性は任意に設定�
 iRIC で読み込まれます。格子生成プログラムで Elavtion を出力する処理の例を
 :numref:`elevation_output_example` に示します。
 
-.. code-block: fortran
+.. code-block:: fortran
    :name: elevation_output_example
    :caption: 格子生成プログラムでの、Elevation を出力するソースコードの例
 
    cg_iric_write_grid_real_node_f("Elevation", elevation, ier);
 
+.. _special_result_names:
 
 計算結果
 ---------
@@ -70,7 +73,7 @@ iRIC で読み込まれます。格子生成プログラムで Elavtion を出�
      - 計算結果の有効・無効フラグ。無効な (水がない) 領域では 0、有効な (水がある) 領域では 1 を出力します。
      - 
 
-.. code-block: fortran
+.. code-block:: fortran
    :name: special_result_output_example
    :caption: 特別な名前の計算結果を出力するソースコードの例
 
