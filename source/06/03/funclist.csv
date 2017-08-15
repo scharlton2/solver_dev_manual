@@ -1,0 +1,109 @@
+Classification,Name,Description,Multi
+Opening a CGNS file,cg_open_f,Opens a CGNS file,X
+Initializing iRIClib,cg_iric_init_f,Initializes the CGNS file for reading and writing,X
+Initializing iRIClib,cg_iric_initread_f,Initializes the CGNS file for reading,X
+Setting up options,cg_initoption_f,Set up solver option,X
+Reading the calculation conditions,cg_iric_read_integer_f,Gets the value of an integer variable,O
+Reading the calculation conditions,cg_iric_read_real_f,Gets the value of a real (double-precision) variable,O
+Reading the calculation conditions,cg_iric_read_realsingle_f,Gets the value of a real (single-precision) variable,O
+Reading the calculation conditions,cg_iric_read_string_f,Gets the value of a string-type variable,O
+Reading the calculation conditions,cg_iric_read_functionalsize_f,Gets the size of a functional-type variable,O
+Reading the calculation conditions,cg_iric_read_functional_f,Gets the value of a functional-type double-precision variable,O
+Reading the calculation conditions,cg_iric_read_functional_realsingle_f,Gets the value of a functional-type single-precision variable,O
+Reading the calculation conditions,cg_iric_read_functionalwithname_f,Gets the value of a functional-type variable (with multiple values) ,O
+Reading a calculation grid,cg_iric_gotogridcoord2d_f,Makes preparations for reading a grid,O
+Reading a calculation grid,cg_iric_gotogridcoord3d_f,Makes preparations for reading a grid,O
+Reading a calculation grid,cg_iric_getgridcoord2d_f,Reads the x and y coordinates of a grid,O
+Reading a calculation grid,cg_iric_getgridcoord3d_f,"Reads the x, y and z coordinates of a grid",O
+Reading a calculation grid,cg_iric_read_grid_integer_node_f,Reads the integer attribute values defined for grid nodes,O
+Reading a calculation grid,cg_iric_read_grid_real_node_f,Reads double-precision attribute values defined for grid nodes,O
+Reading a calculation grid,cg_iric_read_grid_integer_cell_f,Reads the integer attribute values defined for cells,O
+Reading a calculation grid,cg_iric_read_grid_real_cell_f ,Reads the double-precision attribute values defined for cells ,O
+Reading a calculation grid,cg_iric_read_complex_count_f,Reads the number of groups of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_integer_f,Reads the integer attribute values of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_real_f,Reads the double precision attribute values of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_realsingle_f,Reads the single precision attribute values of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_string_f,Reads the string attribute values of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_functionalsize_f,Checks the size of a functional-type attribute of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_functional_f,Reads functional attribute data of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_complex_functionalwithname_f,Reads functional attribute of complex type grid attribute (with multiple values),O
+Reading a calculation grid,cg_iric_read_complex_functional_realsingle_f,Reads functional attribute data of complex type grid attribute,O
+Reading a calculation grid,cg_iric_read_grid_complex_node_f,Reads the complex attribute values defined for grid nodes,O
+Reading a calculation grid,cg_iric_read_grid_complex_cell_f,Reads the complex attribute values defined for grid cells,O
+Reading a calculation grid,cg_iric_read_grid_functionaltimesize_f,Reads the number of values of dimension ÅgTimeÅh for functional grid attribute,O
+Reading a calculation grid,cg_iric_read_grid_functionaltime_f,Reads the values of dimension ÅgTimeÅh for functional grid attribute ,O
+Reading a calculation grid,cg_iric_read_grid_functionaldimensionsize_f,Reads the number of values of dimension for functional grid attribute,O
+Reading a calculation grid,cg_iric_read_grid_functionaldimension_integer_f,Reads the values of integer dimension for functional grid attribute,O
+Reading a calculation grid,cg_iric_read_grid_functionaldimension_real_f,Reads the values of double-precision dimension for functional grid attribute,O
+Reading a calculation grid,cg_iric_read_grid_functional_integer_node_f,Reads the values of functional integer grid attribute with dimension ÅgTimeÅh definied at grid nodes.,O
+Reading a calculation grid,cg_iric_read_grid_functional_real_node_f,Reads the values of functional double-precision grid attribute with dimension ÅgTimeÅh definied at grid nodes.,O
+Reading a calculation grid,cg_iric_read_grid_functional_integer_cell_f,Reads the values of functional integer grid attribute with dimension ÅgTimeÅh definied at grid cells.,O
+Reading a calculation grid,cg_iric_read_grid_functional_real_cell_f,Reads the values of functional double-precision grid attribute with dimension ÅgTimeÅh definied at grid cells.,O
+Reading boundary conditions,cg_iric_read_bc_count_f,Reads the number of boundary conditions,O
+Reading boundary conditions,cg_iric_read_bc_indicessize_f,Reads the number of elements (nodes or cells) where boundary conditions are assigned.,O
+Reading boundary conditions,cg_iric_read_bc_indices_f,Reads the list of indices of elements (nodes or cells) where boundary conditions are assigned.,O
+Reading boundary conditions,cg_iric_read_bc_integer_f,Gets the value of an integer boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_real_f,Gets the value of an real (double-precision) boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_realsingle_f,Gets the value of an real (single-precision) boundary condition ,O
+Reading boundary conditions,cg_iric_read_bc_string_f,Gets the value of an string-type boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_functionalsize_f,Gets the size of an functional-type boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_functional_f,Gets the value of an functional-type double-precision boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_functional_realsingle_f,Gets the value of an functional-type single-precision boundary condition,O
+Reading boundary conditions,cg_iric_read_bc_functionalwithname_f,Gets the value of a functional-type boundary condition (with multiple values),O
+Reading geographic data,cg_iric_read_geo_count_f,Reads the number of geographic data,O
+Reading geographic data,cg_iric_read_geo_filename_f,Reads the file name and data type of geographic data,O
+Reading geographic data,iric_geo_polygon_open_f,Opens the geographic data file that contains polygon data,X
+Reading geographic data,iric_geo_polygon_read_integervalue_f,Reads the value of polygon data as integer,X
+Reading geographic data,iric_geo_polygon_read_realvalue_f,Reads the value of polygon datas double precision real,X
+Reading geographic data,iric_geo_polygon_read_pointcount_f,Reads the number of polygon vertices,X
+Reading geographic data,iric_geo_polygon_read_points_f,Reads the coorinates of polygon vertices,X
+Reading geographic data,iric_geo_polygon_read_holecount_f,Reads the number of holes in the polygon,X
+Reading geographic data,iric_geo_polygon_read_holepointcount_f,Reads the number of vertices of hole polygon,X
+Reading geographic data,iric_geo_polygon_read_holepoints_f,Reads the coordinates of hole polygon vertices,X
+Reading geographic data,iric_geo_polygon_close_f,Closes the geographic data file,X
+Reading geographic data,iric_geo_riversurvey_open_f,Opens the geographic data file that contains river survey data,X
+Reading geographic data,iric_geo_riversurvey_read_count_f,Reads the number of the crosssections in river survey data,X
+Reading geographic data,iric_geo_riversurvey_read_position_f,Reads the coordinates of the crosssection center point,X
+Reading geographic data,iric_geo_riversurvey_read_direction_f,Reads the direction of the crosssection as normalized vector,X
+Reading geographic data,iric_geo_riversurvey_read_name_f,Reads the name of the crosssection as string,X
+Reading geographic data,iric_geo_riversurvey_read_realname_f,Reads the name of the crosssection as real number,X
+Reading geographic data,iric_geo_riversurvey_read_leftshift_f,Reads the shift offset value of the crosssection,X
+Reading geographic data,iric_geo_riversurvey_read_altitudecount_f,Reads the number of altitude data of the crosssection,X
+Reading geographic data,iric_geo_riversurvey_read_altitudes_f,Reads the altitude data of the crosssection,X
+Reading geographic data,iric_geo_riversurvey_read_fixedpointl_f,Reads the data of left bank extension line of the crosssection,X
+Reading geographic data,iric_geo_riversurvey_read_fixedpointr_f,Reads the data of right bank extension line of the crosssection,X
+Reading geographic data,iric_geo_riversurvey_read_watersurfaceelevation_f,Reads the water elevation at the crosssection,X
+Reading geographic data,iric_geo_riversurvey_close_f,Closes the geographic data file,X
+Outputting a calculation grid,cg_iric_writegridcoord1d_f,Outputs a one-dimensional structured grid,O
+Outputting a calculation grid,cg_iric_writegridcoord2d_f,Outputs a two-dimensional structured grid,O
+Outputting a calculation grid,cg_iric_writegridcoord3d_f,Outputs a three-dimensional structured grid,O
+Outputting a calculation grid,cg_iric_write_grid_integer_node_f,Outputs a grid attributed defined at grid nodes with integer values.,O
+Outputting a calculation grid,cg_iric_write_grid_real_node_f,Outputs a grid attributed defined at grid nodes with real number (double-precision) values.,O
+Outputting a calculation grid,cg_iric_write_grid_integer_cell_f,Outputs a grid attributed defined at grid cells with integer values.,O
+Outputting a calculation grid,cg_iric_write_grid_real_cell_f,Outputs a grid attributed defined at grid cells with real number (double-precision) values.,O
+Outputting time (or iteration count) information,cg_iric_write_sol_time_f,Outputs time,O
+Outputting time (or iteration count) information,cg_iric_write_sol_iteration_f,Outputs the iteration count,O
+Outputting calculation results,cg_iric_write_sol_gridcoord2d_f,Outputs a two-dimensional structured grid,O
+Outputting calculation results,cg_iric_write_sol_gridcoord3d_f,Outputs a three-dimensional structured grid,O
+Outputting calculation results,cg_iric_write_sol_baseiterative_integer_f,Outputs integer-type calculation results,O
+Outputting calculation results,cg_iric_write_sol_baseiterative_real_f,Outputs double-precision real-type calculation results,O
+Outputting calculation results,cg_iric_write_sol_integer_f,"Outputs integer-type calculation results, having a value for each grid node",O
+Outputting calculation results,cg_iric_write_sol_real_f,"Outputs double-precision real-type calculation results, having a value for each grid node",O
+Outputting calculation results (particles),cg_iric_write_sol_particle_pos2d_f,Outputs particle positions (two-dimensions),O
+Outputting calculation results (particles),cg_iric_write_sol_particle_pos3d_f,Outputs particle positions (three-dimensions),O
+Functions to call befor and after outputting calculation results,iric_check_cancel_f,Checks whether user canceled solver execution,X
+Functions to call befor and after outputting calculation results,iric_check_lock_f,Checks whether the CGNS file is locked by GUI,X
+Functions to call befor and after outputting calculation results,iric_write_sol_start_f,Inform the GUI that the solver started outputting result,X
+Functions to call befor and after outputting calculation results,iric_write_sol_end_f,Inform the GUI that the solver finished outputting result,X
+Functions to call befor and after outputting calculation results,cg_iric_flush_f,Flush calculation result into CGNS file,X
+Reading calculation results,cg_iric_read_sol_count_f,Reads the number of calculation results,O
+Reading calculation results,cg_iric_read_sol_time_f,Reads the time value,O
+Reading calculation results,cg_iric_read_sol_iteration_f,Reads the loop iteration value,O
+Reading calculation results,cg_iric_read_sol_baseiterative_integer_f,Reads the integer-type calculation result value,O
+Reading calculation results,cg_iric_read_sol_baseiterative_real_f,Reads the double-precision real-type calculation result value,O
+Reading calculation results,cg_iric_read_sol_gridcoord2d_f,Reads the 2D structured grid (for moving grid calculation),O
+Reading calculation results,cg_iric_read_sol_gridcoord3d_f,Reads the 3D structured grid (for moving grid calculation),O
+Reading calculation results,cg_iric_read_sol_integer_f,"Reads the integer-type calculation result, having a value for each grid node",O
+Reading calculation results,cg_iric_read_sol_real_f,"Reads the double-precision real-type calculation result, having a value for each grid node",O
+Outputting error codes,cg_iric_write_errorcode_f,Outputs error code,O
+Closing the CGNS file,cg_close_f,Closes a CGNS file,X
