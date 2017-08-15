@@ -40,7 +40,7 @@ The added part is shown with highlight.
 
 Now make sure that solver definition file is arranged correctly.
 
-Launch iRIC, and start a new project with solver "Sample Solver". When
+Launch iRIC, and start a new project with solver \\"Sample Solver\\". When
 you create or import a grid, the [Pre-processing Window] will become
 like  :numref:`preprocessor_with_boundarycondition`.
 When you do now know how to create or imprt a grid, refer to the User Manual.
@@ -50,7 +50,6 @@ When you do now know how to create or imprt a grid, refer to the User Manual.
 .. figure:: images/preprocessor_with_boundarycondition.png
 
    The [Pre-processing Window] after creating a grid
-
 
 Click on [Add new Inflow] on the context menu on [Boundary Condition]
 node, and The [Boundary Condition] dialog
@@ -65,7 +64,7 @@ will open, and you can define boundary condition on this dialog.
 
 When you have finished defining boundary condition, click on [OK]. Drag
 around the grid nodes to select nodes, and click on [Assign Condition]
-in the context menu. :numref:`preprocessor_after_setting_bc
+in the context menu. :numref:`preprocessor_after_setting_bc`
 shows an example of a grid with boundary condition.
 
 .. _preprocessor_after_setting_bc:
@@ -76,7 +75,7 @@ shows an example of a grid with boundary condition.
 
 What it comes down to is:
 
--  Boundary condition is defined Grid attribute is defined with "Item"
+-  Boundary condition is defined Grid attribute is defined with \\"Item\\"
    element under "GridRelatedCondition" element.
 
   -  The structure under "Item" element is the same to that for

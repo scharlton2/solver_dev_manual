@@ -15,8 +15,7 @@ Example
 
    <Label caption="Start Time" />
 
-Refer to :numref:`free_layout_example` for Label element definition example.
-
+Refer to :ref:`free_layout_example` for Label element definition example.
 
 Attributes
 ----------

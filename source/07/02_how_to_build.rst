@@ -11,9 +11,9 @@ compilers commonly.
 
 .. _library_file_names:
 
-.. list-table::Files prepared fore each compiler
+.. list-table:: Files prepared fore each compiler
 
-   * - コンパイラ
+   * - Compiler
      - iRIClib library
      - cgnslib libraray
    * - Intel Fortran Compiler
@@ -34,7 +34,7 @@ Put solver.f, cgnsdll_x64_ifort.lib, iriclib_x64_ifort.lib, cgnslib_f.h, iriclib
 in a same folder, move to that folder with command prompt, and run the following
 command to create an executable file named solver.exe.
 
-.. code-block:: Batchfile
+.. code-block:: batch
 
    ifort solver.f cgnsdll_x64_ifort.lib iriclib_x64_ifort.lib /MD
 
@@ -49,7 +49,7 @@ Put solver.f, cgnsdll.lib, iriclib.lib, cgnslib_f.h, iriclib_f.h in a same folde
 move to that folder with command prompt, and run the following command to
 create an executable file named solver.exe.
 
-.. code-block:: Batchfile
+.. code-block:: batch
 
    gfortran -c solver.f
    g++ -o solver.exe -lgfortran solver.o cgnsdll.lib iriclib.lib

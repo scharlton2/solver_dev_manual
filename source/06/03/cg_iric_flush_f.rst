@@ -5,6 +5,7 @@ cg_iric_flush_f
 
 Format
 ------
+
 .. code-block:: fortran
 
    call cg_iric_flush_f(filename, fin, ier)

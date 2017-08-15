@@ -12,7 +12,7 @@ Grid attributes
 
 .. _special_grid_att_names:
 
-.. list-table:: 格子属性について定義された特別な名前
+.. list-table:: Special names for grid attributes
    :header-rows: 1
 
    * - Name
@@ -26,7 +26,8 @@ When you use \\"Elevation\\" for grid attribute, define an Item element
 as a child of GridRelatedCondition element, like :numref:`elevation_def_example`.
 You can change caption attribute value to an arbitrary value.
 
-.. code-block: xml
+
+.. code-block:: xml
    :name: elevation_def_example
    :caption: Example of \\"Elevation\\" element definition
    
@@ -39,7 +40,7 @@ use name \\"Elevation\\". iRIC will automatically load \\"Elevation\\" value.
 
 :numref:`elevation_output_example` shows an example of code written in Fortran.
 
-.. code-block: fortran
+.. code-block:: fortran
    :name: elevation_output_example
    :caption: Example of source code to output elevation value in grid generating program
 
@@ -76,7 +77,7 @@ that outputs all special calculation result.
        (i. e. wet region), the value is 1.
      - 
 
-.. code-block: fortran
+.. code-block:: fortran
    :name: special_result_output_example
    :caption: Example of source code to output calculation results with the special names
 
