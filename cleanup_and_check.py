@@ -25,7 +25,7 @@ def cleanup_and_check_file(filename):
                 # print(line)
                 code_mode = True
         else:
-            if len(line.strip()) != 0 and not line[0] == ' ':
+            if len(line.strip()) != 0 and not line[0] == ' ' and not 'code-block' in line:
                 # print('code-block ended')
                 # print(line)
                 code_mode = False
