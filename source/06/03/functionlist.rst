@@ -1,3 +1,5 @@
+.. _iriclib_list_of_functions:
+
 サブルーチン一覧
 =================
 

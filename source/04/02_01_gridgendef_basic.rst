@@ -4,8 +4,8 @@
 --------------
 
 ソルバーの基本情報を作成します。 :numref:`gridgendef_example1` に示すような
-ファイルを作り、 :ref:`create_gridgen_folder` で作成した "example" フォルダ
-の下に "definition.xml" の名前で保存します。
+ファイルを作り、 :ref:`create_gridgen_folder` で作成した \\"example\\" フォルダ
+の下に \\"definition.xml\\" の名前で保存します。
 
 .. code-block:: xml
    :caption: 基本情報を記述した格子生成プログラム定義ファイルの例
@@ -41,7 +41,7 @@
 iRIC を起動します。 :numref:`iric_start_dialog_for_gridgendef`
 に示すダイアログが表示されますので、「新しいプロジェクト」ボタンを押します。
 :numref:`solver_select_dialog_for_gridgendef`
-に示すダイアログが表示されますので、 "Nays2D"  を選択して "OK" ボタンを押し、
+に示すダイアログが表示されますので、 \\"Nays2D\\"  を選択して \\"OK\\" ボタンを押し、
 新しいプロジェクトを開始します。
 
 次に、メニューから以下の操作を行い、格子生成アルゴリズムの選択画面を表示します。
@@ -50,7 +50,7 @@ iRIC を起動します。 :numref:`iric_start_dialog_for_gridgendef`
 
 格子生成アルゴリズムの選択ダイアログの表示例を
 :numref:`gridgen_select_dialog` に示します。
-ここに、先ほど作成した定義ファイルで指定した "Sample Grid Creator"
+ここに、先ほど作成した定義ファイルで指定した \\"Sample Grid Creator\\"
 が表示されていることを確認します。確認できたら、キャンセルボタンを押します。
 
 .. _iric_start_dialog_for_gridgendef:

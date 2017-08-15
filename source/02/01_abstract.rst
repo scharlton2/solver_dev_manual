@@ -6,7 +6,7 @@
 iRIC 上で動作するソルバーを開発するには、:numref:`files_related_to_solver`
 に示すようなファイルを作成、配置する必要があります。
 
-:numref:`files_related_to_solver` に示したファイルは iRIC インストール先の下の "solvers" フォルダの下に
+:numref:`files_related_to_solver` に示したファイルは iRIC インストール先の下の \\"solvers\\" フォルダの下に
 自分が開発するソルバー専用のフォルダを作成し、その下に配置します。
 
 .. _files_related_to_solver:

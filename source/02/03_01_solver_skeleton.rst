@@ -28,18 +28,18 @@ Intel Fortran Compiler, gfortran でのコンパイル方法を
 コンパイルが成功したら、できた実行プログラムを
 :ref:`create_solverdef_folder` で作成したフォルダにコピーし、
 名前を :ref:`solverdef_create_basic_info` で executable 属性に指定した名前
-(この例なら "solver.exe") に変更してください。
+(この例なら \\"solver.exe\\") に変更してください。
 またこの時、ソルバーの実行に必要な DLLも同じフォルダにコピーしてください。
 
 iRIC からソルバーが正しく起動できるか確認します。
 
-"Example Solver" をソルバーに用いるプロジェクトを新しく開始し、
+\\"Example Solver\\" をソルバーに用いるプロジェクトを新しく開始し、
 以下の操作を行って下さい。
 
 **メニュー**: 計算(C) --> 実行(R)
 
 ソルバーコンソールが起動され、 :numref:`solverconsole_only_message` に示すように
-"Sample Program" という文字列が表示されれば、ソルバーを iRIC から正しく起動できています。
+\\"Sample Program\\" という文字列が表示されれば、ソルバーを iRIC から正しく起動できています。
 
 .. _solverconsole_only_message:
 

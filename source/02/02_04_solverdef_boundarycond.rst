@@ -42,7 +42,7 @@ BoundaryCondition 要素を :numref:`solverdef_example_with_boundarycond` に
 
 正しくソルバー定義ファイルが作成できているか確認します。
 
-iRIC を起動して、ソルバー "Sample Solver" の新しいプロジェクトを開始します。
+iRIC を起動して、ソルバー \\"Sample Solver\\" の新しいプロジェクトを開始します。
 格子を作成したりインポートしたりすると、 :numref:`preprocessor_with_boundarycondition`
 のようになります。なお、格子の作成やインポートの方法が分からない場合、
 ユーザマニュアルを参照して下さい。

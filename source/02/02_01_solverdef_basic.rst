@@ -4,8 +4,8 @@
 --------------
 
 ソルバーの基本情報を作成します。 :numref:`solverdef_example1` に示すような
-ファイルを作り、 :ref:`create_solverdef_folder` で作成した "example" フォルダ
-の下に "definition.xml" の名前で保存します。
+ファイルを作り、 :ref:`create_solverdef_folder` で作成した \\"example\\" フォルダ
+の下に \\"definition.xml\\" の名前で保存します。
 
 .. code-block:: xml
    :caption: 基本情報を記述したソルバー定義ファイルの例
@@ -45,7 +45,7 @@
 iRIC を起動します。 :numref:`iric_start_dialog_for_solverdef`
 に示すダイアログが表示されますので、「新しいプロジェクト」ボタンを押します。
 :numref:`solver_select_dialog_for_solverdef` に示すダイアログが表示されますので、
-ソルバーのリストに "Sample Solver" があるか確認します。あったらそれをクリックし、
+ソルバーのリストに \\"Sample Solver\\" があるか確認します。あったらそれをクリックし、
 右側に先ほど指定した属性が正しく表示されるか確認します。
 
 なお、このダイアログでは、以下の属性については表示されません。

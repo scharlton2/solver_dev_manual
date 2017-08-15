@@ -13,12 +13,13 @@ iRICでは、既存のCGNSファイルの計算結果を読み込み、分析（
 
 一つのソルバーで複数の CGNS ファイルを扱う場合、操作対象の CGNS ファイルを
 指定するために、 :ref:`how_to_develop_solver` で使用した関数とは
-別の関数を用います (6.4.1参照) 。
-複数 CGNS ファイル用の関数は、末尾が "_mul_f" で終わっており、
+別の関数を用います (:ref:`iriclib_list_of_functions` 参照) 。
+複数 CGNS ファイル用の関数は、末尾が \\"_mul_f\\" で終わっており、
 ファイルIDを第一引数とします。
 また、計算結果読み込み用に既存のCGNSを開く際は、
 cg_iric_init_f の代わりに cg_iric_initread_f 
 を用いて初期化を行います。
+
 複数のCGNSファイルを扱ったソースコードの例を
 :numref:`solver_with_multi_cgns`
 に示します。
