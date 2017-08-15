@@ -4,6 +4,14 @@ Sctipt to cleanup and check *.rst files under source folder.
 
 import os
 
+def escape_characters(line, chars):
+    """escape characters in chars in line"""
+    for c in chars:
+        line = line.replace('\\\\' + c, c)
+        line = line.replace('\\' + c, c)
+        line = line.replace(c, '\\\\' + c)
+    return line
+
 def cleanup_and_check_file(filename):
     """Cleanup and check file"""
     (n, ext) = os.path.splitext(filename)
@@ -31,7 +39,7 @@ def cleanup_and_check_file(filename):
                 code_mode = False
 
         if not code_mode:
-            line = line.replace('\\\\"', '"').replace('"', '\\\\"')
+            line = escape_characters(line, ["\"", "'"])
 
         output_lines.append(line)
 

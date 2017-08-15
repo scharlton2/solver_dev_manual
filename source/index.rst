@@ -1,5 +1,5 @@
-iRIC Software Developer's Manual
-================================
+iRIC Software Developer\\'s Manual
+===================================
 
 .. contents: Contents
    :depth: 3

@@ -8,7 +8,7 @@ boundary conditions.
 
 iRIC will output calculation conditions, grids, grid attributes, and
 boundary condition according to the solver definition file that
-you've created in :ref:`how_to_create_solver_def_file`.
+you\\'ve created in :ref:`how_to_create_solver_def_file`.
 So, the solver has to load them to coincide with the description
 in the solver definition file.
 

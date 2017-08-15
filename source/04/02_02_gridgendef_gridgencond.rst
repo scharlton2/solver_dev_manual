@@ -108,8 +108,8 @@ Now make sure that grid generating program definition file is arranged
 correctly. Do the operation you did again, to show the [Grid Creation]
 dialog (:numref:`gridgen_cond_dialog_advanced`).
 
-Now you'll see that the new group \\"Elevation Output\\" in the group
-list. You'll also notice that \\"Value\\" item is
+Now you\\'ll see that the new group \\"Elevation Output\\" in the group
+list. You\\'ll also notice that \\"Value\\" item is
 enabled only when \\"Output\\" value is \\"Enabled\\".
 
 .. _gridgen_cond_dialog_advanced:

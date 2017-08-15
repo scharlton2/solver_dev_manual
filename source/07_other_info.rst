@@ -1,3 +1,5 @@
+.. _other_info:
+
 Other Informations
 ===================
 

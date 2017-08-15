@@ -138,7 +138,7 @@ operation you did again, to open The [Calculation Condition] dialog
 (:numref:`calccond_dialog_with_watersurfaceelevation`).
 
 Now you can see that the new group \\"Water Surface Elevation\\" is added
-in the group list. You'll also notice that the
+in the group list. You\\'ll also notice that the
 \\"Constant Value\\" item is enabled only when \\"Type\\" value is \\"Constant\\",
 and the \\"Time Dependent Value\\" item is enabled only when \\"Type\\" value is
 \\"Time Dependent\\".
