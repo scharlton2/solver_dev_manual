@@ -11,8 +11,7 @@ definitions to the definition file you created, as shown in
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of grid generating program definition file that now has
-error codes
+   :caption: Example of grid generating program definition file that now has error codes
    :name: gridgendef_example_with_errorcode
    :linenos:
    :emphasize-lines: 5-7

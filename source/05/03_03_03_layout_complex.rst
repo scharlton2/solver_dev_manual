@@ -1,4 +1,5 @@
 .. _free_layout_example:
+
 Free layout
 ------------
 

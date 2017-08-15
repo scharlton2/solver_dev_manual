@@ -4,7 +4,7 @@ CalculationCondition
 CalculationCondition element contains calculation condition information.
 
 Example
-----
+---------
 
 .. code-block:: xml
    :caption: Example of CalculationCondition definition

@@ -10,8 +10,7 @@ to the solver definition file you created, as shown in
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of solver definition file that now has grid related
-condition (abbr.)
+   :caption: Example of solver definition file that now has grid related condition (abbr.)
    :name: solverdef_example_with_gridcond
    :linenos:
    :emphasize-lines: 4-17
@@ -64,7 +63,7 @@ When you edit the grid attribute "Elevation" with the following
 procedure, the [Edit Elevation] dialog
 (:numref:`dialog_to_edit_elevation`)
 will open, and you can check that you can input real number as
-"Elevation" value.
+\\"Elevation\\" value.
 
 -  Select [Grid] --> [Node attributes] --> [Elevation] in the [Object
    Browser].
@@ -95,12 +94,13 @@ What it comes down to is:
 -  Grid attribute is defined with "Item" element under
    "GridRelatedCondition" element.
 
--  The structure under "Item" element is basically the same to that for
+-  The structure under \\"Item\\" element is basically the same to that for
    calculation condition, but there are different points:
-  -  You have to specify "position" attribute to determine whether that
+
+  -  You have to specify \\"position\\" attribute to determine whether that
      attribute is defined at nodes or cells.
-  -  You can not use types "String", "Functional", "File name" and "Folder
-     name".
+  -  You can not use types "String", \\"Functional\\", \\"File name\\"
+     and \\"Folder name\\".
   -  You can not define dependency.
   -  You can define dimension of the attribute, using "Dimension" element.
 

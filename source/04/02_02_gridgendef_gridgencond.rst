@@ -13,8 +13,7 @@ is now as shown in :numref:`gridgendef_example_with_gridgencond`.
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of grid generating program definition file that now has
-grid generating condition definition
+   :caption: Example of grid generating program definition file that now has grid generating condition definition
    :name: gridgendef_example_with_gridgencond
    :linenos:
    :emphasize-lines: 11-18
@@ -72,8 +71,7 @@ Now add one more group and add grid generating condition items. Add
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of grid generating program definition file that now has
-grid generating condition definition
+   :caption: Example of grid generating program definition file that now has grid generating condition definition
    :name: gridgendef_example_with_gridgencond_advanced
    :linenos:
    :emphasize-lines: 3-15

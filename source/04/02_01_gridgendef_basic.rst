@@ -9,8 +9,7 @@ with name "definition.xml" under "example" folder that you created in
 :ref:`create_gridgen_folder`.
 
 .. code-block:: xml
-   :caption: Example grid generating program definition file that contains
-basic information
+   :caption: Example grid generating program definition file that contains basic information
    :name: gridgendef_example1
    :linenos:
 

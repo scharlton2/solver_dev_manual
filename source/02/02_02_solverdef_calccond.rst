@@ -12,8 +12,7 @@ Solver definition file content is now as shown in
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of solver definition file that now has calculation
-condition definition
+   :caption: Example of solver definition file that now has calculation condition definition
    :name: solverdef_example_with_calccond
    :linenos:
    :emphasize-lines: 14-23
@@ -92,8 +91,7 @@ shows the solver definition file that has definition of
 "Water Surface Elevation" Tab. The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of solver definition file that now has calculation
-condition definition (abbr.)
+   :caption: Example of solver definition file that now has calculation condition definition (abbr.)
    :name: solverdef_example_with_calccond_additional
    :linenos:
    :emphasize-lines: 3-22

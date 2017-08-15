@@ -50,8 +50,7 @@ show the example of editing a dictionary file. As the
 example shows, add translated string in "translation" element.
 
 .. code-block:: xml
-   :caption: The Dictionary file of grid generating program definition file
-(before editing)
+   :caption: The Dictionary file of grid generating program definition file (before editing)
    :name: translation_dict_before_gridgen
    :linenos:
 
@@ -61,8 +60,7 @@ example shows, add translated string in "translation" element.
    </message>
 
 .. code-block:: xml
-   :caption: The Dictionary file of grid generating program definition file
-(after editing)
+   :caption: The Dictionary file of grid generating program definition file (after editing)
    :name: translation_dict_after_gridgen
    :linenos:
    :emphasize-lines: 3

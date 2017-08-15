@@ -2,15 +2,14 @@ Defining Boundary Conditions
 -----------------------------
 
 Define boundary conditions. You can define boundary conditions with
-"BoundaryCondition" element. Boundary conditions are not required.
+\\"BoundaryCondition\\" element. Boundary conditions are not required.
 
-Add definition of "Boundary Condition" to the solver definition file you
-created, as shown in :numref:`solverdef_example_with_boundarycond`.
+Add definition of \\"Boundary Condition\\" to the solver definition
+file you created, as shown in :numref:`solverdef_example_with_boundarycond`.
 The added part is shown with highlight.
 
 .. code-block:: xml
-   :caption: Example of solver definition file that now has boundary
-condition (abbr.)
+   :caption: Example of solver definition file that now has boundary condition (abbr.)
    :name: solverdef_example_with_boundarycond
    :linenos:
    :emphasize-lines: 4-21
@@ -39,7 +38,6 @@ condition (abbr.)
      </BoundaryCondition>
    </SolverDefinition>
 
-
 Now make sure that solver definition file is arranged correctly.
 
 Launch iRIC, and start a new project with solver "Sample Solver". When
@@ -64,7 +62,6 @@ will open, and you can define boundary condition on this dialog.
 .. figure:: images/boundarycondition_edit_dialog.png
 
    The [Boundary Condition] dialog
-
 
 When you have finished defining boundary condition, click on [OK]. Drag
 around the grid nodes to select nodes, and click on [Assign Condition]

@@ -27,7 +27,7 @@ Attributes
    :header-rows: 1
 
 Child elements
---------
+----------------
 
 .. csv-table:: Child elements of Item
    :file: item_elements.csv
