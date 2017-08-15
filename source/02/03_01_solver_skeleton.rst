@@ -8,8 +8,8 @@ code in :numref:`solver_skeleton`, and save as \\"sample.f90\\".
 At this point, the solver does nothing.
 
 Compile this source code. The way to compile a source code differs by
-the compiler. Refer to Section 7.2.1 for the procedure to compile using
-gfortran and Intel Fortran Compiler.
+the compiler. Refer to :ref:`how_to_link` for the procedure
+to compile using Intel Fortran Compiler and gfortran.
 
 .. code-block:: fortran
    :caption: Sample solver source code

@@ -1,3 +1,5 @@
+.. _iriclib_init_iriclib:
+
 Initializing iRIClib
 ========================
 

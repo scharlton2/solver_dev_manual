@@ -12,9 +12,9 @@ iRIC will handle the file name of calculation data file as a the first
 argument, so open that file.
 
 The way to handle the number of arguments and the arguments differs by
-compilers. Refer to Section 7.1 for the way to handle them with gfortran
-and Intel Fortran Compiler. In this chapter we will add codes that can
-be compiled using Intel Fortran Compiler.
+compilers. Refer to :ref:`handling_arguments` for the way to
+handle them with Intel Fortran Compiler and gfortran. In this chapter
+we will add codes that can be compiled using Intel Fortran Compiler.
 
 Table :numref:`solver_with_open_close` shows the source code with the
 lines to open and close calculation data file. The added lines are shown
@@ -66,5 +66,6 @@ Compile and deploy the executable file, just like in
 Check whether it can be launched from iRIC successfully, just like in
 :ref:`solver_dev_skeleton`.
 
-Refer to Section 6.3.2, 6.3.3 and 6.3.13 for the details of the
+Refer to :ref:`iriclib_open_cgns`, :ref:`iriclib_init_iriclib` and
+:ref:`iriclib_close_cgns` for the details of the
 subroutines added in this section.

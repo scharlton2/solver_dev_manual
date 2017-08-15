@@ -1,3 +1,5 @@
+.. _iriclib_load_bc:
+
 Reading boundary conditions
 =================================
 

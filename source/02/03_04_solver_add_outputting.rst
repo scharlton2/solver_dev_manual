@@ -83,11 +83,13 @@ calculations. The added lines are shown with highlight.
      stop
    end program SampleProgram
 
-Refer to Section 6.3.10 and 6.3.12 for the details of the subroutines to
-output time and calculation results. Refer to Section 6.3.11 for the
+Refer to :ref:`iriclib_output_time` and :ref:`iriclib_output_result`
+for the details of the subroutines to
+output time and calculation results. Refer to 
+:ref:`iriclib_output_grid_in_sol` for the
 details of the subroutines to output the grid coordinates in case of
 moving grid.
 
 For the calculation results, some special names is named in iRIC. You
 should use that name for calculation results used for a certain purpose.
-Refer to Section 7.3 for the special names.
+Refer to :ref:`special_result_names` for the special names.

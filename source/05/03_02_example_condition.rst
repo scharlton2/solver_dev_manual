@@ -1,3 +1,5 @@
+.. _example_of_conditions:
+
 Example of condition to activate calculation conditions etc.
 =============================================================
 

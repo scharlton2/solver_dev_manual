@@ -1,3 +1,5 @@
+.. _iriclib_open_cgns:
+
 Opening a CGNS file
 ======================
 

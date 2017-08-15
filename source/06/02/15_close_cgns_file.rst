@@ -1,3 +1,5 @@
+.. _iriclib_close_cgns:
+
 Closing a CGNS file
 ======================
 

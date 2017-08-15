@@ -1,3 +1,5 @@
+.. _iriclib_output_time:
+
 Outputting time (or iteration count)
 =====================================
 

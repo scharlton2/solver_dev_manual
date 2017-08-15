@@ -138,9 +138,11 @@ attributes and boundary conditions are the same to the [name] attributes
 of Items defined in 
 :ref:`solverdef_define_calccond`, :ref:`solverdef_define_gridcond`.
 
-Refer to 5.3.1 for the relationship between definitions of calculation
-condition, grid attributes, boundary conditions and the iRIClib
+Refer to :ref:`calccond_def_examples` for the relationship between
+definitions of calculation condition, grid attributes,
+boundary conditions and the iRIClib
 subroutines to load them.
 
-Refer to 6.3.5, 6.3.6 and 6.3.7 for the detail of subroutines to load
-calculation condition, grids, and boundary conditions.
+Refer to :ref:`iriclib_load_calccond`, 
+:ref:`iriclib_load_grid` and :ref:`iriclib_load_bc` for the detail of
+subroutines to load calculation condition, grids, and boundary conditions.

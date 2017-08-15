@@ -1,3 +1,5 @@
+.. _special_names:
+
 Special names for grid attributes and calculation results
 ===========================================================
 
@@ -46,6 +48,7 @@ use name \\"Elevation\\". iRIC will automatically load \\"Elevation\\" value.
 
    cg_iric_write_grid_real_node_f("Elevation", elevation, ier);
 
+.. _special_result_names:
 
 Calculation results
 ----------------------

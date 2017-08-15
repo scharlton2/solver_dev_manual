@@ -1,3 +1,5 @@
+.. _examples_of_dialog_layout:
+
 Example of dialog layout definition
 ====================================
 

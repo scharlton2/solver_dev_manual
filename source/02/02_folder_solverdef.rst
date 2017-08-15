@@ -24,10 +24,10 @@ in :numref:`infos_to_define_in_solverdef`.
    :header-rows: 1
 
 Solver definition file is described in XML language. The basic grammer
-of XML language is explained in Section 5.6.
+of XML language is explained in :ref:`xml_basics`.
 
 In this section, we add definition information of a solver in the order
-shown in Table :numref:`infos_to_define_in_solverdef`.
+shown in :numref:`infos_to_define_in_solverdef`.
 
 .. toctree::
    :maxdepth: 4

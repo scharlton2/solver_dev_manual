@@ -1,3 +1,5 @@
+.. _iriclib_load_calccond:
+
 Reading calculation conditions
 ==============================================
 

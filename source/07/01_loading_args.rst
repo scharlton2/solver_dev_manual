@@ -1,3 +1,5 @@
+.. _handling_arguments:
+
 Handling command line arguments in Fortran programs
 ======================================================
 

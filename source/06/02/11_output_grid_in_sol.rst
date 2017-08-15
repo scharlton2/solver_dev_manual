@@ -1,3 +1,5 @@
+.. _iriclib_output_grid_in_sol:
+
 Outputting calculation grids (only in the case of a moving grid)
 =================================================================
 

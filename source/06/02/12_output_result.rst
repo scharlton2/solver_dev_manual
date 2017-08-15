@@ -1,3 +1,5 @@
+.. _iriclib_output_result:
+
 Outputting calculation results
 ==================================
 

@@ -1,3 +1,5 @@
+.. _how_to_link:
+
 Linking iRIClib, cgnslib using Fortran
 ===============================================
 
@@ -26,6 +28,8 @@ compilers commonly.
 We will explain the procedure to compile the source code (solver.f).
 We assume that the settings for compilers (like path settings)
 are already finished.
+
+.. _linking_on_ifort:
 
 Intel Fortran Compiler (Windows)
 ----------------------------------

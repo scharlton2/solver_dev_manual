@@ -70,4 +70,4 @@ Please note that the following attributes are not shown on this dialog:
    The [Select Solver] dialog
 
 You sould take care about name attribute and version attribute, when you
-want to update a solver. Please refer to Section 5.5 for the detail.
+want to update a solver. Please refer to :ref:`notice_about_version` for the detail.

@@ -105,5 +105,5 @@ What it comes down to is:
   -  You can define dimension of the attribute, using \\"Dimension\\" element.
 
 For grid attributes, iRIC defines some special names. For attributes for
-certain purposes, you should use those names. Refer to Section 7.3.1 for
-the special grid attribute names.
+certain purposes, you should use those names. Refer to
+:ref:`special_names` for the special grid attribute names.

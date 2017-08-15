@@ -1,0 +1,4 @@
+Element to increment,Condition to increment,Exmaple
+Major number,"When you changed a big modification so that the grid, calculation condition you created with older version will not be compatible to the new solver.",2.1 --> 3.0
+Minor number,"When you changed a small modification to calculation condition and grid. When a old project file that was created for an older solver is loaded, the default values are used for the new conditions, and that will cause no problem.",2.1 --> 2.2
+Fix number,"When you fixed bugs or changed inner algorithm. No modification is made to the interface (i. e. grid and calculation condition) is made.",2.1 --> 2.1.1
