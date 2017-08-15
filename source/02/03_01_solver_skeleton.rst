@@ -4,7 +4,7 @@ Creating a skelton
 -------------------
 
 First, create a scelton of a solver. Create a new file with the source
-code in :numref:`solver_skeleton`, and save as "sample.f90".
+code in :numref:`solver_skeleton`, and save as \\"sample.f90\\".
 At this point, the solver does nothing.
 
 Compile this source code. The way to compile a source code differs by
@@ -34,7 +34,7 @@ to run the solver.
 
 Now check whether it can be launched from iRIC successfully.
 
-Starts a new project that uses "Example Solver", and performs the
+Starts a new project that uses \\"Example Solver\\", and performs the
 following:
 
 **Menu bar**: [Simulation] (S) --> [Run] (R)

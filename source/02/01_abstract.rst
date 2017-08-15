@@ -7,9 +7,9 @@ river simulation, and output calculation results.
 To add a solver to iRIC, it is necessary to make and deploy files shown
 in :numref:`files_related_to_solver`.
 
-Solver developers have to create a new folder under "solvers" folder under
+Solver developers have to create a new folder under \\"solvers\\" folder under
 iRIC install folder, and deploy files in :numref:`files_related_to_solver`
-that you've prepared for your new solver.
+that you\\'ve prepared for your new solver.
 
 .. _files_related_to_solver:
 
@@ -54,7 +54,7 @@ translation\_ja\_JP.ts etc.
 Dictionary files for a solver definition file. It provides translation
 information for texts shown on dialogs or object browser in iRIC.
 Dictionary files are created as separate files for each language.
-For example, "translation\_ja\_JP.ts" for Japanese, "translation\_ka\_KR.ts"
+For example, \\"translation\_ja\_JP.ts\\" for Japanese, \\"translation\_ka\_KR.ts\\"
 for Korean.
 
 
@@ -62,13 +62,13 @@ README
 ------
 
 README is a text file that describes about the solver. The content of
-README is shown in the "Description" tab in the [Select Solver] dialog.
+README is shown in the \\"Description\\" tab in the [Select Solver] dialog.
 
 LICENSE
 -------
 
 LICENSE is a text file that describes about the license of the solver.
-The content of LICENSE is shown in the "License" tab in the
+The content of LICENSE is shown in the \\"License\\" tab in the
 [Select Solver] dialog.
 
 :numref:`relations_between_solver_and_files` shows the relationships of

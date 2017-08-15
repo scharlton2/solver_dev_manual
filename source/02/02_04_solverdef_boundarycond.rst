@@ -76,7 +76,7 @@ shows an example of a grid with boundary condition.
 What it comes down to is:
 
 -  Boundary condition is defined Grid attribute is defined with \\"Item\\"
-   element under "GridRelatedCondition" element.
+   element under \\"GridRelatedCondition\\" element.
 
-  -  The structure under "Item" element is the same to that for
+  -  The structure under \\"Item\\" element is the same to that for
      calculation condition.

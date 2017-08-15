@@ -4,7 +4,7 @@ Defining Grid attributes
 -------------------------
 
 Define grid attributes. Grid attributes are defined with
-"GridRelatedCondition" element. Add definition of grid related condition
+\\"GridRelatedCondition\\" element. Add definition of grid related condition
 to the solver definition file you created, as shown in
 :numref:`solverdef_example_with_gridcond`.
 The added part is shown with highlight.
@@ -38,7 +38,7 @@ The added part is shown with highlight.
 
 Now make sure that solver definition file is arranged correctly.
 
-Launch iRIC, and starts a new project with solver "Sample Solver".
+Launch iRIC, and starts a new project with solver \\"Sample Solver\\".
 Now you will see the [Pre-processing Window] like in
 :numref:`preprocessor_with_geographicdata`. 
 When you create or import a grid, the [Pre-processing Window] will become like in
@@ -59,7 +59,7 @@ refer to the User Manual.
 
    The [Pre-processing Window] after creating a grid
 
-When you edit the grid attribute "Elevation" with the following
+When you edit the grid attribute \\"Elevation\\" with the following
 procedure, the [Edit Elevation] dialog
 (:numref:`dialog_to_edit_elevation`)
 will open, and you can check that you can input real number as
@@ -76,8 +76,8 @@ will open, and you can check that you can input real number as
 
    The [Edit Elevation] dialog
 
-When you do the same operation against attribute "Obstacle" to edit
-"Obstacle" value, the [Obstacle edit dialog]
+When you do the same operation against attribute \\"Obstacle\\" to edit
+\\"Obstacle\\" value, the [Obstacle edit dialog]
 (:numref:`dialog_to_edit_obstacle`) will open,
 and you can check that you can select obstacle values from that you
 defined in solver definition file, in :numref:`solverdef_example_with_gridcond`.
@@ -91,18 +91,18 @@ defined in solver definition file, in :numref:`solverdef_example_with_gridcond`.
 
 What it comes down to is:
 
--  Grid attribute is defined with "Item" element under
-   "GridRelatedCondition" element.
+-  Grid attribute is defined with \\"Item\\" element under
+   \\"GridRelatedCondition\\" element.
 
 -  The structure under \\"Item\\" element is basically the same to that for
    calculation condition, but there are different points:
 
   -  You have to specify \\"position\\" attribute to determine whether that
      attribute is defined at nodes or cells.
-  -  You can not use types "String", \\"Functional\\", \\"File name\\"
+  -  You can not use types \\"String\\", \\"Functional\\", \\"File name\\"
      and \\"Folder name\\".
   -  You can not define dependency.
-  -  You can define dimension of the attribute, using "Dimension" element.
+  -  You can define dimension of the attribute, using \\"Dimension\\" element.
 
 For grid attributes, iRIC defines some special names. For attributes for
 certain purposes, you should use those names. Refer to Section 7.3.1 for
