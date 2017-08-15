@@ -47,7 +47,7 @@ with UTF-8 encoding.
 :numref:`translation_dict_before_gridgen` and
 :numref:`translation_dict_after_gridgen`
 show the example of editing a dictionary file. As the
-example shows, add translated string in "translation" element.
+example shows, add translated string in \\"translation\\" element.
 
 .. code-block:: xml
    :caption: The Dictionary file of grid generating program definition file (before editing)

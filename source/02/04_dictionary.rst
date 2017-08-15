@@ -44,7 +44,7 @@ encoding.
 
 :numref:`translation_dict_before` and :numref:`translation_dict_after`
 show the example of editing a dictionary file.
-As the example shows, you have to add translated texts in "translation"
+As the example shows, you have to add translated texts in \\"translation\\"
 element.
 
 

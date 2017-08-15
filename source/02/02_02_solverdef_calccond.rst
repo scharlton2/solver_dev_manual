@@ -139,7 +139,7 @@ operation you did again, to open The [Calculation Condition] dialog
 
 Now you can see that the new group \\"Water Surface Elevation\\" is added
 in the group list. You'll also notice that the
-\\"Constant Value\\" item is enabled only when "Type" value is \\"Constant\\",
+\\"Constant Value\\" item is enabled only when \\"Type\\" value is \\"Constant\\",
 and the \\"Time Dependent Value\\" item is enabled only when \\"Type\\" value is
 \\"Time Dependent\\".
 
@@ -152,7 +152,7 @@ and the \\"Time Dependent Value\\" item is enabled only when \\"Type\\" value is
 What it comes down to is:
 
 -  Calculation condition group is defined with \\"Tab\\" element, and
-   calculation condition item is defined with "Item" element.
+   calculation condition item is defined with \\"Item\\" element.
 
 -  The Structure under \\"Definition\\" elements depends on the condition
    type (i. e. Integer, Real number, functional etc.). Refer to

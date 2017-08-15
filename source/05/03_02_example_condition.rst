@@ -4,7 +4,7 @@ Example of condition to activate calculation conditions etc.
 Examples of conditions to activate calculation conditions, grid
 generating conditions, and boundary conditions are shown in this
 subsection. As these examples show, complex conditions can be defined
-using conditions with types "and" and "or".
+using conditions with types \\"and\\" and \\"or\\".
 
 
 var1 = 1

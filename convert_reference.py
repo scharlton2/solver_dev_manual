@@ -1,3 +1,8 @@
+"""
+Script used to convert reference.txt file into many *.rst files and *.csv
+under source/06/03 folder.
+"""
+
 import csv
 
 def get_function_name(f):

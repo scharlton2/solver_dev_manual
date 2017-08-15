@@ -5,7 +5,7 @@ Defining basic information
 
 Define basic information of a grid generating program. Create a file
 with the content shown in :numref:`gridgendef_example1`, and save it
-with name "definition.xml" under "example" folder that you created in
+with name \\"definition.xml\\" under \\"example\\" folder that you created in
 :ref:`create_gridgen_folder`.
 
 .. code-block:: xml
@@ -41,7 +41,7 @@ correctly.
 Launch iRIC. The [iRIC Start Page] dialog (:numref:`iric_start_dialog_for_gridgendef`)
 is shown, so click on [New Project]. Now the [Solver Select] dialog
 (:numref:`solver_select_dialog_for_gridgendef`) will
-open, so select "Nays2DH" in the solver list, and click on [OK]. The new
+open, so select \\"Nays2DH\\" in the solver list, and click on [OK]. The new
 project will start.
 
 Open the [Select Grid Creating Algorithm] dialog
@@ -49,7 +49,7 @@ Open the [Select Grid Creating Algorithm] dialog
 
 **Menu bar:** [Grid] (G) -> [Select Algorithm to Create Grid] (S)
 
-Check that the "Sample Grid Creator" is added in the list. When you
+Check that the \\"Sample Grid Creator\\" is added in the list. When you
 finish checking, close the dialog by clicking on [Cancel].
 
 .. _iric_start_dialog_for_gridgendef:

@@ -4,7 +4,7 @@ Defining grid generating conditions
 ------------------------------------
 
 Define grid generating conditions. Grid generating conditions are
-defined in "GridGeneratingCondition" element in a grid generating
+defined in \\"GridGeneratingCondition\\" element in a grid generating
 program definition file. Add description of grid generating condition to
 the grid generating program definition file you created in 
 :ref:`gridgendef_create_basic_info`, and overwrite it.
@@ -53,7 +53,7 @@ correctly.
 
 Launch iRIC, and opens the [Select Grid Generating Algorithm] dialog
 with the same procedure in :ref:`gridgendef_create_basic_info`.
-Select "Sample Grid Creator" in the list, and click on [OK].
+Select \\"Sample Grid Creator\\" in the list, and click on [OK].
 
 The [Grid Creation] dialog (:numref:`gridgen_cond_dialog_base`)
 will open. Now you can see that
@@ -67,7 +67,7 @@ checked, click on [Cancel] to close the dialog.
    The [Grid Creation] dialog
 
 Now add one more group and add grid generating condition items. Add
-"Elevation Output" Tab element just under "Grid Size" Tab element.
+\\"Elevation Output\\" Tab element just under \\"Grid Size\\" Tab element.
 The added part is shown with highlight.
 
 .. code-block:: xml
@@ -108,9 +108,9 @@ Now make sure that grid generating program definition file is arranged
 correctly. Do the operation you did again, to show the [Grid Creation]
 dialog (:numref:`gridgen_cond_dialog_advanced`).
 
-Now you'll see that the new group "Elevation Output" in the group
-list. You'll also notice that "Value" item is
-enabled only when "Output" value is "Enabled".
+Now you'll see that the new group \\"Elevation Output\\" in the group
+list. You'll also notice that \\"Value\\" item is
+enabled only when \\"Output\\" value is \\"Enabled\\".
 
 .. _gridgen_cond_dialog_advanced:
 
@@ -121,17 +121,17 @@ enabled only when "Output" value is "Enabled".
 
 What it comes down to is:
 
--  Grid generating condition group is defined with "Tab" element, and
-   grid generating condition item is defined with "Item" element.
+-  Grid generating condition group is defined with \\"Tab\\" element, and
+   grid generating condition item is defined with \\"Item\\" element.
 
--  The Structure under "Definition" elements depends on the condition
+-  The Structure under \\"Definition\\" elements depends on the condition
    type (i. e. Integer, Real number, functional etc.). Refer to Section
    5.3.1 for examples of grid generating condition items for each type.
 
 -  Dependenciy between grid generating condition items can be defined
-   with "Condition" element. In "Condition" element, define the
+   with \\"Condition\\" element. In \\"Condition\\" element, define the
    condition when that item should be enabled. Refer to Section 5.3.2
-   for examples of "Condition" element.
+   for examples of \\"Condition\\" element.
 
 -  In this example, the calculation condition dialog shows the items as
    a simple list, but iRIC has feature to show items with more complex

@@ -29,7 +29,7 @@ When it was compiled successfully, copy the executable file to the
 folder you created in :ref:`create_solverdef_folder`, and
 rename it into the name you specified as [executable] attribute in
 :ref:`solverdef_create_basic_info`. This time, rename
-into "solver.exe". Copy the DLL files into that folder, that is needed
+into \\"solver.exe\\". Copy the DLL files into that folder, that is needed
 to run the solver.
 
 Now check whether it can be launched from iRIC successfully.
@@ -39,7 +39,7 @@ following:
 
 **Menu bar**: [Simulation] (S) --> [Run] (R)
 
-The [Solver Console] opens, and the message "Sample Program" will be
+The [Solver Console] opens, and the message \\"Sample Program\\" will be
 shown (:numref:`solverconsole_only_message`).
 If the message is shown, it means that the solver
 was launched by iRIC successfully.
