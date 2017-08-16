@@ -28,11 +28,11 @@ subsection, the followings are described fore each type:
 
 
 In code examples to load the values, subroutines in iRIClib are used.
-Please refer to Chapter 6 to know more about iRIClib.
+Please refer to :ref:`about_iriclib` to know more about iRIClib.
 
 The examples only
-show the sample codes for loading, so please refer to Section 2.3, 4.4
-to see examples of whole programs.
+show the sample codes for loading, so please refer to :ref:`how_to_dev_solver`,
+:ref:`how_to_dev_gridgen` to see examples of whole programs.
 
 .. _definition_file_widget_types:
 

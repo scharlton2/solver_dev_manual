@@ -18,7 +18,8 @@ Check that when you specify big imax and
 jmax values, the [Error] dialog (:numref:`gridgenerator_error_dialog`)
 will open.
 
-Refer to Section 6.3.13 for the subroutines to output error codes.
+Refer to :ref:`iriclib_output_error` for the subroutines to
+output error codes.
 
 .. code-block:: fortran
    :caption: Source code with lines to handle errors

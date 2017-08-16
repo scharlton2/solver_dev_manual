@@ -108,5 +108,5 @@ is shown in :numref:`example_load_functional_calccond`.
      stop
    end program Sample2
 
-Refer to Section 5.3.1 for examples of codes to load calculation conditions
-(or grid generating conditions).
+Refer to :ref:`calccond_def_examples` for examples of codes to load calculation
+conditions (or grid generating conditions).

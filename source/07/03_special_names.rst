@@ -53,14 +53,14 @@ use name \\"Elevation\\". iRIC will automatically load \\"Elevation\\" value.
 Calculation results
 ----------------------
 
-:numref:`special_result_names` shows the special names defined for
+:numref:`special_result_names_table` shows the special names defined for
 calculation results. Specify these names as arguments of subroutines
 defined in iRIClib.
 
 :numref:`special_result_output_example` shows an example of solver source code
 that outputs all special calculation result.
 
-.. _special_result_names:
+.. _special_result_names_table:
 
 .. list-table:: Special names for calculation results
 

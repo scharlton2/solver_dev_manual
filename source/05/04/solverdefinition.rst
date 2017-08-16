@@ -49,8 +49,8 @@ Attributes
    :file: solverdefinition_att_gridtype.csv
    :header-rows: 1
 
-ソルバーのバージョンアップを行う時は、 version 属性を変更します。
-ソルバーのバージョンアップ時の注意点については、???? を参照して下さい。
+When solver developers want to update solvers, version attribute should be changed.
+Refer to :ref:`notice_about_version` for notes on solver version up.
 
 Child elements
 --------------

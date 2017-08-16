@@ -19,9 +19,10 @@ procedure same to :ref:`gridgenerator_add_groudoutput`, and
 the grid will be created with the condition you specified on
 [Grid Creation] dialog.
 
-Refer to 5.3.1 for the relation between definitions of grid generating
-condition and the iRIClib subroutines to load them. Refer to 6.3.5 for
-the detail of subroutines to load grid generating conditions.
+Refer to :ref:`calccond_def_examples` for the relation between definitions of
+grid generating condition and the iRIClib subroutines to load them.
+Refer to :ref:`iriclib_load_calccond` for the detail of subroutines to
+load grid generating conditions.
 
 .. code-block:: fortran
    :caption: Source codewith lines to load grid generating conditions

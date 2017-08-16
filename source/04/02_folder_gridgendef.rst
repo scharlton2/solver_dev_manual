@@ -24,7 +24,7 @@ information shown in :numref:`infos_to_define_in_gridgendef`.
    :header-rows: 1
 
 Grid generating program definition file is described in XML language.
-The basic grammer of XML language is explained in Section 5.6.
+The basic grammer of XML language is explained in :ref:`xml_basics`.
 
 In this section, we add definition information of a grid generating
 program in the order shown in :numref:`infos_to_define_in_gridgendef`.

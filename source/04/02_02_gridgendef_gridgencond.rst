@@ -126,14 +126,16 @@ What it comes down to is:
 
 -  The Structure under \\"Definition\\" elements depends on the condition
    type (i. e. Integer, Real number, functional etc.). Refer to Section
-   5.3.1 for examples of grid generating condition items for each type.
+   :ref:`calccond_def_examples` for examples of grid generating condition
+   items for each type.
 
 -  Dependenciy between grid generating condition items can be defined
    with \\"Condition\\" element. In \\"Condition\\" element, define the
-   condition when that item should be enabled. Refer to Section 5.3.2
+   condition when that item should be enabled. Refer to :ref:`example_of_conditions`
    for examples of \\"Condition\\" element.
 
 -  In this example, the calculation condition dialog shows the items as
    a simple list, but iRIC has feature to show items with more complex
-   layouts, like layout with group boxes. Refer to Section 5.3.3 for
-   more complex calculation condition page layouts.
+   layouts, like layout with group boxes. Refer to
+   :ref:`examples_of_dialog_layout` for more complex calculation
+   condition page layouts.

@@ -6,7 +6,7 @@ iRIC.
 
 iRIC uses a CGNS file for input/output to/from solvers and grid
 generating programs. Input-output subroutines for CGNS files are
-published as an open-source library called cgnslib (see Section ).
+published as an open-source library called cgnslib (see :ref:`about_cgns` ).
 However, describing the necessary input-output directly using cgnslib
 would require complicated processing description.
 
@@ -24,13 +24,14 @@ is necessary to use cgnslib subroutines directly.
 This chapter describes the groups of subroutines included in iRIClib,
 and examples of using them, along with compilation procedures.
 
-How to read this section
+How to read this chapter
 =========================
 
-In this section, first Section explains what kinds of information
+In this chapter, first :ref:`iriclib_overview` explains what kinds of information
 input/output iRIC assumes a solver to perform, and what subroutines are
 available for each kind of processing. First, read Section to understand
 the general concept of iRIClib.
 
-Since Section gives only an outline of subroutines, see Section for
-detailed information, such as lists of arguments for those subroutines.
+Since :ref:`iriclib_overview` gives only an outline of subroutines, see 
+:ref:`iriclib_reference` for detailed information, such as lists of arguments
+for those subroutines.

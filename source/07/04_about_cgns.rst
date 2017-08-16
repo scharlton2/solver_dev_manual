@@ -1,3 +1,5 @@
+.. _about_cgns:
+
 Information on CGNS file and CGNS library
 =============================================
 

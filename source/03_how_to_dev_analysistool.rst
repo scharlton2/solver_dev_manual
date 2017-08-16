@@ -1,3 +1,5 @@
+.. _how_to_dev_analysistool:
+
 Steps of developing a calculation result analysis program
 ==========================================================
 

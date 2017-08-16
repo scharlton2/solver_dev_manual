@@ -1,3 +1,5 @@
+.. _iriclib_output_error:
+
 Outputting Error code
 =========================
 

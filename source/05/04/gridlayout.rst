@@ -8,7 +8,7 @@ condition input dialog.
 Example
 ---------
 
-Refer to ?????? for an example of GridLayout element
+Refer to :ref:`free_layout_example` for an example of GridLayout element
 definition.
 
 Attributes

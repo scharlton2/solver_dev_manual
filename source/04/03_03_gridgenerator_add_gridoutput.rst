@@ -95,8 +95,8 @@ the pre-processing window (:numref:`preprocessor_after_gridgen`).
 
    The pre-processing window after creating grid
 
-Refer to Section ??? for the detail of subroutines to output grids.
-Note that in Section ??? the subroutines to output three-dimensional
+Refer to :ref:`iriclib_output_grid` for the detail of subroutines to output grids.
+Note that in :ref:`iriclib_output_grid` the subroutines to output three-dimensional
 grids are listed, but they can not be used in grid generating programs.
 In grid generating programs, only subroutines to output two-dimensional
 grids can be used.

@@ -1,3 +1,5 @@
+.. _iriclib_output_grid:
+
 Outputting calculation grids
 ==================================
 
@@ -13,7 +15,7 @@ Grid creating program always uses these subroutines.
 The subroutines here should be used when a solver output the grid
 in the initial state. When you want to output the grid shape 
 modified after starting calculation, use the subroutines
-described in 6.3.11.
+described in :ref:`iriclib_output_grid_in_sol`.
 
 .. list-table:: Subroutines to use
    :header-rows: 1

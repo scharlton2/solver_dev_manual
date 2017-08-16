@@ -6,7 +6,7 @@ Outputting calculation results
 Outputs the calculation results to the CGNS file.
 
 Before outputting the calculation results at a specific time, be sure to output
-the time (or iteration count) information as described in Section 6.3.10.
+the time (or iteration count) information as described in :ref:`iriclib_output_time`.
 
 Types of calculation results that can be output with iRIClib are grouped into the followings:
 
@@ -145,4 +145,4 @@ output each component with names like \\"VelocityX\\" and \\"VelocityY\\".
 
 For calculation results, iRIC defines special names, and when you want to output
 calculation result for certain purposes, you should use those names.
-Refer to Section 7.3 for those names.
+Refer to :ref:`special_result_names` for those names.

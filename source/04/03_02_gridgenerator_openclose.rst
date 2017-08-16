@@ -10,8 +10,9 @@ iRIC will handle the file name of grid generating data file as the first
 argument, so open that file.
 
 The way to handle the number of arguments and the arguments differs by
-compilers. Refer to Section 7.1 for the way to handle them with gfortran
-and Intel Fortran Compiler. In this chapter we will add codes that can
+compilers. Refer to :numref:`gridgenerator_with_open_close` for
+the way to handle them with Intel Fortran Compiler and gfortran.
+In this chapter we will add codes that can
 be compiled using Intel Fortran Compiler.
 
 :numref:`gridgenerator_with_open_close` shows the source code with the
@@ -55,5 +56,6 @@ Compile the executable file, just like in :ref:`gridgenerator_dev_skeleton`.
 
 Check that the source code can be compiled successfully.
 
-Refer to Section 6.3.2, 6.3.3 and 6.3.13 for the details of the
+Refer to :ref:`iriclib_open_cgns`, :ref:`iriclib_init_iriclib` and
+:ref:`iriclib_close_cgns` for the details of the
 subroutines added in this section.

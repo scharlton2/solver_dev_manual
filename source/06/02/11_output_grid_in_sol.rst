@@ -10,13 +10,13 @@ this output is not necessary.
 
 Before outputting the calculation grid at a specific time,
 be sure to output the time (or iteration count) information
-as described in Section 6.3.10.
+as described in :ref:`iriclib_output_time`.
 
 The subroutines described in this section should be used for
 outputting a calculation grid only when the grid shape is
 changed in the course of calculation.
 When outputting a grid in the following cases, use the subroutines
-described in Section XXXX.
+described in :ref:`iriclib_output_grid`.
 
 * A new grid has been created in the solver.
 * A grid of different number of dimensions or a grid having a
