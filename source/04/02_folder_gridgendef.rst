@@ -14,13 +14,8 @@ iRIC のインストールフォルダ の下にある \\"gridcreators\\"
 
 格子生成プログラム定義ファイルを作成します。
 
-格子生成プログラム定義ファイルは、格子生成プログラムに関する 表 4?2
-に示す情報を定義します。
-
-ソルバー定義ファイルを作成します。
-
-ソルバー定義ファイルは、ソルバーに関する :numref:`infos_to_define_in_gridgendef`
-に示す情報を定義します。
+格子生成プログラム定義ファイルは、格子生成プログラムに関する
+:numref:`infos_to_define_in_gridgendef` に示す情報を定義します。
 
 .. _infos_to_define_in_gridgendef:
 
@@ -29,7 +24,7 @@ iRIC のインストールフォルダ の下にある \\"gridcreators\\"
    :header-rows: 1
 
 定義ファイルは、マークアップ言語の一種であるXML言語で記述します。
-XML言語の基礎については 5.5 を参照してください。
+XML言語の基礎については :ref:`xml_basics` を参照してください。
 
 この節では、ソルバー定義ファイルを、:numref:`infos_to_define_in_gridgendef`
 に示した順で作成していきます。

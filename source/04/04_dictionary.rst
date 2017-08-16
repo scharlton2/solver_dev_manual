@@ -42,7 +42,7 @@
 テキストエディタなどで開いて編集します。辞書ファイルは、
 UTF-8 で保存してください。
 
-辞書ファイルの編集例を、 :numref:`translation_dict_before_gridgen`
+辞書ファイルの編集例を、 :numref:`translation_dict_before_gridgen`、
 :numref:`translation_dict_after_gridgen`
 に示します。例に示したように、translation
 要素の中に翻訳後の文字列を追記してください。

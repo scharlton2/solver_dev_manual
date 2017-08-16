@@ -4,7 +4,7 @@
 ===========================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    05/01_abstract
    05/02_structure

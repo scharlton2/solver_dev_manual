@@ -12,7 +12,7 @@ cgnslib, iriclib とリンクする必要があります。
 
 .. _library_file_names:
 
-.. list-table::コンパイラ別の、iRIClib, cgnslib 関連のファイル名
+.. list-table:: コンパイラ別の、iRIClib, cgnslib 関連のファイル名
 
    * - コンパイラ
      - iRIClib ライブラリ
@@ -36,7 +36,7 @@ solver.f, cgnsdll_x64_ifort.lib, iriclib_x64_ifort.lib, cgnslib_f.h, iriclib_f.h
 を同じフォルダに置き、そこに移動して以下のコマンドを実行することで、
 実行ファイル solver.exe が生成されます。
 
-.. code-block:: Batchfile
+.. code-block:: batch
 
    ifort solver.f cgnsdll_x64_ifort.lib iriclib_x64_ifort.lib /MD
 
@@ -50,7 +50,7 @@ solver.f, cgnsdll.lib, iriclib.lib, cgnslib_f.h, iriclib_f.h を
 同じフォルダに置き、そこに移動して以下のコマンドを実行することで、
 実行ファイル solver.exe が生成されます。
 
-.. code-block:: Batchfile
+.. code-block:: batch
 
    gfortran -c solver.f
    g++ -o solver.exe -lgfortran solver.o cgnsdll.lib iriclib.lib

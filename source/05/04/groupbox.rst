@@ -20,7 +20,7 @@ GroupBox
      </Item>
    </GroupBox>
 
-GroupBox の定義例は ???? も参照して下さい。
+GroupBox の定義例は :ref:`layout_groupbox_example` も参照して下さい。
 
 属性
 -----

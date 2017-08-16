@@ -1,3 +1,5 @@
+.. _iriclib_overview:
+
 概要
 =====
 

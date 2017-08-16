@@ -12,8 +12,9 @@ iRIC は引数として計算データファイルのファイル名を渡すた
 そのファイルを開きます。
 
 引数の数と引数を取得するための方法は、コンパイラによって異なります。
-gfortran, Intel Fortran Compiler
-での引数の取得方法を7.1で説明していますので、参考にしてください。
+Intel Fortran Compiler, gfortran
+での引数の取得方法を :ref:`handling_arguments`
+で説明していますので、参考にしてください。
 ここでは、Intel Fortran Compiler でコンパイルする場合の方法で記述します。
 
 計算データファイルを開く処理と閉じる処理を追記したソースコードを

@@ -6,6 +6,8 @@
 サブルーチンとその分類の一覧を :numref:`iriclib_subroutine_list`
 に示します。
 
+.. _iriclib_subroutine_list:
+
 .. csv-table:: iRIClibサブルーチン一覧
    :file: funclist.csv
    :header-rows: 1

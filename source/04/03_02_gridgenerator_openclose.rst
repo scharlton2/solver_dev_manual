@@ -10,8 +10,9 @@
 そのファイル名を開きます。
 
 引数の数と引数を取得するための方法は、コンパイラによって異なります。
-gfortran, Intel Fortran compiler での引数の取得方法を 7.1
-で説明していますので、参考にしてください。ここでは、Intel Fortran
+Intel Fortran compiler, gfortran での引数の取得方法を
+:ref:`handling_arguments` で説明していますので、参考にしてください。
+ここでは、Intel Fortran
 compiler でコンパイルする場合の方法で記述します。
 
 処理を追記したソースコードを :numref:`gridgenerator_with_open_close`
@@ -53,5 +54,6 @@ compiler でコンパイルする場合の方法で記述します。
 :ref:`gridgenerator_dev_skeleton` と同様に、ファイルのコンパイルを行います。
 問題なくコンパイルが成功することを確認してください。
 
-この節で追加した関数の詳細については、6.3.2, 6.3.3, 6.3.15
+この節で追加した関数の詳細については、:ref:`iriclib_open_cgns`,
+:ref:`iriclib_init_iriclib`, :ref:`iriclib_close_cgns`
 を参照してください。

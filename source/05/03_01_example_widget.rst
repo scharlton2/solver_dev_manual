@@ -7,7 +7,7 @@
 項目の定義例を示します。定義する位置は
 :numref:`where_to_define_element`
 に示すように異なりますが、同じ文法で定義できます。各対象ファイルの構造は
-:ref: `def_structure` を参照してください。
+:ref:`def_structure` を参照してください。
 
 .. _where_to_define_element:
 
@@ -24,10 +24,10 @@
 
 ソルバー (もしくは格子生成プログラム) で値を読み込むための
 処理の記述例では、iRIClib の関数を使用しています。iRIClib
-の詳細は、6章を参照して下さい。
+の詳細は、 :ref:`about_iriclib` を参照して下さい。
 
 記述例は読み込みに関連する部分のみですので、プログラム全体の例は
-2.3.4, 4.4を参照してください。
+:ref:`how_to_dev_solver`, :ref:`how_to_dev_gridgen` を参照してください。
 
 .. _definition_file_widget_types:
 

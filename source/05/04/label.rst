@@ -13,7 +13,7 @@ Label
 
    <Label caption="Start Time" />
 
-定義例は ?????? も参照して下さい。
+定義例は :ref:`free_layout_example` も参照して下さい。
 
 属性
 -----
@@ -26,4 +26,3 @@ Label
 --------
 
 定義できる子要素はありません。
-

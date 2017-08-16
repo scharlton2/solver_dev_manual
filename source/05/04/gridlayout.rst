@@ -6,7 +6,7 @@ GridLayout
 例
 ----
 
-GridLayout の定義例は ???? を参照して下さい。
+GridLayout の定義例は :ref:`free_layout_example` を参照して下さい。
 
 属性
 -----
