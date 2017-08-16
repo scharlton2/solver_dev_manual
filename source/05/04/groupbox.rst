@@ -35,6 +35,6 @@ Attributes
 Child elements
 --------------
 
-.. csv-table:: Attributes of GroupBox
+.. csv-table:: Child elements of GroupBox
    :file: groupbox_elements.csv
    :header-rows: 1

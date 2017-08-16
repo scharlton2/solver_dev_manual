@@ -19,7 +19,7 @@ Refer to :ref:`cc_widget_example_func` for Param element definition example.
 Attributes
 -----------
 
-.. csv-table:: Attributes of Param definition
+.. csv-table:: Attributes of Param
    :file: param_attributes.csv
    :header-rows: 1
 

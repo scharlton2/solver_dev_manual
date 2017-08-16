@@ -27,14 +27,14 @@ generating program do against the grid generating data file.
    :file: gridgenerator_dev_flow.csv
    :header-rows: 1
 
+In this section, we will develop a grid generating program in
+the following procedure:
 
-この節では、格子生成プログラムを以下の手順で作成します。
-
-#. 骨組みの作成
-#. 格子生成データファイルを開く処理、閉じる処理の記述
-#. 格子の出力処理の記述
-#. 格子生成条件の読み込み処理の記述
-#. エラー処理の記述
+#. Create a scelton
+#. Adds grid generating data file opening and closing codes
+#. Adds codes to output grid
+#. Adds codes to load grid generating conditions
+#. Adds codes for error handling
 
 .. toctree::
    :maxdepth: 4

@@ -1,40 +1,41 @@
 Tab
 ===
 
-計算条件 (もしくは格子生成条件) 設定ダイアログの、ページの定義情報を保持します。
+Tab element contains the information that defines a page of the
+calculation condition input dialog.
 
-例
-----
+Example
+-------
 
 .. code-block:: xml
-   :caption: Tab の定義例
+   :caption: Example of Tab definition
    :name: ref_tab_example
    :linenos:
 
    <Tab caption="Basic Setting">
      <Item name="stime" caption="Start Time">
 
-       (略)
+       (abbr.)
 
      </Item>
      <Item name="etime" caption="End Time">
 
-       (略)
+       (abbr.)
 
      </Item>
    </Tab>
 
-属性
------
+Attributes
+----------
 
-.. csv-table:: Tab の属性
+.. csv-table:: Attributes of Tab
    :file: tab_attributes.csv
    :header-rows: 1
 
-子要素
---------
+Child elements
+--------------
 
-.. csv-table:: Tab の子要素
+.. csv-table:: Child elements of Tab
    :file: tab_elements.csv
    :header-rows: 1
 
