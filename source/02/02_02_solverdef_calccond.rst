@@ -55,9 +55,9 @@ CalculationCondition 要素で定義します。 :ref:`solverdef_create_basic_in
 
 iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 に示すダイアログが表示されますので、「新しいプロジェクト」ボタンを押して、ソルバーの
-リストから \\"Sample Solver\\" をクリックし、 \\"OK\\" ボタンを押します。
+リストから \"Sample Solver\" をクリックし、 \"OK\" ボタンを押します。
 :numref:`iric_warning_dialog_for_no_elevation`
-に示すダイアログが表示されますが、 \\"OK\\" ボタンを押して進みます。
+に示すダイアログが表示されますが、 \"OK\" ボタンを押して進みます。
 
 .. _iric_warning_dialog_for_no_elevation:
 
@@ -82,7 +82,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 
 
 グループを増やして、さらに計算条件を追加します。Basic Settings の Tab要素 のすぐ下に、
-\\"Water Surface Elevation\\" というグループを追加して保存します。追記した
+\"Water Surface Elevation\" というグループを追加して保存します。追記した
 ソルバー定義ファイルの抜粋を、 :numref:`solverdef_example_with_calccond_additional`
 に示します。追記した部分を強調して示しました。
 
@@ -132,9 +132,9 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 正しくソルバー定義ファイルが作成できているか確認します。先ほどと同じ手順で
 ダイアログを表示します。
 
-\\"Water Surface Elevation\\" というグループがリストに表示されているのが分かります。
-また、 \\"Constant Value\\" は、 \\"Type\\" で \\"Constant\\" を選択している時のみ、
-\\"Time Dependent Value\\" は、 \\"Type\\" で \\"Time Dependent\\" を選択している時のみ有効です。
+\"Water Surface Elevation\" というグループがリストに表示されているのが分かります。
+また、 \"Constant Value\" は、 \"Type\" で \"Constant\" を選択している時のみ、
+\"Time Dependent Value\" は、 \"Type\" で \"Time Dependent\" を選択している時のみ有効です。
 
 ダイアログの表示例を :numref:`calccond_dialog_with_watersurfaceelevation`
 に示します。

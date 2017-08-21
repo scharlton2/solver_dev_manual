@@ -8,7 +8,7 @@ cgnslib, iriclib とリンクする必要があります。
 それぞれ、Intel Fortran Compiler と GNU Fortran では異なるライブラリを利用する
 必要があります。それぞれで必要なライブラリのファイル名は
 :numref:`library_file_names` のとおりです。
-ヘッダファイルは共通で、 \\"libcgns_f.h\\"、 \\"iriclib_f.h\\" です。
+ヘッダファイルは共通で、 \"libcgns_f.h\"、 \"iriclib_f.h\" です。
 
 .. _library_file_names:
 

@@ -39,7 +39,7 @@ GridRelatedCondition 要素で定義します。 :ref:`solverdef_define_calccond
 正しくソルバー定義ファイルが作成できているか確認します。
 
 
-iRIC を起動して、ソルバー \\"Sample Solver\\" の新しいプロジェクトを開始します。
+iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェクトを開始します。
 すると、 :numref:`preprocessor_with_geographicdata` に示すような画面が
 表示されます。さらに、格子を作成したりインポートしたりすると、
 :numref:`preprocessor_with_gridattributes` のようになります。
@@ -61,17 +61,17 @@ iRIC を起動して、ソルバー \\"Sample Solver\\" の新しいプロジェ
 以下の手順で格子点の属性Elevation を編集すると、 :numref:`dialog_to_edit_elevation` に
 示すダイアログが表示され、実数の値を入力できることが確認できます。
 
-- オブジェクトブラウザで、 \\"格子\\" --> \\"格子点の属性\\" -> \\"Elevation\\" を選択します。
+- オブジェクトブラウザで、 \"格子\" --> \"格子点の属性\" -> \"Elevation\" を選択します。
 - 描画領域で、マウスクリックで格子点を選択します。
-- 右クリックメニューを表示し、 \\"編集\\" を選択します。
+- 右クリックメニューを表示し、 \"編集\" を選択します。
 
 .. _dialog_to_edit_elevation:
 
 .. figure:: images/dialog_to_edit_elevation.png
 
-   格子点の属性 \\"Elevation\\" の編集ダイアログ
+   格子点の属性 \"Elevation\" の編集ダイアログ
 
-同様に、格子セルの属性 \\"Obstacle\\" を編集すると、 :numref:`dialog_to_edit_obstacle` に示す
+同様に、格子セルの属性 \"Obstacle\" を編集すると、 :numref:`dialog_to_edit_obstacle` に示す
 ダイアログが表示され、 :numref:`solverdef_example_with_gridcond` で
 指定した選択肢から値を選択できることが確認できます。
 
@@ -79,7 +79,7 @@ iRIC を起動して、ソルバー \\"Sample Solver\\" の新しいプロジェ
 
 .. figure:: images/dialog_to_edit_obstacle.png
 
-   格子セルの属性 \\"Obstacle\\" の編集ダイアログ
+   格子セルの属性 \"Obstacle\" の編集ダイアログ
 
 
 格子属性の定義についてまとめると、以下の通りです。

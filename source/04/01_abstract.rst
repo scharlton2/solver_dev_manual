@@ -8,7 +8,7 @@
 iRIC 上で動作する格子生成プログラムを開発するには、:numref:`files_related_to_gridgen`
 に示すようなファイルを作成、配置する必要があります。
 
-:numref:`files_related_to_gridgen` に示したファイルは iRIC インストール先の下の \\"gridcreators\\"
+:numref:`files_related_to_gridgen` に示したファイルは iRIC インストール先の下の \"gridcreators\"
 フォルダの下に自分が開発する格子生成プログラム専用のフォルダを作成し、その下に配置します。
 
 .. _files_related_to_gridgen:

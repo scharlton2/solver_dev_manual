@@ -49,13 +49,13 @@ CalculationCondition 要素で定義します。 :ref:`gridgendef_create_basic_i
 
 iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
 格子生成アルゴリズム選択画面を表示します。
-\\"Sample Grid Creator\\" を選択し、 \\"OK\\" ボタンを押します。
+\"Sample Grid Creator\" を選択し、 \"OK\" ボタンを押します。
 
 すると、 :numref:`gridgen_cond_dialog_base` に示すダイアログが
 表示されます。
 :numref:`gridgendef_example_with_gridgencond` で追記した内容に従って、
-\\"Grid Size\\" というグループが追加されているのが分かります。
-確認できたら、 \\"キャンセル\\" ボタンを押します。
+\"Grid Size\" というグループが追加されているのが分かります。
+確認できたら、 \"キャンセル\" ボタンを押します。
 
 .. _gridgen_cond_dialog_base:
 
@@ -64,7 +64,7 @@ iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
    格子生成ダイアログ 表示例
 
 グループを増やして、さらに格子生成条件を追加します。
-\\"Grid Size\\" の Tab要素 のすぐ下に、 \\"Elevation Output\\" というグループを
+\"Grid Size\" の Tab要素 のすぐ下に、 \"Elevation Output\" というグループを
 追加して保存します。追記した定義ファイルの抜粋を、
 :numref:`gridgendef_example_with_gridgencond_advanced` に示します。
 追記した部分を強調して示しました。
@@ -107,9 +107,9 @@ iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
 正しくソルバー定義ファイルが作成できているか確認します。
 先ほどと同じ手順でダイアログを表示します。
 
-\\"Elevation Output\\" というグループがリストに表示され、
+\"Elevation Output\" というグループがリストに表示され、
 このグループには2つの項目が表示されているのが分かります。
-また、 \\"Value\\" は、 \\"Output\\" で \\"Enabled\\" を選択している時のみ有効です。
+また、 \"Value\" は、 \"Output\" で \"Enabled\" を選択している時のみ有効です。
 ダイアログの表示例を :numref:`gridgen_cond_dialog_advanced` に示します。
 
 .. _gridgen_cond_dialog_advanced:

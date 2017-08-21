@@ -65,15 +65,15 @@
 
 コンパイルしたら、できた実行プログラムを :ref:`create_gridgen_folder`
 で作成したフォルダにコピーし、名前を :ref:`gridgendef_create_basic_info`
-で executable 属性に指定した名前 (この例なら \\"generator.exe\\" )
+で executable 属性に指定した名前 (この例なら \"generator.exe\" )
 に変更してください。またこの時、格子生成プログラムの実行に必要な
 DLLなども同じフォルダにコピーしてください。
 
 この段階で、iRIC から格子生成プログラムが正しく起動できるか確認します。
 
-ソルバーに \\"Nays2DH\\" を指定して、新しいプロジェクトを開始し、
+ソルバーに \"Nays2DH\" を指定して、新しいプロジェクトを開始し、
 :ref:`gridgendef_create_basic_info` で行ったのと同じ操作で
-格子生成アルゴリズムに \\"Sample Grid Creator\\"
+格子生成アルゴリズムに \"Sample Grid Creator\"
 を選択し、格子生成ダイアログを表示します。表示されるダイアログを
 :numref:`gridgen_cond_dialog_for_testing`
 に示します。
@@ -84,9 +84,9 @@ DLLなども同じフォルダにコピーしてください。
 
    格子生成条件設定ダイアログ 表示例
 
-\\"格子生成\\" ボタンを押します。すると、格子生成プログラムが 10 x 10 の
+\"格子生成\" ボタンを押します。すると、格子生成プログラムが 10 x 10 の
 格子を生成し、それがiRIC 上に読み込まれるのが確認できます。
-\\"格子生成\\" ボタンを押した後のプリプロセッサの表示画面を 
+\"格子生成\" ボタンを押した後のプリプロセッサの表示画面を 
 :numref:`preprocessor_after_gridgen` に示します。
 
 .. _preprocessor_after_gridgen:
