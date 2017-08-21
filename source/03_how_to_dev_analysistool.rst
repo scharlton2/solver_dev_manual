@@ -19,8 +19,8 @@ To handle multiple CGNS files at the same time, you should use different
 functions than those used in :ref:`how_to_develop_solver`
 (See :ref:`iriclib_list_of_functions`). 
 The names of functions for handling multiple CGNS files ends with
-\\"_mul_f\\", and the first argument is the file ID. You should call
-\\"cg_iric_initread_f\\" instead of \\"cg_iric_init_f\\" when
+\"_mul_f\", and the first argument is the file ID. You should call
+\"cg_iric_initread_f\" instead of \"cg_iric_init_f\" when
 initializing the CGNS file to be used by iRIClib.
 
 :numref:`solver_with_multi_cgns` shows the source code to handle

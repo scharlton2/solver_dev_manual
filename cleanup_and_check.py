@@ -9,7 +9,7 @@ def escape_characters(line, chars):
     for c in chars:
         line = line.replace('\\\\' + c, c)
         line = line.replace('\\' + c, c)
-        line = line.replace(c, '\\\\' + c)
+        line = line.replace(c, '\\' + c)
     return line
 
 def cleanup_and_check_file(filename):

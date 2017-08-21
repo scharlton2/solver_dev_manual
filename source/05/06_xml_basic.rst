@@ -12,9 +12,9 @@ Defining Elements
 -------------------
 
 
-Element start tag is described with \\"<\\" and \\">\\".
+Element start tag is described with \"<\" and \">\".
 
-Element end tag is described with \\"</\\" and \\">\\".
+Element end tag is described with \"</\" and \">\".
 
 :numref:`xml_element_example` shows an example of Item element definition.
 
@@ -35,7 +35,7 @@ An element can have the followings:
 An element can have multiple child elements that have the same name.
 On the other hand, an element can have only one attribute for each name.
 :numref:`xml_element_example2` shows an example of a definition of
-Item element with two \\"Subitem\\" child elements and \\"name\\" attribute.
+Item element with two \"Subitem\" child elements and \"name\" attribute.
 
 .. code-block:: xml
    :caption: Example of Item element
@@ -49,7 +49,7 @@ Item element with two \\"Subitem\\" child elements and \\"name\\" attribute.
      </SubItem>
    </Item>
 
-An element that do not have a child element can be delimited with \\"<\\" and \\"/>\\". 
+An element that do not have a child element can be delimited with \"<\" and \"/>\". 
 For example, :numref:`xml_element_without_child_example` and
 :numref:`xml_element_without_child_example2` are processed as the same data
 by XML parsers.
@@ -107,7 +107,7 @@ XML parsers.
 Comments
 ---------
 
-In XML files, strings between \\"<!--\\" and \\"-->\\" are treated as comments. 
+In XML files, strings between \"<!--\" and \"-->\" are treated as comments. 
 :numref:`xml_element_comment_example` shows an example of a comment.
 
 .. code-block:: xml

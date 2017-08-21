@@ -2,9 +2,9 @@ Defining Boundary Conditions
 -----------------------------
 
 Define boundary conditions. You can define boundary conditions with
-\\"BoundaryCondition\\" element. Boundary conditions are not required.
+\"BoundaryCondition\" element. Boundary conditions are not required.
 
-Add definition of \\"Boundary Condition\\" to the solver definition
+Add definition of \"Boundary Condition\" to the solver definition
 file you created, as shown in :numref:`solverdef_example_with_boundarycond`.
 The added part is shown with highlight.
 
@@ -40,7 +40,7 @@ The added part is shown with highlight.
 
 Now make sure that solver definition file is arranged correctly.
 
-Launch iRIC, and start a new project with solver \\"Sample Solver\\". When
+Launch iRIC, and start a new project with solver \"Sample Solver\". When
 you create or import a grid, the [Pre-processing Window] will become
 like  :numref:`preprocessor_with_boundarycondition`.
 When you do now know how to create or imprt a grid, refer to the User Manual.
@@ -75,8 +75,8 @@ shows an example of a grid with boundary condition.
 
 What it comes down to is:
 
--  Boundary condition is defined Grid attribute is defined with \\"Item\\"
-   element under \\"GridRelatedCondition\\" element.
+-  Boundary condition is defined Grid attribute is defined with \"Item\"
+   element under \"GridRelatedCondition\" element.
 
-  -  The structure under \\"Item\\" element is the same to that for
+  -  The structure under \"Item\" element is the same to that for
      calculation condition.

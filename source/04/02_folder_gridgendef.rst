@@ -4,8 +4,8 @@ Creating a folder
 ==================
 
 Create a special folder for the grid generating program you develop
-under \\"gridcreators\\" folder under the installation folder of iRIC.
-This time, please create \\"example\\" folder.
+under \"gridcreators\" folder under the installation folder of iRIC.
+This time, please create \"example\" folder.
 
 .. _how_to_create_gridgen_def_file:
 

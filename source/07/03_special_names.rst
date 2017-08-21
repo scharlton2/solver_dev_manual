@@ -21,10 +21,10 @@ Grid attributes
      - Description
    * - Elevation
      - Grid attribute that contains elevation of grid nodes (Unit: meter).
-       Define \\"Elevation\\" attribute as an attribute defined at grid node,
+       Define \"Elevation\" attribute as an attribute defined at grid node,
        with real number type.
 
-When you use \\"Elevation\\" for grid attribute, define an Item element
+When you use \"Elevation\" for grid attribute, define an Item element
 as a child of GridRelatedCondition element, like :numref:`elevation_def_example`.
 You can change caption attribute value to an arbitrary value.
 
@@ -38,7 +38,7 @@ You can change caption attribute value to an arbitrary value.
    </Item>
 
 When you create a grid generating program and want to output elevation value,
-use name \\"Elevation\\". iRIC will automatically load \\"Elevation\\" value.
+use name \"Elevation\". iRIC will automatically load \"Elevation\" value.
 
 :numref:`elevation_output_example` shows an example of code written in Fortran.
 
@@ -69,11 +69,11 @@ that outputs all special calculation result.
      - Required
    * - Elevation
      - Outputs bed elevation (unit: meter). Output the value as real number calculation result. 
-       You can add unit in the tail as the part of the name, like \\"Elevation(m)\\".
+       You can add unit in the tail as the part of the name, like \"Elevation(m)\".
      - Yes
    * - WaterSurfaceElevation
      - Outputs water surface elevation (unit: meter). Output the value as real number
-       calculation result. You can add unit in the tail, like \\"WaterSurfaceElevation(m)\\".
+       calculation result. You can add unit in the tail, like \"WaterSurfaceElevation(m)\".
      - 
    * - IBC
      - Valid/invalid flag. At invalid region (i. e. dry region), the value is 0, and at valid region

@@ -10,7 +10,7 @@ necessary to make and deploy files shown in
 :numref:`files_related_to_gridgen`.
 
 Grid generating program
-developers have to create a new folder under \\"gridcreators\\" folder, and
+developers have to create a new folder under \"gridcreators\" folder, and
 deploy files related to the new grid generating program under that.
 
 .. _files_related_to_gridgen:
@@ -55,14 +55,14 @@ translation\_ja\_JP.ts etc.
 Dictionary files for a grid generating program definition file. It
 provides translation information for strings shown on dialogs in iRIC.
 Dictionary files are created one file for each language. For example,
-\\"translation\_ja\_JP.ts\\" for Japanese, \\"translation\_ka\_KR.ts\\" for
+\"translation\_ja\_JP.ts\" for Japanese, \"translation\_ka\_KR.ts\" for
 Korean.
 
 README
 ------
 
 README is a text file that describes about the grid generating program.
-The content of README is shown in the \\"Description\\" area on [Select Grid
+The content of README is shown in the \"Description\" area on [Select Grid
 Creating Algorithm] dialog].
 
 :numref:`relations_between_gridgen_and_files` shows the relationship

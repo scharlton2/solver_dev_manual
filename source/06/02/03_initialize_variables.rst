@@ -8,11 +8,11 @@ After the CGNS file is opened, this should be executed.
 
 When you add calculation result to the CGNS file,
 open the CGNS file with CG_MODE_MODIFY mode, and initialize
-using \\"cg_iric_init_f\\".
+using \"cg_iric_init_f\".
 
 When you just read grid and calculation result from CGNS file,
 open the CGNS file with CG_MODE_READ mode, and initialize using
-\\"cg_iric_initread_f\\".
+\"cg_iric_initread_f\".
 
 .. list-table:: Subroutine to use
    :header-rows: 1

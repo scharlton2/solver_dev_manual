@@ -68,14 +68,14 @@ folder you created in :ref:`create_gridgen_folder`,
 and rename it into the name you
 specified as [executable] attribute in :ref:`gridgendef_create_basic_info`.
 This time, rename
-into \\"generator.exe\\". Copy the DLL files into that folder, that is need
+into \"generator.exe\". Copy the DLL files into that folder, that is need
 to run the grid generating program.
 
 Now check whether the grid generating program can be launched from iRIC
 successfully.
 
-Starts a new project with solver \\"Nays2DH\\", and select \\"Sample Grid
-Creator\\" as the grid generating algorithm like in
+Starts a new project with solver \"Nays2DH\", and select \"Sample Grid
+Creator\" as the grid generating algorithm like in
 :ref:`gridgendef_create_basic_info`. The
 [Grid Creation] dialog (:numref:`gridgen_cond_dialog_for_testing`)
 will open.

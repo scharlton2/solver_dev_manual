@@ -41,7 +41,7 @@ https://www.hdfgroup.org/downloads/index.html
 
    HDF group web page
 
-From the HDF web page, click the \\"Current Release\\" link in :numref:`hdfview_webpage`.
+From the HDF web page, click the \"Current Release\" link in :numref:`hdfview_webpage`.
 You will be taken to download page. On this screen, click on the file that
 fits your environment (64 bit or 32 bit) to download.
 
@@ -63,8 +63,8 @@ Then, from the following menu, select the CGNS to open.
 
 File --> Open
 
-Please note that \\"\\*.cgn\\" is not included in the open target in default.
-Switch file type to \\"all files\\" to select CGNS file as open target.
+Please note that \"\\*.cgn\" is not included in the open target in default.
+Switch file type to \"all files\" to select CGNS file as open target.
 
 An example of the HDFView screen after opening a CGNS file is shown
 in :numref:`hdfview_example`.

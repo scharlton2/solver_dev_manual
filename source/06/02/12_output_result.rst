@@ -141,7 +141,7 @@ output calculation results.
 
 In iRIClib, the same subroutines are used to output vector quantity calculation results and
 scalar quantity calculation results. When outputting vector quantity calculation results,
-output each component with names like \\"VelocityX\\" and \\"VelocityY\\".
+output each component with names like \"VelocityX\" and \"VelocityY\".
 
 For calculation results, iRIC defines special names, and when you want to output
 calculation result for certain purposes, you should use those names.

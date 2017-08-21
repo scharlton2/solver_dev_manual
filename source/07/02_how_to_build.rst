@@ -8,7 +8,7 @@ the program with iRIClib and cgnslib. You have to use different library
 files for different compilers like Intel Fortran Compiler and GNU Fortran.
 :numref:`library_file_names` shows the files prepared for each compiler.
 
-For header file, \\"libcgns_f.h\\", \\"iriclib_f.h\\" can be used for all
+For header file, \"libcgns_f.h\", \"iriclib_f.h\" can be used for all
 compilers commonly.
 
 .. _library_file_names:

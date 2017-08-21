@@ -14,7 +14,7 @@ The grid generating data file that iRIC generates is a CGNS file. You
 can use a library called iRIClib to write code for loading and writing
 CGNS files.
 
-In this section, We\\'ll explain the procedure to develop a grid
+In this section, We\'ll explain the procedure to develop a grid
 generating program that load calculation data file, that iRIC generates.
 
 :ref:`how_to_create_gridgen_def_file` shows the input and output

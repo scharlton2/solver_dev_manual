@@ -50,9 +50,9 @@ subroutines for reading structured grids only.
    * - cg_iric_read_grid_complex_cell_f
      - Reads the complex attribute values defined at grid cells
    * - cg_iric_read_grid_functionaltimesize_f
-     - Reads the number of values of dimension \\"Time\\" for functional grid attribute
+     - Reads the number of values of dimension \"Time\" for functional grid attribute
    * - cg_iric_read_grid_functionaltime_f
-     - Reads the values of dimension "Time" for functional grid attribute 
+     - Reads the values of dimension \"Time\" for functional grid attribute 
    * - cg_iric_read_grid_functionaldimensionsize_f
      - Reads the number of values of dimension for functional grid attribute
    * - cg_iric_read_grid_functionaldimension_integer_f
@@ -60,13 +60,13 @@ subroutines for reading structured grids only.
    * - cg_iric_read_grid_functionaldimension_real_f
      - Reads the values of double-precision dimension for functional grid attribute
    * - cg_iric_read_grid_functional_integer_node_f
-     - Reads the values of functional integer grid attribute with dimension \\"Time\\" definied at grid nodes.
+     - Reads the values of functional integer grid attribute with dimension \"Time\" definied at grid nodes.
    * - cg_iric_read_grid_functional_real_node_f
-     - Reads the values of functional double-precision grid attribute with dimension \\"Time\\" definied at grid nodes.
+     - Reads the values of functional double-precision grid attribute with dimension \"Time\" definied at grid nodes.
    * - cg_iric_read_grid_functional_integer_cell_f
-     - Reads the values of functional integer grid attribute with dimension \\"Time\\" definied at grid cells.
+     - Reads the values of functional integer grid attribute with dimension \"Time\" definied at grid cells.
    * - cg_iric_read_grid_functional_real_cell_f
-     - Reads the values of functional double-precision grid attribute with dimension \\"Time\\" definied at grid cells.
+     - Reads the values of functional double-precision grid attribute with dimension \"Time\" definied at grid cells.
 
 The same subroutines for getting attributes such as cg_iric_read_grid_integer_node_f
 can be used both for two-dimensional structured grids and

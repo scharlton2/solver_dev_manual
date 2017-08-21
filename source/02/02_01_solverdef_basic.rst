@@ -5,7 +5,7 @@ Defining basic information
 
 Define basic information of a solver. Create a file with the content
 shown in :numref:`solverdef_example1`, and save it with name
-\\"definition.xml\\" under \\"example\\" folder
+\"definition.xml\" under \"example\" folder
 that you created in :ref:`create_solverdef_folder`
 
 .. code-block:: xml
@@ -46,7 +46,7 @@ Launch iRIC. The [iRIC Start Page] dialog
 ( :numref:`iric_start_dialog_for_solverdef` ) is shown, so
 please click on [New Project]. The [Solver Select] dialog
 (:numref:`solver_select_dialog_for_solverdef` )
-will open, so make sure if there is a new item \\"Sample Solver\\" in the
+will open, so make sure if there is a new item \"Sample Solver\" in the
 solver list. When you find it, select it and make sure that the basic
 information of the solver you wrote in solver definition file is shown.
 

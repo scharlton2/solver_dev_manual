@@ -4,7 +4,7 @@ Defining calculation conditions
 --------------------------------
 
 Define calculation conditions. Calculation conditions are defined in
-\\"CalculationCondition\\" element. Add description of calculation condition
+\"CalculationCondition\" element. Add description of calculation condition
 to the solver definition file you created in
 :ref:`solverdef_create_basic_info` .
 Solver definition file content is now as shown in
@@ -58,7 +58,7 @@ Now make sure that solver definition file is arranged correctly.
 
 Launch iRIC. The [iRIC Start page] dialog
 (:numref:`iric_start_dialog_for_solverdef`) will open, so
-please click on [Create New Project], select \\"Sample Solver\\" from the
+please click on [Create New Project], select \"Sample Solver\" from the
 list, and click on [OK]. The Warning dialog
 (:numref:`iric_warning_dialog_for_no_elevation`) will be open,
 so click on [OK].
@@ -84,11 +84,11 @@ you defined in :numref:`solverdef_example_with_calccond` are shown.
    The [Calculation Condition] dialog
 
 Now add one more group and add calculation condition items. Add 
-\\"Water Surface Elevation\\" Tab element just after \\"Basic Settings\\" Tab
+\"Water Surface Elevation\" Tab element just after \"Basic Settings\" Tab
 element.
 :numref:`solverdef_example_with_calccond_additional`
 shows the solver definition file that has definition of
-\\"Water Surface Elevation\\" Tab. The added part is shown with highlight.
+\"Water Surface Elevation\" Tab. The added part is shown with highlight.
 
 .. code-block:: xml
    :caption: Example of solver definition file that now has calculation condition definition (abbr.)
@@ -137,11 +137,11 @@ Now make sure that solver definition file is arranged correctly. Do the
 operation you did again, to open The [Calculation Condition] dialog
 (:numref:`calccond_dialog_with_watersurfaceelevation`).
 
-Now you can see that the new group \\"Water Surface Elevation\\" is added
-in the group list. You\\'ll also notice that the
-\\"Constant Value\\" item is enabled only when \\"Type\\" value is \\"Constant\\",
-and the \\"Time Dependent Value\\" item is enabled only when \\"Type\\" value is
-\\"Time Dependent\\".
+Now you can see that the new group \"Water Surface Elevation\" is added
+in the group list. You\'ll also notice that the
+\"Constant Value\" item is enabled only when \"Type\" value is \"Constant\",
+and the \"Time Dependent Value\" item is enabled only when \"Type\" value is
+\"Time Dependent\".
 
 .. _calccond_dialog_with_watersurfaceelevation:
 
@@ -151,18 +151,18 @@ and the \\"Time Dependent Value\\" item is enabled only when \\"Type\\" value is
 
 What it comes down to is:
 
--  Calculation condition group is defined with \\"Tab\\" element, and
-   calculation condition item is defined with \\"Item\\" element.
+-  Calculation condition group is defined with \"Tab\" element, and
+   calculation condition item is defined with \"Item\" element.
 
--  The Structure under \\"Definition\\" elements depends on the condition
+-  The Structure under \"Definition\" elements depends on the condition
    type (i. e. Integer, Real number, functional etc.). Refer to
    :ref:`calccond_def_examples` for examples of calculation condition items for
    each type.
 
 -  Dependenciy between calculation condition items can be defined with
-   \\"Condition\\" element. In \\"Condition\\" element, define the condition
+   \"Condition\" element. In \"Condition\" element, define the condition
    when that item should be enabled. Refer to :ref:`example_of_conditions` for
-   examples of \\"Condition\\" element.
+   examples of \"Condition\" element.
 
 -  In this example, the calculation condition dialog shows the items as
    a simple list, but iRIC has feature to show items with more

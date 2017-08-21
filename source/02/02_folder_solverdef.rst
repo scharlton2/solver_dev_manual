@@ -3,9 +3,9 @@
 Creating a folder
 ==================
 
-Create a special folder for the solver you develop under the \\"solvers\\"
+Create a special folder for the solver you develop under the \"solvers\"
 folder under the installation folder of iRIC. 
-This time, please create \\"example\\" folder.
+This time, please create \"example\" folder.
 
 .. _how_to_create_solver_def_file:
 
