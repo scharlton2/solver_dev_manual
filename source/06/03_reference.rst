@@ -99,6 +99,8 @@ Reference
    03/cg_iric_write_sol_real_f
    03/cg_iric_write_sol_particle_pos2d_f
    03/cg_iric_write_sol_particle_pos3d_f
+   03/cg_iric_write_sol_cell_integer_f
+   03/cg_iric_write_sol_cell_real_f
    03/iric_check_cancel_f
    03/iric_check_lock_f
    03/iric_write_sol_start_f
@@ -113,5 +115,7 @@ Reference
    03/cg_iric_read_sol_gridcoord3d_f
    03/cg_iric_read_sol_integer_f
    03/cg_iric_read_sol_real_f
+   03/cg_iric_read_sol_cell_integer_f
+   03/cg_iric_read_sol_cell_real_f
    03/cg_iric_write_errorcode_f
    03/cg_close_f

@@ -1,7 +1,7 @@
 cg_iric_read_sol_integer_f
 ==========================
 
--  Reads the integer-type calculation result, having a value for each
+-  Reads the integer-type calculation result, having a value for each grid node.
 
 Format
 ------

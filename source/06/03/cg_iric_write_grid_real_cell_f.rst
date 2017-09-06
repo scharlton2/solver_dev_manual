@@ -1,7 +1,7 @@
 cg_iric_write_grid_real_cell_f
 ==============================
 
--  Outputs grid attribute values defined at grid cells with real number
+-  Outputs grid attribute values defined at grid cells with real number value.
 
 Format
 ------

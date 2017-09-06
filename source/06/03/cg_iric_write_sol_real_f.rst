@@ -1,7 +1,7 @@
 cg_iric_write_sol_real_f
 ========================
 
--  Outputs double-precision real-type calculation results, having a
+-  Outputs double-precision real-type calculation results, having a value for each grid node.
 
 Format
 ------
