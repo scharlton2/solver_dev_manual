@@ -105,5 +105,7 @@ Reading calculation results,cg_iric_read_sol_gridcoord2d_f,Reads the 2D structur
 Reading calculation results,cg_iric_read_sol_gridcoord3d_f,Reads the 3D structured grid (for moving grid calculation),O
 Reading calculation results,cg_iric_read_sol_integer_f,"Reads the integer-type calculation result, having a value for each grid node",O
 Reading calculation results,cg_iric_read_sol_real_f,"Reads the double-precision real-type calculation result, having a value for each grid node",O
+Reading calculation results,cg_iric_read_sol_cell_integer_f,"Reads the integer-type calculation result, having a value for each grid cell",O
+Reading calculation results,cg_iric_read_sol_cell_real_f,"Reads the double-precision real-type calculation result, having a value for each grid cell",O
 Outputting error codes,cg_iric_write_errorcode_f,Outputs error code,O
 Closing the CGNS file,cg_close_f,Closes a CGNS file,X
