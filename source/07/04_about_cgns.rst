@@ -96,8 +96,8 @@ CGNS ファイル及び CGNS ライブラリに関する情報は、 :numref:`cg
    * - ホームページ
      - http://cgns.sourceforge.net/
    * - 関数リファレンス
-     - http://www.grc.nasa.gov/WWW/cgns/midlevel/index.html
+     - http://cgns.github.io/CGNS_docs_current/midlevel/index.html
    * - CGNSファイルの内部構造
-     - http://www.grc.nasa.gov/WWW/cgns/sids/index.html
-   * - CGNSライブラリの利用プログラムの記述例集
-     - http://sourceforge.net/projects/cgns/files/UserGuideCode/Release%203/UserGuideCodeV3.zip/download
+     - http://cgns.github.io/CGNS_docs_current/sids/index.html
+   * - 記述例集
+     - http://cgns.github.io/CGNS_docs_current/user/examples.html
