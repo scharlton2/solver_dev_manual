@@ -99,4 +99,4 @@ in :numref:`cgns_links` .
    * - Data structure inside a CGNS file
      - http://cgns.github.io/CGNS_docs_current/sids/index.html
    * - Sample programs
-     - https://cgns.github.io/CGNS_docs_current/user/examples.html
+     - http://cgns.github.io/CGNS_docs_current/user/examples.html
