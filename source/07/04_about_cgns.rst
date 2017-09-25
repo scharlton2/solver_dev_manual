@@ -95,8 +95,8 @@ in :numref:`cgns_links` .
    * - Homepage
      - http://cgns.sourceforge.net/
    * - Function reference
-     - http://www.grc.nasa.gov/WWW/cgns/midlevel/index.html
+     - http://cgns.github.io/CGNS_docs_current/midlevel/index.html
    * - Data structure inside a CGNS file
-     - http://www.grc.nasa.gov/WWW/cgns/sids/index.html
-   * - Sample program descriptions that demonstrate how to use CGNS libraries
-     - http://sourceforge.net/projects/cgns/files/UserGuideCode/Release%203/UserGuideCodeV3.zip/download
+     - http://cgns.github.io/CGNS_docs_current/sids/index.html
+   * - Sample programs
+     - https://cgns.github.io/CGNS_docs_current/user/examples.html
