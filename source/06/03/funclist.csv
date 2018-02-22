@@ -89,8 +89,12 @@ CGNSファイルを開く,cg_open_f,CGNS ファイルを開く,×
 計算結果の出力,cg_iric_write_sol_baseiterative_real_f,倍精度実数の計算結果を出力する,○
 計算結果の出力,cg_iric_write_sol_integer_f,整数の格子点ごとに値を持つ計算結果を出力する,○
 計算結果の出力,cg_iric_write_sol_real_f,倍精度実数の格子点ごとに値を持つ計算結果を出力する,○
+計算結果の出力,cg_iric_write_sol_cell_integer_f,整数の格子セルごとに値を持つ計算結果を出力する,○
+計算結果の出力,cg_iric_write_sol_cell_real_f,倍精度実数の格子セルごとに値を持つ計算結果を出力する,○
 計算結果の出力 (粒子),cg_iric_write_sol_particle_pos2d_f,粒子の位置を出力する (2次元),○
 計算結果の出力 (粒子),cg_iric_write_sol_particle_pos3d_f,粒子の位置を出力する (3次元),○
+計算結果の出力 (粒子),cg_iric_write_sol_particle_integer_f,整数の粒子ごとに値を持つ計算結果を出力する,○
+計算結果の出力 (粒子),cg_iric_write_sol_particle_real_f,倍精度実数の粒子ごとに値を持つ計算結果を出力する,○
 計算結果の出力の前後に利用する関数,iric_check_cancel_f,ユーザがソルバーの実行をキャンセルしたか確認する,×
 計算結果の出力の前後に利用する関数,iric_check_lock_f,CGNSファイルが GUI によってロックされているか確認する,×
 計算結果の出力の前後に利用する関数,iric_write_sol_start_f,計算結果の出力開始をGUIに通知する,×
@@ -105,5 +109,7 @@ CGNSファイルを開く,cg_open_f,CGNS ファイルを開く,×
 既存の計算結果の読み込み,cg_iric_read_sol_gridcoord3d_f,計算結果の3次元構造格子を取得する,○
 既存の計算結果の読み込み,cg_iric_read_sol_integer_f,整数の格子点ごとに値を持つ計算結果の値を取得する,○
 既存の計算結果の読み込み,cg_iric_read_sol_real_f,倍精度実数の格子点ごとに値を持つ計算結果の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_cell_integer_f,整数の格子セルごとに値を持つ計算結果の値を取得する,○
+既存の計算結果の読み込み,cg_iric_read_sol_cell_real_f,倍精度実数の格子セルごとに値を持つ計算結果の値を取得する,○
 エラーコードの出力,cg_iric_write_errorcode_f,エラーコードを出力する,○
 CGNSファイルを閉じる,cg_close_f,CGNS ファイルを閉じる,×
