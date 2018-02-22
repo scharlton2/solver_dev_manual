@@ -42,6 +42,10 @@ Types of calculation results that can be output with iRIClib are grouped into th
      - Outputs particle positions (two-dimensions)
    * - cg_iric_write_sol_particle_pos3d_f
      - Outputs particle positions (three-dimensions)
+   * - cg_iric_write_sol_particle_integer_f
+     - Outputs integer-type calculation results, having a value for each particle
+   * - cg_iric_write_sol_particle_real_f
+     - Outputs double-precision real-type calculation results, having a value for each particle
 
 .. list-table:: Subroutines to use before and after outputting calculation result for each timestep
    :header-rows: 1
@@ -70,7 +74,7 @@ output calculation results.
    program Sample6
      implicit none
      include 'cgnslib_f.h'
-   
+
      integer:: fin, ier, isize, jsize
      double precision:: time
      double precision:: convergence
@@ -78,15 +82,15 @@ output calculation results.
      double precision, dimension(:,:), allocatable:: velocity_x, velocity_y, depth
      integer, dimension(:,:), allocatable:: wetflag
      double precision, dimension(:), allocatable:: particlex, particley
-   
+
      ! Open CGNS file
      call cg_open_f('test.cgn', CG_MODE_MODIFY, fin, ier)
      if (ier /=0) STOP "*** Open error of CGNS file ***"
-   
+
      ! Initialize iRIClib
      call cg_iric_init_f(fin, ier)
      if (ier /=0) STOP "*** Initialize error of CGNS file ***"
-   
+
      ! Check the grid size.
      call cg_iric_gotogridcoord2d_f(isize, jsize, ier)
      ! Allocate memory for loading the grid.
@@ -96,7 +100,7 @@ output calculation results.
      allocate(particlex(10), particley(10))
      ! Read the grid into memory.
      call cg_iric_getgridcoord2d_f (grid_x, grid_y, ier)
-   
+
      ! Output the initial state information.
      time = 0
      convergence = 0.1
@@ -132,7 +136,7 @@ output calculation results.
        call cg_iric_write_sol_particle_pos2d_f(10, particlex, particley, ier)
        If (time > 1000) exit
      end do
-   
+
      ! Close CGNS file
      call cg_close_f(fin, ier)
      stop
