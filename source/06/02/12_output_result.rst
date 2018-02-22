@@ -42,6 +42,10 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
      - 粒子の位置を出力する (2次元)
    * - cg_iric_write_sol_particle_pos3d_f
      - 粒子の位置を出力する (3次元)
+   * - cg_iric_write_sol_particle_integer_f
+     - 整数の粒子ごとに値を持つ計算結果を出力する
+   * - cg_iric_write_sol_particle_real_f
+     - 倍精度実数の粒子ごとに値を持つ計算結果を出力する
 
 .. list-table:: 計算結果の出力の開始前、終了後に利用する関数
    :header-rows: 1
@@ -69,7 +73,7 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
    program Sample6
      implicit none
      include 'cgnslib_f.h'
-   
+
      integer:: fin, ier, isize, jsize
      integer:: canceled
      integer:: locked
@@ -79,15 +83,15 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
      real, dimension(:,:), allocatable:: velocity_x, velocity_y, depth
      integer, dimension(:,:), allocatable:: wetflag
      double precision, dimension(:,:), allocatable:: velocity_x, velocity_y, depth
-   
+
      ! CGNS ファイルのオープン
      call cg_open_f('test.cgn', CG_MODE_MODIFY, fin, ier)
      if (ier /=0) STOP "*** Open error of CGNS file ***"
-   
+
      ! 内部変数の初期化
      call cg_iric_init_f(fin, ier)
      if (ier /=0) STOP "*** Initialize error of CGNS file ***"
-   
+
      ! 格子のサイズを調べる
      call cg_iric_gotogridcoord2d_f(isize, jsize, ier)
      ! 格子を読み込むためのメモリを確保
@@ -97,7 +101,7 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
      allocate(particlex(10), particley(10))
      ! 格子を読み込む
      call cg_iric_getgridcoord2d_f (grid_x, grid_y, ier)
-   
+
      ! 初期状態の情報を出力
      time = 0
      convergence = 0.1
@@ -133,10 +137,10 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
        call cg_iric_write_sol_particle_pos2d_f(10, particlex, particley, ier)
        call cg_iric_flush_f('test.cgn', fin, ier)
        call iric_write_sol_end_f('test.cgn', ier)
-   
+
        if (time > 1000) exit
      end do
-   
+
      ! CGNS ファイルのクローズ
      call cg_close_f(fin, ier)
      stop
@@ -150,4 +154,3 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
 計算結果については、iRIC では特別な名前が定義されており、
 特定の目的で使用される結果ではその名前を使用する必要があります。
 特別な計算結果の名前については :ref:`special_result_names` を参照してください。
-

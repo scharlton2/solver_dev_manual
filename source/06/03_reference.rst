@@ -99,6 +99,8 @@
    03/cg_iric_write_sol_real_f
    03/cg_iric_write_sol_particle_pos2d_f
    03/cg_iric_write_sol_particle_pos3d_f
+   03/cg_iric_write_sol_particle_integer_f
+   03/cg_iric_write_sol_particle_real_f
    03/iric_check_cancel_f
    03/iric_check_lock_f
    03/iric_write_sol_start_f
