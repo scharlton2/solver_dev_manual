@@ -10,7 +10,7 @@ Reading the calculation conditions,cg_iric_read_string_f,Gets the value of a str
 Reading the calculation conditions,cg_iric_read_functionalsize_f,Gets the size of a functional-type variable,O
 Reading the calculation conditions,cg_iric_read_functional_f,Gets the value of a functional-type double-precision variable,O
 Reading the calculation conditions,cg_iric_read_functional_realsingle_f,Gets the value of a functional-type single-precision variable,O
-Reading the calculation conditions,cg_iric_read_functionalwithname_f,Gets the value of a functional-type variable (with multiple values) ,O
+Reading the calculation conditions,cg_iric_read_functionalwithname_f,Gets the value of a functional-type variable (with multiple values),O
 Reading a calculation grid,cg_iric_gotogridcoord2d_f,Makes preparations for reading a grid,O
 Reading a calculation grid,cg_iric_gotogridcoord3d_f,Makes preparations for reading a grid,O
 Reading a calculation grid,cg_iric_getgridcoord2d_f,Reads the x and y coordinates of a grid,O
@@ -18,7 +18,7 @@ Reading a calculation grid,cg_iric_getgridcoord3d_f,"Reads the x, y and z coordi
 Reading a calculation grid,cg_iric_read_grid_integer_node_f,Reads the integer attribute values defined for grid nodes,O
 Reading a calculation grid,cg_iric_read_grid_real_node_f,Reads double-precision attribute values defined for grid nodes,O
 Reading a calculation grid,cg_iric_read_grid_integer_cell_f,Reads the integer attribute values defined for cells,O
-Reading a calculation grid,cg_iric_read_grid_real_cell_f ,Reads the double-precision attribute values defined for cells ,O
+Reading a calculation grid,cg_iric_read_grid_real_cell_f,Reads the double-precision attribute values defined for cells,O
 Reading a calculation grid,cg_iric_read_complex_count_f,Reads the number of groups of complex type grid attribute,O
 Reading a calculation grid,cg_iric_read_complex_integer_f,Reads the integer attribute values of complex type grid attribute,O
 Reading a calculation grid,cg_iric_read_complex_real_f,Reads the double precision attribute values of complex type grid attribute,O
@@ -44,7 +44,7 @@ Reading boundary conditions,cg_iric_read_bc_indicessize_f,Reads the number of el
 Reading boundary conditions,cg_iric_read_bc_indices_f,Reads the list of indices of elements (nodes or cells) where boundary conditions are assigned.,O
 Reading boundary conditions,cg_iric_read_bc_integer_f,Gets the value of an integer boundary condition,O
 Reading boundary conditions,cg_iric_read_bc_real_f,Gets the value of an real (double-precision) boundary condition,O
-Reading boundary conditions,cg_iric_read_bc_realsingle_f,Gets the value of an real (single-precision) boundary condition ,O
+Reading boundary conditions,cg_iric_read_bc_realsingle_f,Gets the value of an real (single-precision) boundary condition,O
 Reading boundary conditions,cg_iric_read_bc_string_f,Gets the value of an string-type boundary condition,O
 Reading boundary conditions,cg_iric_read_bc_functionalsize_f,Gets the size of an functional-type boundary condition,O
 Reading boundary conditions,cg_iric_read_bc_functional_f,Gets the value of an functional-type double-precision boundary condition,O
@@ -93,6 +93,8 @@ Outputting calculation results,cg_iric_write_sol_cell_integer_f,"Outputs integer
 Outputting calculation results,cg_iric_write_sol_cell_real_f,"Outputs double-precision real-type calculation results, having a value for each grid cell",O
 Outputting calculation results (particles),cg_iric_write_sol_particle_pos2d_f,Outputs particle positions (two-dimensions),O
 Outputting calculation results (particles),cg_iric_write_sol_particle_pos3d_f,Outputs particle positions (three-dimensions),O
+Outputting calculation results (particles),cg_iric_write_sol_particle_integer_f,"Outputs integer-type calculation results, having a value for each particle",O
+Outputting calculation results (particles),cg_iric_write_sol_particle_real_f,"Outputs double-precision real-type calculation results, having a value for each particle",O
 Functions to call befor and after outputting calculation results,iric_check_cancel_f,Checks whether user canceled solver execution,X
 Functions to call befor and after outputting calculation results,iric_check_lock_f,Checks whether the CGNS file is locked by GUI,X
 Functions to call befor and after outputting calculation results,iric_write_sol_start_f,Inform the GUI that the solver started outputting result,X
