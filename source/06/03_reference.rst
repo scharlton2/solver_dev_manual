@@ -97,6 +97,8 @@
    03/cg_iric_write_sol_baseiterative_real_f
    03/cg_iric_write_sol_integer_f
    03/cg_iric_write_sol_real_f
+   03/cg_iric_write_sol_cell_integer_f
+   03/cg_iric_write_sol_cell_real_f
    03/cg_iric_write_sol_particle_pos2d_f
    03/cg_iric_write_sol_particle_pos3d_f
    03/cg_iric_write_sol_particle_integer_f

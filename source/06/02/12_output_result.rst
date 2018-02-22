@@ -33,6 +33,16 @@ iRIClib で出力できる計算結果は、大きく以下に分類されます
    * - cg_iric_write_sol_real_f
      - 倍精度実数の格子点ごとに値を持つ計算結果を出力する
 
+.. list-table:: 格子セルごとに値を持つ計算結果の出力に利用する関数
+   :header-rows: 1
+
+   * - 関数
+     - 備考
+   * - cg_iric_write_sol_cell_integer_f
+     - 整数の格子セルごとに値を持つ計算結果を出力する
+   * - cg_iric_write_sol_real_f
+     - 倍精度実数の格子セルごとに値を持つ計算結果を出力する
+
 .. list-table:: 粒子ごとに値を持つ計算結果の出力に利用する関数
    :header-rows: 1
 
