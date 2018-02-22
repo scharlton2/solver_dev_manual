@@ -89,6 +89,8 @@ Outputting calculation results,cg_iric_write_sol_baseiterative_integer_f,Outputs
 Outputting calculation results,cg_iric_write_sol_baseiterative_real_f,Outputs double-precision real-type calculation results,O
 Outputting calculation results,cg_iric_write_sol_integer_f,"Outputs integer-type calculation results, having a value for each grid node",O
 Outputting calculation results,cg_iric_write_sol_real_f,"Outputs double-precision real-type calculation results, having a value for each grid node",O
+Outputting calculation results,cg_iric_write_sol_cell_integer_f,"Outputs integer-type calculation results, having a value for each grid cell",O
+Outputting calculation results,cg_iric_write_sol_cell_real_f,"Outputs double-precision real-type calculation results, having a value for each grid cell",O
 Outputting calculation results (particles),cg_iric_write_sol_particle_pos2d_f,Outputs particle positions (two-dimensions),O
 Outputting calculation results (particles),cg_iric_write_sol_particle_pos3d_f,Outputs particle positions (three-dimensions),O
 Functions to call befor and after outputting calculation results,iric_check_cancel_f,Checks whether user canceled solver execution,X
