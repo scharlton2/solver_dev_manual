@@ -117,5 +117,7 @@
    03/cg_iric_read_sol_gridcoord3d_f
    03/cg_iric_read_sol_integer_f
    03/cg_iric_read_sol_real_f
+   03/cg_iric_read_sol_cell_integer_f
+   03/cg_iric_read_sol_cell_real_f
    03/cg_iric_write_errorcode_f
    03/cg_close_f
