@@ -10,3 +10,4 @@ Other Informations
    07/02_how_to_build
    07/03_special_names
    07/04_about_cgns
+   07/05_how_to_update
