@@ -36,6 +36,7 @@
 .. _solverdef_structure1:
 
 .. figure:: images/solverdef_structure1.png
+   :width: 400pt
 
    ソルバー定義ファイルの構造
 
@@ -58,12 +59,14 @@ iRIC を起動します。 :numref:`iric_start_dialog_for_solverdef`
 .. _iric_start_dialog_for_solverdef:
 
 .. figure:: images/iric_start_dialog.png
+   :width: 320pt
 
    iRIC のスタートダイアログ
 
 .. _solver_select_dialog_for_solverdef:
 
 .. figure:: images/solver_select_dialog.png
+   :width: 350pt
 
    ソルバー選択ダイアログ
 

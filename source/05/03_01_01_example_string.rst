@@ -13,9 +13,9 @@
 .. _widget_example_string:
 
 .. figure:: images/widget_example_string.png
+   :width: 320pt
 
    文字列の条件の表示例
-
 
 .. code-block:: fortran
    :caption: 文字列の条件を読み込むための処理の記述例 (計算条件・格子生成条件)

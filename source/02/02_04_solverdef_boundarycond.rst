@@ -50,6 +50,7 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _preprocessor_with_boundarycondition:
 
 .. figure:: images/preprocessor_with_boundarycondition.png
+   :width: 370pt
 
    プリプロセッサ 表示例 (格子作成後)
 
@@ -61,6 +62,7 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _boundarycondition_edit_dialog:
 
 .. figure:: images/boundarycondition_edit_dialog.png
+   :width: 180pt
 
    境界条件の編集ダイアログ
 
@@ -71,6 +73,7 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _preprocessor_after_setting_bc:
 
 .. figure:: images/preprocessor_after_setting_bc.png
+   :width: 420pt
 
    境界条件を設定した格子の表示例
 

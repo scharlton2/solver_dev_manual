@@ -18,18 +18,21 @@
 .. _dict_wizard_intro:
 
 .. figure:: images/dict_wizard_intro.png
+   :width: 340pt
 
    ソルバー定義ファイルの辞書更新ウィザード 表示例 (1ページ目)
 
 .. _dict_wizard_select_solver:
 
 .. figure:: images/dict_wizard_select_solver.png
+   :width: 340pt
 
    ソルバー定義ファイルの辞書更新ウィザード 表示例 (2ページ目)
 
 .. _dict_wizard_confirm:
 
 .. figure:: images/dict_wizard_confirm.png
+   :width: 340pt
 
    ソルバー定義ファイルの辞書更新ウィザード 表示例 (3ページ目)
 
@@ -78,6 +81,7 @@
 .. _qt_linguist_screenshot:
 
 .. figure:: images/qt_linguist_screenshot.png
+   :width: 480pt
 
    Qt Linguist 画面表示例
 
@@ -91,12 +95,14 @@
 .. _translation_example_pre_objbrowser:
 
 .. figure:: images/translation_example_pre_objbrowser.png
+   :width: 340pt
 
-    翻訳完了後のプリプロセッサ 表示例
+   翻訳完了後のプリプロセッサ 表示例
 
 .. _translation_example_pre_calccond:
 
 .. figure:: images/translation_example_pre_calccond.png
+   :width: 300pt
 
    翻訳完了後の計算条件設定ダイアログ 表示例
 

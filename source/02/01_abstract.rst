@@ -70,6 +70,7 @@ iRIC、ソルバー、関連ファイルの関係を :numref:`relations_between_
 .. _relations_between_solver_and_files:
 
 .. figure:: images/files_related_to_solver.png
+   :width: 420pt
 
    iRIC、ソルバー、関連ファイルの関係図
 

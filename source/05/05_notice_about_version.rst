@@ -42,6 +42,7 @@
 .. _version_compatibility:
 
 .. figure:: images/version_compatibility.png
+   :width: 440pt
 
    ソルバー・プロジェクトファイルのバージョン番号と互換性の例
 

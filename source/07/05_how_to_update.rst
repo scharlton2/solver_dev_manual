@@ -75,6 +75,7 @@ TortoiseSVN --> 設定
 .. _image_svn_setting_dialog:
 
 .. figure:: images/svn_setting_dialog.png
+   :width: 400pt
 
    TortoiseSVN 設定ダイアログ
 
@@ -111,6 +112,7 @@ SVN チェックアウト
 .. _image_svn_checkout_dialog1:
 
 .. figure:: images/svn_checkout_dialog1.png
+   :width: 280pt
 
    ファイルのチェックアウト用ダイアログ
 
@@ -124,6 +126,7 @@ https://github.com/i-RIC/online_update.git/trunk/dev_src/packages
 .. _image_svn_checkout_dialog2:
 
 .. figure:: images/svn_checkout_dialog2.png
+   :width: 420pt
 
    ファイルのチェックアウト用ダイアログ (フォルダの選択)
 
@@ -140,6 +143,7 @@ https://github.com/i-RIC/online_update.git/trunk/dev_src/packages
 .. _image_svn_checkout_progress_dialog:
 
 .. figure:: images/svn_checkout_progress_dialog.png
+   :width: 440pt
 
    ファイルの取得進捗ダイアログ
 
@@ -150,6 +154,7 @@ https://github.com/i-RIC/online_update.git/trunk/dev_src/packages
 .. _image_svn_explorer_example1:
 
 .. figure:: images/svn_explorer_example1.png
+   :width: 460pt
 
    ファイルのチェックアウト後のエクスプローラ表示例
 
@@ -175,6 +180,7 @@ TortoiseSVN --> 追加
 .. _image_svn_explorer_example2:
 
 .. figure:: images/svn_explorer_example2.png
+   :width: 460pt
 
    新しいファイルをコピーした後のエクスプローラ表示例
 
@@ -203,6 +209,7 @@ SVN コミット
 .. _image_svn_commit_dialog:
 
 .. figure:: images/svn_commit_dialog.png
+   :width: 360pt
 
    新しいファイルのコミット用ダイアログ
 
@@ -215,6 +222,7 @@ SVN コミット
 .. _image_svn_auth_dialog:
 
 .. figure:: images/svn_auth_dialog.png
+   :width: 210pt
 
    認証ダイアログ
 

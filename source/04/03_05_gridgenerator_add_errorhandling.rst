@@ -51,6 +51,7 @@ JMax にそれぞれ 10000 を指定してみてください。
 .. _gridgenerator_error_dialog:
 
 .. figure:: images/gridgenerator_error_dialog.png
+   :width: 220pt
 
    格子生成エラーダイアログ 表示例
 

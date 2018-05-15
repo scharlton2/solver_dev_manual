@@ -13,9 +13,9 @@
 .. _widget_example_filename_save:
 
 .. figure:: images/widget_example_filename_save.png
+   :width: 320pt
 
    ファイル名 (書き込み用) の条件の表示例
-
 
 .. code-block:: fortran
    :caption: ファイル名 (書き込み用)の条件を読み込むための処理の記述例 (計算条件・格子生成条件)

@@ -18,6 +18,7 @@
 .. _widget_example_func:
 
 .. figure:: images/widget_example_func.png
+   :width: 350pt
 
    関数型の条件の表示例
 

@@ -40,6 +40,7 @@ https://www.hdfgroup.org/downloads/index.html
 .. _hdfview_webpage:
 
 .. figure:: images/hdf_webpage.png
+   :width: 400pt
 
    HDF group ウェブページ
 
@@ -52,6 +53,7 @@ HDF のホームページから、「Current Release」の
 .. _hdfview_download_page:
 
 .. figure:: images/hdf_downloadpage.png
+   :width: 440pt
 
    ダウンロードページ 表示例
 
@@ -73,6 +75,7 @@ CGNS ファイルを開いた後の HDFView の画面表示例を
 .. _hdfview_example:
 
 .. figure:: images/hdfview.png
+   :width: 460pt
 
    HDFView 表示例
 

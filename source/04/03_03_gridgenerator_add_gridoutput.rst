@@ -81,6 +81,7 @@ DLLなども同じフォルダにコピーしてください。
 .. _gridgen_cond_dialog_for_testing:
 
 .. figure:: images/gridgen_cond_dialog_for_testing.png
+   :width: 280pt
 
    格子生成条件設定ダイアログ 表示例
 
@@ -92,6 +93,7 @@ DLLなども同じフォルダにコピーしてください。
 .. _preprocessor_after_gridgen:
 
 .. figure:: images/preprocessor_after_gridgen.png
+   :width: 420pt
 
    プリプロセッサ表示例
 

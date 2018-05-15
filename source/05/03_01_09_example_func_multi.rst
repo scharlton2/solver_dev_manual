@@ -17,6 +17,7 @@
 .. _widget_example_func_multi:
 
 .. figure:: images/widget_example_func_multi.png
+   :width: 350pt
 
    関数型 (複数の値) の条件の表示例
 

@@ -27,5 +27,6 @@ iRIC 上で正しく表示されるか確認して下さい。ダイアログの
 .. _screenshot_for_readme_gridgen:
 
 .. figure:: images/gridgen_readme.png
+   :width: 380pt
 
    格子生成アルゴリズム選択ダイアログ 表示例

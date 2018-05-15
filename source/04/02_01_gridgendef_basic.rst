@@ -32,6 +32,7 @@
 .. _gridgendef_structure1:
 
 .. figure:: images/gridgendef_structure1.png
+   :width: 400pt
 
    格子生成プログラム定義ファイルの構造
 
@@ -56,17 +57,20 @@ iRIC を起動します。 :numref:`iric_start_dialog_for_gridgendef`
 .. _iric_start_dialog_for_gridgendef:
 
 .. figure:: images/iric_start_dialog.png
+   :width: 340pt
 
    iRIC のスタートダイアログ
 
 .. _solver_select_dialog_for_gridgendef:
 
 .. figure:: images/solver_select_dialog.png
+   :width: 360pt
 
    ソルバー選択ダイアログ
 
 .. _gridgen_select_dialog:
 
 .. figure:: images/gridgen_select_dialog.png
+   :width: 360pt
 
    格子生成アルゴリズム選択ダイアログ

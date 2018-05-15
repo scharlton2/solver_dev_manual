@@ -17,12 +17,14 @@
 .. _def_structure_solverdef:
 
 .. figure:: images/solverdef_structure_basic.png
+   :width: 340pt
 
    ソルバー定義ファイルの構造
 
 .. _def_structure_solverdef_multigridtype:
 
 .. figure:: images/solverdef_structure_multigrid.png
+   :width: 370pt
 
    複数の格子を利用するソルバーのソルバー定義ファイルの構造
 
@@ -88,6 +90,7 @@
 .. _preprocessor_multigridtypes:
 
 .. figure:: images/preprocessor_multigridtypes.png
+   :width: 340pt
 
    複数の格子を定義したソルバ定義ファイルを読み込んだ場合のプリプロセッサ 表示例
 
@@ -101,5 +104,6 @@
 .. _gridgen_structure:
 
 .. figure:: images/gridgen_structure.png
+   :width: 380pt
 
    格子生成プログラム定義ファイルの構造

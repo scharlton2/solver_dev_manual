@@ -13,6 +13,7 @@
 .. _widget_example_integer:
 
 .. figure:: images/widget_example_integer.png
+   :width: 340pt
 
    整数の条件の表示例
 
@@ -20,7 +21,6 @@
    :caption: 整数の条件を読み込むための処理の記述例 (計算条件・格子生成条件)
    :name: widget_example_integer_load_calccond
    :linenos:
-
 
    integer:: ier, numsteps
 

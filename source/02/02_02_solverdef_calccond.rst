@@ -48,6 +48,7 @@ CalculationCondition 要素で定義します。 :ref:`solverdef_create_basic_in
 .. _solverdef_structure_with_calccond:
 
 .. figure:: images/solverdef_structure_with_calccond.png
+   :width: 400pt
 
    ソルバー定義ファイルの構造
 
@@ -62,6 +63,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 .. _iric_warning_dialog_for_no_elevation:
 
 .. figure:: images/iric_warning_dialog_for_no_elevation.png
+   :width: 340pt
 
    警告ダイアログ 表示例
 
@@ -77,6 +79,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 .. _calccond_dialog_for_solverdef:
 
 .. figure:: images/calccond_dialog.png
+   :width: 320pt
 
    計算条件設定ダイアログ 表示例
 
@@ -125,6 +128,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 .. _solverdef_structure_with_calccond_additional:
 
 .. figure:: images/solverdef_structure_with_calccond_additional.png
+   :width: 400pt
 
    ソルバー定義ファイルの構造
 
@@ -142,6 +146,7 @@ iRIC を起動します。:numref:`iric_start_dialog_for_solverdef`
 .. _calccond_dialog_with_watersurfaceelevation:
 
 .. figure:: images/calccond_dialog_with_watersurfaceelevation.png
+   :width: 320pt
 
    計算条件設定ダイアログ 表示例
 

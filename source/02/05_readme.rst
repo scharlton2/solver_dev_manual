@@ -27,6 +27,7 @@ README というファイル名のテキストファイルを、
 .. _screenshot_for_readme:
 
 .. figure:: images/screenshot_for_readme.png
+   :width: 380pt
 
    ソルバー選択ダイアログ 表示例
 

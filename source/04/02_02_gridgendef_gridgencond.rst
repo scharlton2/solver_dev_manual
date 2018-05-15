@@ -42,6 +42,7 @@ CalculationCondition 要素で定義します。 :ref:`gridgendef_create_basic_i
 .. _gridgen_structure_with_gridgencond:
 
 .. figure:: images/gridgen_structure_with_gridgencond.png
+   :width: 400pt
 
    格子生成プログラム定義ファイルの構造
 
@@ -60,6 +61,7 @@ iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
 .. _gridgen_cond_dialog_base:
 
 .. figure:: images/gridgen_cond_dialog_base.png
+   :width: 280pt
 
    格子生成ダイアログ 表示例
 
@@ -100,6 +102,7 @@ iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
 .. _gridgen_structure_with_gridgencond_advanced:
 
 .. figure:: images/gridgen_structure_with_gridgencond_advanced.png
+   :width: 400pt
 
    格子生成プログラム定義ファイルの構造
 
@@ -115,6 +118,7 @@ iRIC を起動し、 :ref:`gridgendef_create_basic_info` と同じ手順で
 .. _gridgen_cond_dialog_advanced:
 
 .. figure:: images/gridgen_cond_dialog_advanced.png
+   :width: 300pt
 
    格子生成ダイアログ 表示例
 

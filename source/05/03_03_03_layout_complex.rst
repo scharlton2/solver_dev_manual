@@ -55,5 +55,6 @@ GridLayout, HBoxLayout, VBoxLayout は入れ子にできます。
 .. _layout_example_complex_image:
 
 .. figure:: images/layout_complex.png
+   :width: 280pt
 
    自由なレイアウトのを利用したレイアウトのダイアログの表示例

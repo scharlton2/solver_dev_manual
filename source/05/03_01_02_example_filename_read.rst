@@ -14,9 +14,9 @@
 .. _widget_example_filename_load:
 
 .. figure:: images/widget_example_filename_load.png
+   :width: 340pt
 
    ファイル名 (読み込み用) の条件の表示例
-
 
 .. code-block:: fortran
    :caption: ファイル名 (読み込み用)の条件を読み込むための処理の記述例 (計算条件・格子生成条件)

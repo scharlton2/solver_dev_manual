@@ -18,6 +18,7 @@
 .. _dict_wizard_intro_gridgen:
 
 .. figure:: images/dict_wizard_intro.png
+   :width: 340pt
 
    定義ファイルの翻訳辞書 更新ウィザード 表示例 (1ページ目)
 
@@ -25,6 +26,7 @@
 .. _dict_wizard_select_gridgenerator:
 
 .. figure:: images/dict_wizard_select_gridgenerator.png
+   :width: 340pt
 
    定義ファイルの翻訳辞書 更新ウィザード 表示例 (2ページ目)
 
@@ -32,6 +34,7 @@
 .. _dict_wizard_confirm_gridgen:
 
 .. figure:: images/dict_wizard_confirm.png
+   :width: 340pt
 
    定義ファイルの翻訳辞書 更新ウィザード 表示例 (3ページ目)
 
@@ -79,6 +82,7 @@ UTF-8 で保存してください。
 .. _qt_linguist_screenshot_gridgen:
 
 .. figure:: images/qt_linguist_screenshot.png
+   :width: 480pt
 
    Qt Linguist 画面表示例
 
@@ -90,5 +94,6 @@ UTF-8 で保存してください。
 .. _gridgen_dialog_translated:
 
 .. figure:: images/gridgen_dialog_translated.png
+   :width: 280pt
 
    翻訳完了後の格子生成条件設定ダイアログ 表示例

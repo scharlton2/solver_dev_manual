@@ -44,6 +44,7 @@ iRIC からソルバーが正しく起動できるか確認します。
 .. _solverconsole_only_message:
 
 .. figure:: images/solverconsole_only_message.png 
+   :width: 400pt
 
    ソルバーコンソール表示例
 

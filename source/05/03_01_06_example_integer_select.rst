@@ -18,6 +18,7 @@
 .. _widget_example_integer_select:
 
 .. figure:: images/widget_example_combobox.png
+   :width: 320pt
 
    整数 (選択式) の条件の表示例
 

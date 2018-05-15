@@ -31,6 +31,7 @@
 .. _gridgendef_structure_with_error:
 
 .. figure:: images/gridgendef_structure_with_error.png
+   :width: 400pt
 
    格子生成プログラム定義ファイルの構造
 

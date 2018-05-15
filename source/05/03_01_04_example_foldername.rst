@@ -13,6 +13,7 @@
 .. _widget_example_folder:
 
 .. figure:: images/widget_example_folder.png
+   :width: 360pt
 
    フォルダ名の条件の表示例
 

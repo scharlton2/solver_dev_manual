@@ -67,6 +67,7 @@ iRIC、格子生成プログラム、関連ファイルの関係を
 .. _relations_between_gridgen_and_files:
 
 .. figure:: images/files_related_to_gridgenerator.png
+   :width: 420pt
 
    iRIC、格子生成プログラム、関連ファイルの関係図
 

@@ -49,12 +49,14 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _preprocessor_with_geographicdata:
 
 .. figure:: images/preprocessor_with_geographicdata.png
+   :width: 380pt
 
    プリプロセッサ 表示例
 
 .. _preprocessor_with_gridattributes:
 
 .. figure:: images/preprocessor_with_gridattributes.png
+   :width: 380pt
 
    プリプロセッサ 表示例 (格子生成後)
 
@@ -68,6 +70,7 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _dialog_to_edit_elevation:
 
 .. figure:: images/dialog_to_edit_elevation.png
+   :width: 230pt
 
    格子点の属性 \"Elevation\" の編集ダイアログ
 
@@ -78,6 +81,7 @@ iRIC を起動して、ソルバー \"Sample Solver\" の新しいプロジェ�
 .. _dialog_to_edit_obstacle:
 
 .. figure:: images/dialog_to_edit_obstacle.png
+   :width: 230pt
 
    格子セルの属性 \"Obstacle\" の編集ダイアログ
 

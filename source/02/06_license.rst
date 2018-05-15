@@ -29,6 +29,7 @@ LICENSE というファイル名のテキストファイルを、
 .. _screenshot_for_license:
 
 .. figure:: images/screenshot_for_license.png
+   :width: 380pt
 
    ソルバー選択ダイアログ 表示例
 

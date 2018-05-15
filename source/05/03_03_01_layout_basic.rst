@@ -59,5 +59,6 @@ Item 要素 のみを使って定義した単純なレイアウトの例を
 .. _layout_example_basic_image:
 
 .. figure:: images/layout_simple.png
+   :width: 260pt
 
    単純なレイアウトのダイアログの表示例
