@@ -13,9 +13,9 @@ File name (for writing)
 .. _widget_example_filename_save:
 
 .. figure:: images/widget_example_filename_save.png
+   :width: 320pt
 
    Widget example of a file name type (for writing) condition
-
 
 .. code-block:: fortran
    :caption: Code example to load a file name (for writing) type condition (for calculation conditions and grid generating conditions)

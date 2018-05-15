@@ -37,6 +37,7 @@ in :numref:`solverdef_structure1`.
 .. _solverdef_structure1:
 
 .. figure:: images/solverdef_structure1.png
+   :width: 400pt
 
    Solver definition file structure
 
@@ -60,12 +61,14 @@ Please note that the following attributes are not shown on this dialog:
 .. _iric_start_dialog_for_solverdef:
 
 .. figure:: images/iric_start_dialog.png
+   :width: 320pt
 
    The [iRIC Start Page] dialog
 
 .. _solver_select_dialog_for_solverdef:
 
 .. figure:: images/solver_select_dialog.png
+   :width: 350pt
 
    The [Select Solver] dialog
 

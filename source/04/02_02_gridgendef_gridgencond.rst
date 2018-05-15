@@ -45,6 +45,7 @@ file is as shown in :numref:`gridgen_structure_with_gridgencond`.
 .. _gridgen_structure_with_gridgencond:
 
 .. figure:: images/gridgen_structure_with_gridgencond.png
+   :width: 400pt
 
    Grid generating program definition file structure
 
@@ -63,6 +64,7 @@ checked, click on [Cancel] to close the dialog.
 .. _gridgen_cond_dialog_base:
 
 .. figure:: images/gridgen_cond_dialog_base.png
+   :width: 280pt
 
    The [Grid Creation] dialog
 
@@ -101,6 +103,7 @@ is as shown in :numref:`gridgen_structure_with_gridgencond_advanced`.
 .. _gridgen_structure_with_gridgencond_advanced:
 
 .. figure:: images/gridgen_structure_with_gridgencond_advanced.png
+   :width: 400pt
 
    Grid generating program definition file structure
 
@@ -115,9 +118,9 @@ enabled only when \"Output\" value is \"Enabled\".
 .. _gridgen_cond_dialog_advanced:
 
 .. figure:: images/gridgen_cond_dialog_advanced.png
+   :width: 300pt
 
    The [Grid Creation] dialog
-
 
 What it comes down to is:
 

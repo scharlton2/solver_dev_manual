@@ -19,18 +19,21 @@ or updated.
 .. _dict_wizard_intro:
 
 .. figure:: images/dict_wizard_intro.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 1)
 
 .. _dict_wizard_select_solver:
 
 .. figure:: images/dict_wizard_select_solver.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 2)
 
 .. _dict_wizard_confirm:
 
 .. figure:: images/dict_wizard_confirm.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 3)
 
@@ -80,6 +83,7 @@ downloaded from the following URL:
 .. _qt_linguist_screenshot:
 
 .. figure:: images/qt_linguist_screenshot.png
+   :width: 480pt
 
    The [Qt Linguist]
 
@@ -95,12 +99,13 @@ of dictionary.
 .. _translation_example_pre_objbrowser:
 
 .. figure:: images/translation_example_pre_objbrowser.png
+   :width: 340pt
 
-    [Pre-processor Window] after completing translation of dictionary (Japanese mode)
+   [Pre-processor Window] after completing translation of dictionary (Japanese mode)
 
 .. _translation_example_pre_calccond:
 
 .. figure:: images/translation_example_pre_calccond.png
+   :width: 300pt
 
    The [Calculation Condition] dialog after completing translation of dictionary (Japanese mode)
-

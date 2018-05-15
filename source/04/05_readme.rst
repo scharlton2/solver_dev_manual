@@ -32,5 +32,6 @@ dialog.
 .. _screenshot_for_readme_gridgen:
 
 .. figure:: images/gridgen_readme.png
+   :width: 380pt
 
    The [Select Grid Creating Algorithm] dialog

@@ -10,13 +10,12 @@ File name (for reading)
      <Definition valueType="filename" default="flow.dat" />
    </Item>
 
-
 .. _widget_example_filename_load:
 
 .. figure:: images/widget_example_filename_load.png
+   :width: 340pt
 
    Widget example of a file name (for reading) type condition
-
 
 .. code-block:: fortran
    :caption: Code example to load a file name (for reading) type condition (for calculation conditions and grid generating conditions)
@@ -28,7 +27,6 @@ File name (for reading)
 
    call cg_iric_read_string_f("flowdatafile", flowdatafile, ier)
 
-
 .. code-block:: fortran
    :caption: Code example to load a file name (for reading) type condition (for boundary conditions)
    :name: widget_example_filename_read_load_bcond
@@ -38,4 +36,3 @@ File name (for reading)
    character(200):: flowdatafile
 
    call cg_iric_read_bc_string_f("inflow", 1, "flowdatafile", flowdatafile, ier)
-

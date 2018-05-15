@@ -72,6 +72,7 @@ and related files.
 .. _relations_between_gridgen_and_files:
 
 .. figure:: images/files_related_to_gridgenerator.png
+   :width: 420pt
 
    The relationships between iRIC, grid generating programs, and related files
 

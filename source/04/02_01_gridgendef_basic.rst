@@ -32,6 +32,7 @@ file is as shown in :numref:`gridgendef_structure1`.
 .. _gridgendef_structure1:
 
 .. figure:: images/gridgendef_structure1.png
+   :width: 400pt
 
    Grid generating program definition file structure
 
@@ -55,17 +56,20 @@ finish checking, close the dialog by clicking on [Cancel].
 .. _iric_start_dialog_for_gridgendef:
 
 .. figure:: images/iric_start_dialog.png
+   :width: 340pt
 
    The [iRIC Start Page] dialog
 
 .. _solver_select_dialog_for_gridgendef:
 
 .. figure:: images/solver_select_dialog.png
+   :width: 360pt
 
    The [Select Solver] dialog
 
 .. _gridgen_select_dialog:
 
 .. figure:: images/gridgen_select_dialog.png
+   :width: 360pt
 
    The [Select Grid Creating Algorithm] dialog

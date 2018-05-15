@@ -66,6 +66,7 @@ GroupBox elements can be used to define groups of items.
 .. _layout_example_groupbox_image:
 
 .. figure:: images/layout_groupboxes.png
+   :width: 260pt
 
    Dialog for layout definition example that uses group boxes
    

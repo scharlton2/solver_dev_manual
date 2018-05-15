@@ -38,6 +38,7 @@ https://www.hdfgroup.org/downloads/index.html
 .. _hdfview_webpage:
 
 .. figure:: images/hdf_webpage.png
+   :width: 400pt
 
    HDF group web page
 
@@ -50,6 +51,7 @@ by unzipping and running the installer, you can install HDFView.
 .. _hdfview_download_page:
 
 .. figure:: images/hdf_downloadpage.png
+   :width: 440pt
 
    Download page
 
@@ -72,6 +74,7 @@ in :numref:`hdfview_example`.
 .. _hdfview_example:
 
 .. figure:: images/hdfview.png
+   :width: 460pt
 
    Example of ADFviewer screen
 

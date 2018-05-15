@@ -13,6 +13,7 @@ Real number
 .. _widget_example_real_select:
 
 .. figure:: images/widget_example_real.png
+   :width: 320pt
 
    Widget example of a real number type condition
 

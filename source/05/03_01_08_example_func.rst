@@ -18,6 +18,7 @@ Functional
 .. _widget_example_func:
 
 .. figure:: images/widget_example_func.png
+   :width: 350pt
 
    Widget example of a functional type condition
 

@@ -51,6 +51,7 @@ in :numref:`solverdef_structure_with_calccond`.
 .. _solverdef_structure_with_calccond:
 
 .. figure:: images/solverdef_structure_with_calccond.png
+   :width: 400pt
 
    Solver definition file structure
 
@@ -66,6 +67,7 @@ so click on [OK].
 .. _iric_warning_dialog_for_no_elevation:
 
 .. figure:: images/iric_warning_dialog_for_no_elevation.png
+   :width: 340pt
 
    The [Warning] dialog
 
@@ -80,6 +82,7 @@ you defined in :numref:`solverdef_example_with_calccond` are shown.
 .. _calccond_dialog_for_solverdef:
 
 .. figure:: images/calccond_dialog.png
+   :width: 320pt
 
    The [Calculation Condition] dialog
 
@@ -129,9 +132,9 @@ in :numref:`solverdef_structure_with_calccond_additional`.
 .. _solverdef_structure_with_calccond_additional:
 
 .. figure:: images/solverdef_structure_with_calccond_additional.png
+   :width: 400pt
 
    Solver definition file structure
-
 
 Now make sure that solver definition file is arranged correctly. Do the
 operation you did again, to open The [Calculation Condition] dialog
@@ -146,6 +149,7 @@ and the \"Time Dependent Value\" item is enabled only when \"Type\" value is
 .. _calccond_dialog_with_watersurfaceelevation:
 
 .. figure:: images/calccond_dialog_with_watersurfaceelevation.png
+   :width: 320pt
 
    The [Calculation Condition] dialog
 

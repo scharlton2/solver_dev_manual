@@ -48,6 +48,7 @@ When you do now know how to create or imprt a grid, refer to the User Manual.
 .. _preprocessor_with_boundarycondition:
 
 .. figure:: images/preprocessor_with_boundarycondition.png
+   :width: 370pt
 
    The [Pre-processing Window] after creating a grid
 
@@ -59,6 +60,7 @@ will open, and you can define boundary condition on this dialog.
 .. _boundarycondition_edit_dialog:
 
 .. figure:: images/boundarycondition_edit_dialog.png
+   :width: 180pt
 
    The [Boundary Condition] dialog
 
@@ -70,6 +72,7 @@ shows an example of a grid with boundary condition.
 .. _preprocessor_after_setting_bc:
 
 .. figure:: images/preprocessor_after_setting_bc.png
+   :width: 420pt
 
    Example of a grid with boundary condition
 

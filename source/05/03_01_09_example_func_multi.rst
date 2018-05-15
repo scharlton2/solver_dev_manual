@@ -17,6 +17,7 @@ Functional (with multiple values)
 .. _widget_example_func_multi:
 
 .. figure:: images/widget_example_func_multi.png
+   :width: 350pt
 
    Widget example of a functional (with multiple values) type condition (for calculation conditions and grid generating conditions)
 

@@ -13,6 +13,7 @@ Folder name
 .. _widget_example_folder:
 
 .. figure:: images/widget_example_folder.png
+   :width: 360pt
 
    Widget example of a folder name type condition
 
@@ -25,7 +26,6 @@ Folder name
    character(200):: flowdatafolder
 
    call cg_iric_read_string_f("flowdatafolder", flowdatafolder, ier)
-
 
 .. code-block:: fortran
    :caption: Code example to load a folder name type condition (for boundary conditions)

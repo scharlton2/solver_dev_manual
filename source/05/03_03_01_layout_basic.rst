@@ -5,7 +5,6 @@ Simple layout (that only uses Item elements) example definition is shown
 in :numref:`layout_example_basic_code`, and the corresponding
 dialog is shown in :numref:`layout_example_basic_image`.
 
-
 .. code-block:: xml
    :caption: Simple layout definition example
    :name: layout_example_basic_code
@@ -59,5 +58,6 @@ dialog is shown in :numref:`layout_example_basic_image`.
 .. _layout_example_basic_image:
 
 .. figure:: images/layout_simple.png
+   :width: 260pt
 
    Dialog for simple layout definition example

@@ -77,6 +77,7 @@ iRIC, solver and related files.
 .. _relations_between_solver_and_files:
 
 .. figure:: images/files_related_to_solver.png
+   :width: 420pt
 
    Relationships between iRIC, solvers, and related files
 

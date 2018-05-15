@@ -35,7 +35,6 @@ The added part is shown with highlight.
      </GridRelatedCondition>
    </SolverDefinition>
 
-
 Now make sure that solver definition file is arranged correctly.
 
 Launch iRIC, and starts a new project with solver \"Sample Solver\".
@@ -50,12 +49,14 @@ refer to the User Manual.
 .. _preprocessor_with_geographicdata:
 
 .. figure:: images/preprocessor_with_geographicdata.png
+   :width: 380pt
 
    The [Pre-processing Window]
 
 .. _preprocessor_with_gridattributes:
 
 .. figure:: images/preprocessor_with_gridattributes.png
+   :width: 380pt
 
    The [Pre-processing Window] after creating a grid
 
@@ -73,6 +74,7 @@ will open, and you can check that you can input real number as
 .. _dialog_to_edit_elevation:
 
 .. figure:: images/dialog_to_edit_elevation.png
+   :width: 230pt
 
    The [Edit Elevation] dialog
 
@@ -85,9 +87,9 @@ defined in solver definition file, in :numref:`solverdef_example_with_gridcond`.
 .. _dialog_to_edit_obstacle:
 
 .. figure:: images/dialog_to_edit_obstacle.png
+   :width: 230pt
 
    The [Obstacle edit dialog]
-
 
 What it comes down to is:
 

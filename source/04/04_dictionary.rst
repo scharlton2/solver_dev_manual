@@ -20,6 +20,7 @@ or updated.
 .. _dict_wizard_intro_gridgen:
 
 .. figure:: images/dict_wizard_intro.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 1)
 
@@ -27,13 +28,14 @@ or updated.
 .. _dict_wizard_select_gridgenerator:
 
 .. figure:: images/dict_wizard_select_gridgenerator.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 2)
-
 
 .. _dict_wizard_confirm_gridgen:
 
 .. figure:: images/dict_wizard_confirm.png
+   :width: 340pt
 
    The [Definition File Translation Update Wizard] (Page 3)
 
@@ -81,6 +83,7 @@ downloaded from the following URL:
 .. _qt_linguist_screenshot_gridgen:
 
 .. figure:: images/qt_linguist_screenshot.png
+   :width: 480pt
 
    The [Qt Linguist]
 
@@ -93,5 +96,6 @@ completing transtaion of dictionary.
 .. _gridgen_dialog_translated:
 
 .. figure:: images/gridgen_dialog_translated.png
+   :width: 280pt
 
    The [Grid Creation] dialog

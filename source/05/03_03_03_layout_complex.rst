@@ -55,5 +55,6 @@ GroupBox element can be used inside these elements freely.
 .. _layout_example_complex_image:
 
 .. figure:: images/layout_complex.png
+   :width: 280pt
 
    Dialog for free layout definition example

@@ -83,6 +83,7 @@ will open.
 .. _gridgen_cond_dialog_for_testing:
 
 .. figure:: images/gridgen_cond_dialog_for_testing.png
+   :width: 280pt
 
    The [Grid Creation] dialog
 
@@ -92,6 +93,7 @@ the pre-processing window (:numref:`preprocessor_after_gridgen`).
 .. _preprocessor_after_gridgen:
 
 .. figure:: images/preprocessor_after_gridgen.png
+   :width: 420pt
 
    The pre-processing window after creating grid
 

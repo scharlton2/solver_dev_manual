@@ -18,15 +18,16 @@ multiple types of calculation grids is shown in
 .. _def_structure_solverdef:
 
 .. figure:: images/solverdef_structure_basic.png
+   :width: 340pt
 
    Structure of solver definition file
 
 .. _def_structure_solverdef_multigridtype:
 
 .. figure:: images/solverdef_structure_multigrid.png
+   :width: 370pt
 
    Structure of solver definition files for a solver that uses multiple grid types
-
 
 When the solver uses multiple types of grids, Solver developers should
 add multiple GridType elements, and defines grid structure, grid
@@ -93,9 +94,9 @@ is shown.
 .. _preprocessor_multigridtypes:
 
 .. figure:: images/preprocessor_multigridtypes.png
+   :width: 340pt
 
    Pre-processor image after loading the solver definition file with multiple grid type definitions
-
 
 Grid generating program definition file
 -----------------------------------------
@@ -106,5 +107,6 @@ Structure of grid generating program definition file is shown in
 .. _gridgen_structure:
 
 .. figure:: images/gridgen_structure.png
+   :width: 380pt
 
    Structure of grid generating program definition file

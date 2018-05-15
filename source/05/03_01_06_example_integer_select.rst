@@ -18,6 +18,7 @@ Integer (Choice)
 .. _widget_example_integer_select:
 
 .. figure:: images/widget_example_combobox.png
+   :width: 320pt
 
    Widget example of a integer (choice) type condition
 

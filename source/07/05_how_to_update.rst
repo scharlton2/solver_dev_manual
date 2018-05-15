@@ -33,7 +33,6 @@ than git.
 
 The detail of the procedure is described below:
 
-
 Install Subversion client software (needed only for the first time)
 ----------------------------------------------------------------------
 
@@ -70,6 +69,7 @@ Setup the setting to fit your environment, and click on [OK] button.
 .. _image_svn_setting_dialog:
 
 .. figure:: images/svn_setting_dialog.png
+   :width: 400pt
 
    [TortoiseSVN Setting] dialog
 
@@ -109,6 +109,7 @@ Then, the dialog in :numref:`image_svn_checkout_dialog1` is shown.
 .. _image_svn_checkout_dialog1:
 
 .. figure:: images/svn_checkout_dialog1.png
+   :width: 280pt
 
    The dialog to checkout files
 
@@ -122,6 +123,7 @@ Then, the dialog in :numref:`image_svn_checkout_dialog2` is shown.
 .. _image_svn_checkout_dialog2:
 
 .. figure:: images/svn_checkout_dialog2.png
+   :width: 420pt
 
    The dialog to checkout files (select folder)
 
@@ -139,6 +141,7 @@ it starts downloading files from the server.
 .. _image_svn_checkout_progress_dialog:
 
 .. figure:: images/svn_checkout_progress_dialog.png
+   :width: 440pt
 
    File checkout progress dialog
 
@@ -150,6 +153,7 @@ check mark icon.
 .. _image_svn_explorer_example1:
 
 .. figure:: images/svn_explorer_example1.png
+   :width: 460pt
 
    The example of explorer to show files checked out from server
 
@@ -177,6 +181,7 @@ after overwriting "Fastmech.exe", and adding "newdll.dll".
 .. _image_svn_explorer_example2:
 
 .. figure:: images/svn_explorer_example2.png
+   :width: 460pt
 
    The example of explorer to after copying files
    
@@ -205,6 +210,7 @@ Then the dialog in :numref:`image_svn_commit_dialog` is shown.
 .. _image_svn_commit_dialog:
 
 .. figure:: images/svn_commit_dialog.png
+   :width: 360pt
 
    The dialog to commit new files
 
@@ -217,6 +223,7 @@ Please input the Username and Password, and click on [OK].
 .. _image_svn_auth_dialog:
 
 .. figure:: images/svn_auth_dialog.png
+   :width: 210pt
 
    [Authentication] dialog
 

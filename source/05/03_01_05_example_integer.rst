@@ -13,6 +13,7 @@ Integer
 .. _widget_example_integer:
 
 .. figure:: images/widget_example_integer.png
+   :width: 340pt
 
    Widget example of a integer type condition
 
@@ -20,7 +21,6 @@ Integer
    :caption: Code example to load a integer type condition (for calculation conditions and grid generating conditions)
    :name: widget_example_integer_load_calccond
    :linenos:
-
 
    integer:: ier, numsteps
 
@@ -34,4 +34,3 @@ Integer
    integer:: ier, numsteps
 
    call cg_iric_read_bc_integer_f("inflow", 1, "numsteps", numsteps, ier)
-

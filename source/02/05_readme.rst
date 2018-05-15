@@ -26,6 +26,7 @@ and check whether the content is shown on that dialog.
 .. _screenshot_for_readme:
 
 .. figure:: images/screenshot_for_readme.png
+   :width: 380pt
 
    The [Select Solver] dialog
 

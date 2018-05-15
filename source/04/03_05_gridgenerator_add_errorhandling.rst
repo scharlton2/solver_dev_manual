@@ -53,6 +53,7 @@ output error codes.
 .. _gridgenerator_error_dialog:
 
 .. figure:: images/gridgenerator_error_dialog.png
+   :width: 220pt
 
    The [Error] dialog
 

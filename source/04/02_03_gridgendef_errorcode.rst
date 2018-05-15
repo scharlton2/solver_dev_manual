@@ -33,6 +33,7 @@ The ErrorCodes element is not required.
 .. _gridgendef_structure_with_error:
 
 .. figure:: images/gridgendef_structure_with_error.png
+   :width: 400pt
 
    The grid generating program definition file structure
 

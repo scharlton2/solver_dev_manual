@@ -13,9 +13,9 @@ String
 .. _widget_example_string:
 
 .. figure:: images/widget_example_string.png
+   :width: 320pt
 
    Widget example of a string type condition
-
 
 .. code-block:: fortran
    :caption: Code example to load a string type condition (for calculation conditions and grid generating conditions)
@@ -26,7 +26,6 @@ String
    character(200):: sampleitem
 
    call cg_iric_read_string_f("sampleitem", sampleitem, ier)
-
 
 .. code-block:: fortran
    :caption: Code example to load a string type condition (for boundary conditions)

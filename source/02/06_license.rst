@@ -29,6 +29,7 @@ the [Select Solver] dialog.
 .. _screenshot_for_license:
 
 .. figure:: images/screenshot_for_license.png
+   :width: 380pt
 
    The [Select Solver] dialog
 

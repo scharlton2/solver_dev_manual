@@ -41,6 +41,7 @@ different solver version numbers.
 .. _version_compatibility:
 
 .. figure:: images/version_compatibility.png
+   :width: 440pt
 
    Examples of compatibility of project files with various version numbers
 
