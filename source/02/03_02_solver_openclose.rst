@@ -24,11 +24,12 @@ with highlight.
    :caption: The source code with lines to open and close file
    :name: solver_with_open_close
    :linenos:
-   :emphasize-lines: 4-6,10-30
+   :emphasize-lines: 5-7,11-31
 
    program SampleProgram
      implicit none
      include 'cgnslib_f.h'
+     include 'iriclib_f.h'
      integer:: fin, ier
      integer:: icount, istatus
      character(200)::condFile
