@@ -17,11 +17,12 @@ iRIC は、 :ref:`how_to_create_solver_def_file` で作成したソルバー定�
    :caption: 計算データファイルを開く処理、閉じる処理を追記したソースコード
    :name: solver_with_loading
    :linenos:
-   :emphasize-lines: 7-31,33-105
+   :emphasize-lines: 8-32,34-106
 
    program SampleProgram
      implicit none
      include 'cgnslib_f.h'
+     include 'iriclib_f.h'
      integer:: fin, ier
      integer:: icount, istatus
      character(200)::condFile

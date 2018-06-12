@@ -25,11 +25,12 @@ Intel Fortran Compiler, gfortran
    :caption: 計算データファイルを開く処理、閉じる処理を追記したソースコード
    :name: solver_with_open_close
    :linenos:
-   :emphasize-lines: 4-6,10-30
+   :emphasize-lines: 5-7,11-31
 
    program SampleProgram
      implicit none
      include 'cgnslib_f.h'
+     include 'iriclib_f.h'
      integer:: fin, ier
      integer:: icount, istatus
      character(200)::condFile
