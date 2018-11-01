@@ -147,6 +147,10 @@ In iRIClib, the same subroutines are used to output vector quantity calculation 
 scalar quantity calculation results. When outputting vector quantity calculation results,
 output each component with names like \"VelocityX\" and \"VelocityY\".
 
+Please note that if you use names whose last character is \"X\", \"Y\", or \"Z\",
+the value is not loaded properly by GUI, and user can not visualize the value.
+You can use lower case letters "\x\", \"y\", or \"z\" instead.
+
 For calculation results, iRIC defines special names, and when you want to output
 calculation result for certain purposes, you should use those names.
 Refer to :ref:`special_result_names` for those names.
